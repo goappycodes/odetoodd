@@ -1,0 +1,22 @@
+[
+ {
+  "id": "management",
+  "name": "Management",
+  "description": "Full access, including the owner dashboard, reports and settings"
+ },
+ {
+  "id": "production",
+  "name": "Production",
+  "description": "Production orders, daily output, karigars, machines and vendors"
+ },
+ {
+  "id": "inventory",
+  "name": "Inventory",
+  "description": "Materials, stock entries, suppliers and BOMs"
+ },
+ {
+  "id": "sales",
+  "name": "Sales",
+  "description": "Orders, customers, Shopify sync and dispatch"
+ }
+]

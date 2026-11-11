@@ -1,0 +1,44 @@
+[
+ {
+  "id": "U1",
+  "name": "Owner",
+  "email": "owner@odetoodd.com",
+  "role": "management",
+  "lastActive": "2026-11-11 10:12"
+ },
+ {
+  "id": "U2",
+  "name": "Anjali Rathore",
+  "email": "production@odetoodd.com",
+  "role": "production",
+  "lastActive": "2026-11-11 09:48"
+ },
+ {
+  "id": "U3",
+  "name": "Rohit Saini",
+  "email": "stores@odetoodd.com",
+  "role": "inventory",
+  "lastActive": "2026-11-11 08:55"
+ },
+ {
+  "id": "U4",
+  "name": "Vikram Joshi",
+  "email": "stores2@odetoodd.com",
+  "role": "inventory",
+  "lastActive": "2026-11-10 18:20"
+ },
+ {
+  "id": "U5",
+  "name": "Simran Kaur",
+  "email": "sales@odetoodd.com",
+  "role": "sales",
+  "lastActive": "2026-11-11 10:30"
+ },
+ {
+  "id": "U6",
+  "name": "Deepak Rawat",
+  "email": "dispatch@odetoodd.com",
+  "role": "sales",
+  "lastActive": "2026-11-10 17:02"
+ }
+]

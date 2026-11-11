@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #faf8ec;
+  --color-card: #fffdf7;
+  --color-ink: #2f2926;
+  --color-muted: #6b625c;
+  --color-faint: #9a918a;
+  --color-line: #e8e1d2;
+  --color-sand: #f1ecdd;
+  --color-rose: #b4566c;
+  --color-rose-soft: #f6e3e5;
+  --color-good: #1d7a46;
+  --color-good-soft: #e3f2e8;
+  --color-warn: #8a5a00;
+  --color-warn-soft: #fdf1c7;
+  --color-bad: #b42318;
+  --color-bad-soft: #fde4e1;
+  --color-info: #2a5fa8;
+  --color-info-soft: #e3ecf8;
+
+  /* chart series, validated categorical order (light) */
+  --color-s1: #2a78d6;
+  --color-s2: #eb6834;
+  --color-s3: #1baf7a;
+  --color-s4: #eda100;
+
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument), ui-serif, Georgia, serif;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* thin, quiet scrollbars for wide tables */
+.scroll-x {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}

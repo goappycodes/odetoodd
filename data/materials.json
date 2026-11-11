@@ -1,0 +1,312 @@
+[
+ {
+  "id": "RM001",
+  "name": "Japanese Crepe, Navy Blue",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 18,
+  "minLevel": 30,
+  "cost": 980,
+  "supplierId": "S02"
+ },
+ {
+  "id": "RM002",
+  "name": "Mulberry Silk, Off White",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 65,
+  "minLevel": 30,
+  "cost": 1450,
+  "supplierId": "S01"
+ },
+ {
+  "id": "RM003",
+  "name": "Japanese Crepe, Black",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 7,
+  "minLevel": 30,
+  "cost": 980,
+  "supplierId": "S02"
+ },
+ {
+  "id": "RM004",
+  "name": "Cotton Poplin, White",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 12,
+  "minLevel": 30,
+  "cost": 320,
+  "supplierId": "S07"
+ },
+ {
+  "id": "RM005",
+  "name": "Mulberry Silk, Electric Blue",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 72,
+  "minLevel": 30,
+  "cost": 1450,
+  "supplierId": "S01"
+ },
+ {
+  "id": "RM006",
+  "name": "Crepe, Black",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 53,
+  "minLevel": 30,
+  "cost": 650,
+  "supplierId": "S02"
+ },
+ {
+  "id": "RM007",
+  "name": "Mulberry Silk, Black",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 127,
+  "minLevel": 30,
+  "cost": 1450,
+  "supplierId": "S01"
+ },
+ {
+  "id": "RM008",
+  "name": "Mulberry Silk, Red",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 19,
+  "minLevel": 30,
+  "cost": 1450,
+  "supplierId": "S01"
+ },
+ {
+  "id": "RM009",
+  "name": "Mulberry Silk, Rani Pink",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 137,
+  "minLevel": 30,
+  "cost": 1450,
+  "supplierId": "S01"
+ },
+ {
+  "id": "RM010",
+  "name": "Japanese Crepe, Off White",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 62,
+  "minLevel": 30,
+  "cost": 980,
+  "supplierId": "S02"
+ },
+ {
+  "id": "RM011",
+  "name": "Mulberry Silk, Blush Pink",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 7,
+  "minLevel": 30,
+  "cost": 1450,
+  "supplierId": "S01"
+ },
+ {
+  "id": "RM012",
+  "name": "Organza Silk, Off White",
+  "category": "Fabric",
+  "unit": "m",
+  "stock": 61,
+  "minLevel": 30,
+  "cost": 1200,
+  "supplierId": "S06"
+ },
+ {
+  "id": "RM013",
+  "name": "Cotton voile lining, Ivory",
+  "category": "Lining",
+  "unit": "m",
+  "stock": 169,
+  "minLevel": 60,
+  "cost": 260,
+  "supplierId": "S07"
+ },
+ {
+  "id": "RM014",
+  "name": "Silk embroidery thread, assorted",
+  "category": "Thread",
+  "unit": "cone",
+  "stock": 69,
+  "minLevel": 40,
+  "cost": 420,
+  "supplierId": "S04"
+ },
+ {
+  "id": "RM015",
+  "name": "Cotton embroidery floss, assorted",
+  "category": "Thread",
+  "unit": "skein",
+  "stock": 144,
+  "minLevel": 200,
+  "cost": 35,
+  "supplierId": "S04"
+ },
+ {
+  "id": "RM016",
+  "name": "Zari thread, antique gold",
+  "category": "Thread",
+  "unit": "spool",
+  "stock": 11,
+  "minLevel": 25,
+  "cost": 380,
+  "supplierId": "S04"
+ },
+ {
+  "id": "RM017",
+  "name": "Sewing thread, polyester",
+  "category": "Thread",
+  "unit": "cone",
+  "stock": 18,
+  "minLevel": 30,
+  "cost": 90,
+  "supplierId": "S04"
+ },
+ {
+  "id": "RM018",
+  "name": "Glass beads, assorted",
+  "category": "Trims",
+  "unit": "g",
+  "stock": 4182,
+  "minLevel": 1500,
+  "cost": 2.5,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM019",
+  "name": "Sequins, matte",
+  "category": "Trims",
+  "unit": "g",
+  "stock": 2096,
+  "minLevel": 1000,
+  "cost": 3,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM020",
+  "name": "Cutdana, gold",
+  "category": "Trims",
+  "unit": "g",
+  "stock": 2214,
+  "minLevel": 600,
+  "cost": 4,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM021",
+  "name": "Shell buttons, 12 mm",
+  "category": "Trims",
+  "unit": "pcs",
+  "stock": 876,
+  "minLevel": 300,
+  "cost": 18,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM022",
+  "name": "Fabric-covered buttons",
+  "category": "Trims",
+  "unit": "pcs",
+  "stock": 616,
+  "minLevel": 200,
+  "cost": 22,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM023",
+  "name": "Invisible zip, 9 inch",
+  "category": "Trims",
+  "unit": "pcs",
+  "stock": 27,
+  "minLevel": 80,
+  "cost": 28,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM024",
+  "name": "Hook and eye sets",
+  "category": "Trims",
+  "unit": "pcs",
+  "stock": 503,
+  "minLevel": 200,
+  "cost": 6,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM025",
+  "name": "Elastic, 1 inch",
+  "category": "Trims",
+  "unit": "m",
+  "stock": 105,
+  "minLevel": 40,
+  "cost": 24,
+  "supplierId": "S03"
+ },
+ {
+  "id": "RM026",
+  "name": "Garment bag, cotton",
+  "category": "Packaging",
+  "unit": "pcs",
+  "stock": 247,
+  "minLevel": 80,
+  "cost": 85,
+  "supplierId": "S05"
+ },
+ {
+  "id": "RM027",
+  "name": "Tissue paper, printed",
+  "category": "Packaging",
+  "unit": "sheet",
+  "stock": 386,
+  "minLevel": 300,
+  "cost": 6,
+  "supplierId": "S05"
+ },
+ {
+  "id": "RM028",
+  "name": "Brand tag",
+  "category": "Packaging",
+  "unit": "pcs",
+  "stock": 816,
+  "minLevel": 300,
+  "cost": 9,
+  "supplierId": "S05"
+ },
+ {
+  "id": "RM029",
+  "name": "Size label",
+  "category": "Packaging",
+  "unit": "pcs",
+  "stock": 743,
+  "minLevel": 400,
+  "cost": 2,
+  "supplierId": "S05"
+ },
+ {
+  "id": "RM030",
+  "name": "Care label",
+  "category": "Packaging",
+  "unit": "pcs",
+  "stock": 945,
+  "minLevel": 400,
+  "cost": 2,
+  "supplierId": "S05"
+ },
+ {
+  "id": "RM031",
+  "name": "Gift box",
+  "category": "Packaging",
+  "unit": "pcs",
+  "stock": 13,
+  "minLevel": 40,
+  "cost": 140,
+  "supplierId": "S05"
+ }
+]

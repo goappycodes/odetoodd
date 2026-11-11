@@ -1,0 +1,58 @@
+[
+ {
+  "id": "SN-01",
+  "name": "Single needle lockstitch 1",
+  "type": "Single needle",
+  "stage": "stitching",
+  "status": "Running"
+ },
+ {
+  "id": "SN-02",
+  "name": "Single needle lockstitch 2",
+  "type": "Single needle",
+  "stage": "stitching",
+  "status": "Running"
+ },
+ {
+  "id": "SN-03",
+  "name": "Single needle lockstitch 3",
+  "type": "Single needle",
+  "stage": "stitching",
+  "status": "Under repair"
+ },
+ {
+  "id": "OL-01",
+  "name": "Overlock 1",
+  "type": "Overlock",
+  "stage": "stitching",
+  "status": "Running"
+ },
+ {
+  "id": "AD-01",
+  "name": "Adda frame 1",
+  "type": "Adda frame",
+  "stage": "embroidery",
+  "status": "Running"
+ },
+ {
+  "id": "AD-02",
+  "name": "Adda frame 2",
+  "type": "Adda frame",
+  "stage": "embroidery",
+  "status": "Running"
+ },
+ {
+  "id": "AD-03",
+  "name": "Adda frame 3",
+  "type": "Adda frame",
+  "stage": "embroidery",
+  "status": "Running"
+ },
+ {
+  "id": "PR-01",
+  "name": "Steam press",
+  "type": "Press",
+  "stage": "finishing",
+  "status": "Running"
+ }
+]

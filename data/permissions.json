@@ -1,0 +1,66 @@
+[
+ {
+  "area": "Owner dashboard",
+  "allowed": [
+   "management"
+  ]
+ },
+ {
+  "area": "Products and BOMs",
+  "allowed": [
+   "management",
+   "inventory",
+   "production"
+  ]
+ },
+ {
+  "area": "Materials and stock entries",
+  "allowed": [
+   "management",
+   "inventory"
+  ]
+ },
+ {
+  "area": "Orders",
+  "allowed": [
+   "management",
+   "sales"
+  ]
+ },
+ {
+  "area": "Production orders",
+  "allowed": [
+   "management",
+   "production"
+  ]
+ },
+ {
+  "area": "Daily output entry",
+  "allowed": [
+   "management",
+   "production"
+  ]
+ },
+ {
+  "area": "Karigars, machines and vendors",
+  "allowed": [
+   "management",
+   "production"
+  ]
+ },
+ {
+  "area": "Reports and exports",
+  "allowed": [
+   "management",
+   "production",
+   "inventory",
+   "sales"
+  ]
+ },
+ {
+  "area": "Settings and users",
+  "allowed": [
+   "management"
+  ]
+ }
+]

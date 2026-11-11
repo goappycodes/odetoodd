@@ -1,0 +1,142 @@
+[
+ {
+  "id": "K01",
+  "name": "Mohd. Salim",
+  "role": "Embroidery karigar",
+  "stage": "embroidery",
+  "dailyTarget": 1.2,
+  "joined": "2024-04-13",
+  "phone": "+91 98490xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K02",
+  "name": "Rafiq Ansari",
+  "role": "Embroidery karigar",
+  "stage": "embroidery",
+  "dailyTarget": 1,
+  "joined": "2024-08-19",
+  "phone": "+91 99025xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K03",
+  "name": "Imran Khan",
+  "role": "Embroidery karigar",
+  "stage": "embroidery",
+  "dailyTarget": 1.1,
+  "joined": "2022-07-07",
+  "phone": "+91 94593xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K04",
+  "name": "Shabnam Bano",
+  "role": "Embroidery karigar",
+  "stage": "embroidery",
+  "dailyTarget": 0.9,
+  "joined": "2021-05-26",
+  "phone": "+91 94814xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K05",
+  "name": "Abdul Kalam",
+  "role": "Embroidery karigar",
+  "stage": "embroidery",
+  "dailyTarget": 1,
+  "joined": "2022-06-07",
+  "phone": "+91 91039xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K06",
+  "name": "Nasreen Begum",
+  "role": "Embroidery karigar",
+  "stage": "embroidery",
+  "dailyTarget": 0.8,
+  "joined": "2021-03-26",
+  "phone": "+91 91340xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K07",
+  "name": "Ramesh Kumar",
+  "role": "Master cutter",
+  "stage": "cutting",
+  "dailyTarget": 8,
+  "joined": "2024-07-26",
+  "phone": "+91 93566xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K08",
+  "name": "Suresh Yadav",
+  "role": "Tailor",
+  "stage": "stitching",
+  "dailyTarget": 3,
+  "joined": "2026-04-03",
+  "phone": "+91 96588xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K09",
+  "name": "Geeta Devi",
+  "role": "Tailor",
+  "stage": "stitching",
+  "dailyTarget": 3,
+  "joined": "2022-10-05",
+  "phone": "+91 92361xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K10",
+  "name": "Manoj Sharma",
+  "role": "Tailor",
+  "stage": "stitching",
+  "dailyTarget": 2.5,
+  "joined": "2024-03-05",
+  "phone": "+91 98654xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K11",
+  "name": "Pooja Saini",
+  "role": "Finisher",
+  "stage": "finishing",
+  "dailyTarget": 5,
+  "joined": "2023-05-14",
+  "phone": "+91 98043xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K12",
+  "name": "Kavita Meena",
+  "role": "Finisher",
+  "stage": "finishing",
+  "dailyTarget": 5,
+  "joined": "2023-10-28",
+  "phone": "+91 98491xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K13",
+  "name": "Anita Verma",
+  "role": "Quality checker",
+  "stage": "qc",
+  "dailyTarget": 10,
+  "joined": "2021-11-29",
+  "phone": "+91 95932xxxxx",
+  "status": "Active"
+ },
+ {
+  "id": "K14",
+  "name": "Deepak Rawat",
+  "role": "Packer",
+  "stage": "packing",
+  "dailyTarget": 12,
+  "joined": "2022-10-25",
+  "phone": "+91 92743xxxxx",
+  "status": "Active"
+ }
+]

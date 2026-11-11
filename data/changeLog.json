@@ -1,0 +1,38 @@
+[
+ {
+  "time": "2026-11-11 10:02",
+  "user": "Rohit Saini",
+  "action": "Updated minimum level",
+  "detail": "Mulberry Silk, Off White: 25 m to 30 m"
+ },
+ {
+  "time": "2026-11-11 09:31",
+  "user": "Anjali Rathore",
+  "action": "Reassigned stage",
+  "detail": "PO-0198: Embroidery moved to Nizam Embroidery Unit"
+ },
+ {
+  "time": "2026-11-10 17:45",
+  "user": "Owner",
+  "action": "Changed product price",
+  "detail": "Old Pages Set: ₹54,900 to ₹55,900"
+ },
+ {
+  "time": "2026-11-10 15:10",
+  "user": "Rohit Saini",
+  "action": "Uploaded BOM file",
+  "detail": "bom-festive-2026.xlsx: 12 products updated"
+ },
+ {
+  "time": "2026-11-09 12:05",
+  "user": "Simran Kaur",
+  "action": "Edited order due date",
+  "detail": "WH-105: due date moved by 5 days at buyer request"
+ },
+ {
+  "time": "2026-11-08 11:40",
+  "user": "Owner",
+  "action": "Added user",
+  "detail": "Deepak Rawat, Sales role"
+ }
+]

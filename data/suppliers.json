@@ -1,0 +1,65 @@
+[
+ {
+  "id": "S01",
+  "name": "Varanasi Silk House",
+  "city": "Varanasi",
+  "category": "Silk fabrics",
+  "contact": "Arvind Mishra",
+  "phone": "+91 98390 4xxxx",
+  "leadTimeDays": 10
+ },
+ {
+  "id": "S02",
+  "name": "Surat Crepe Mills",
+  "city": "Surat",
+  "category": "Crepe fabrics",
+  "contact": "Ketan Shah",
+  "phone": "+91 98251 6xxxx",
+  "leadTimeDays": 7
+ },
+ {
+  "id": "S03",
+  "name": "Jaipur Trims & Co.",
+  "city": "Jaipur",
+  "category": "Beads, sequins, buttons",
+  "contact": "Sameer Jain",
+  "phone": "+91 98290 1xxxx",
+  "leadTimeDays": 3
+ },
+ {
+  "id": "S04",
+  "name": "Kolkata Zari Works",
+  "city": "Kolkata",
+  "category": "Threads and zari",
+  "contact": "Debashis Pal",
+  "phone": "+91 98300 7xxxx",
+  "leadTimeDays": 6
+ },
+ {
+  "id": "S05",
+  "name": "PackRight Jaipur",
+  "city": "Jaipur",
+  "category": "Packaging and labels",
+  "contact": "Neha Agarwal",
+  "phone": "+91 99280 2xxxx",
+  "leadTimeDays": 4
+ },
+ {
+  "id": "S06",
+  "name": "Bengaluru Organza Co.",
+  "city": "Bengaluru",
+  "category": "Organza",
+  "contact": "Ravi Kumar",
+  "phone": "+91 98450 3xxxx",
+  "leadTimeDays": 8
+ },
+ {
+  "id": "S07",
+  "name": "Erode Cotton Traders",
+  "city": "Erode",
+  "category": "Cotton fabrics and lining",
+  "contact": "S. Murugan",
+  "phone": "+91 94430 5xxxx",
+  "leadTimeDays": 6
+ }
+]

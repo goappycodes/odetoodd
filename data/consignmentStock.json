@@ -1,0 +1,398 @@
+[
+ {
+  "storeId": "ST01",
+  "productId": "bi1502-eb",
+  "sent": 2,
+  "sold": 0,
+  "returned": 2,
+  "remaining": 0,
+  "lastSentOn": "2026-07-26"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "st1503-bl",
+  "sent": 6,
+  "sold": 5,
+  "returned": 0,
+  "remaining": 1,
+  "lastSentOn": "2026-09-12"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "tp1503-ow",
+  "sent": 8,
+  "sold": 6,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-07-20"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "pa1502-bl",
+  "sent": 8,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 8,
+  "lastSentOn": "2026-09-15"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "bi1501-r",
+  "sent": 4,
+  "sold": 1,
+  "returned": 0,
+  "remaining": 3,
+  "lastSentOn": "2026-10-09"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "ja1501-bl",
+  "sent": 7,
+  "sold": 6,
+  "returned": 0,
+  "remaining": 1,
+  "lastSentOn": "2026-08-24"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "st1509-bl",
+  "sent": 3,
+  "sold": 3,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-09-29"
+ },
+ {
+  "storeId": "ST01",
+  "productId": "bi1503-ow",
+  "sent": 2,
+  "sold": 2,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-09-22"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "st1508-nb",
+  "sent": 5,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 1,
+  "lastSentOn": "2026-10-21"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "bi1502-rp",
+  "sent": 7,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 3,
+  "lastSentOn": "2026-08-14"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "ja1502-nb",
+  "sent": 8,
+  "sold": 8,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-09-18"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "tp1509-bl",
+  "sent": 8,
+  "sold": 3,
+  "returned": 1,
+  "remaining": 4,
+  "lastSentOn": "2026-10-27"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "tp1507-bl",
+  "sent": 2,
+  "sold": 2,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-09-03"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "sk1501-rp",
+  "sent": 4,
+  "sold": 2,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-07-26"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "bi1501-eb",
+  "sent": 8,
+  "sold": 1,
+  "returned": 7,
+  "remaining": 0,
+  "lastSentOn": "2026-10-01"
+ },
+ {
+  "storeId": "ST02",
+  "productId": "tp1503-ow",
+  "sent": 8,
+  "sold": 5,
+  "returned": 0,
+  "remaining": 3,
+  "lastSentOn": "2026-08-28"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "st1513-ow",
+  "sent": 3,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 3,
+  "lastSentOn": "2026-07-29"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "st1512-eb",
+  "sent": 2,
+  "sold": 1,
+  "returned": 0,
+  "remaining": 1,
+  "lastSentOn": "2026-10-18"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "sk1501-rp",
+  "sent": 8,
+  "sold": 6,
+  "returned": 1,
+  "remaining": 1,
+  "lastSentOn": "2026-08-07"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "tp1506-ow",
+  "sent": 6,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-09-22"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "st1506-bp",
+  "sent": 2,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-09-21"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "st1504-r-rp-ow",
+  "sent": 6,
+  "sold": 6,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-07-25"
+ },
+ {
+  "storeId": "ST03",
+  "productId": "tp1501-eb",
+  "sent": 8,
+  "sold": 7,
+  "returned": 1,
+  "remaining": 0,
+  "lastSentOn": "2026-08-10"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "sk1504-ow",
+  "sent": 5,
+  "sold": 3,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-08-09"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "tp1510-eb",
+  "sent": 6,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-10-08"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "bi1501-r",
+  "sent": 4,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 4,
+  "lastSentOn": "2026-09-20"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "bi1504-ow",
+  "sent": 7,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 3,
+  "lastSentOn": "2026-08-18"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "pa1502-ow",
+  "sent": 5,
+  "sold": 4,
+  "returned": 1,
+  "remaining": 0,
+  "lastSentOn": "2026-08-26"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "tp1507-bl",
+  "sent": 8,
+  "sold": 1,
+  "returned": 1,
+  "remaining": 6,
+  "lastSentOn": "2026-07-29"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "tp1503-ow",
+  "sent": 6,
+  "sold": 6,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-08-26"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "tp1511-r",
+  "sent": 7,
+  "sold": 0,
+  "returned": 3,
+  "remaining": 4,
+  "lastSentOn": "2026-10-31"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "st1502-r",
+  "sent": 6,
+  "sold": 5,
+  "returned": 0,
+  "remaining": 1,
+  "lastSentOn": "2026-07-14"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "tp1505-r",
+  "sent": 2,
+  "sold": 2,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-08-23"
+ },
+ {
+  "storeId": "ST04",
+  "productId": "tp1502-rp",
+  "sent": 5,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 5,
+  "lastSentOn": "2026-08-15"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "st1505-ow",
+  "sent": 4,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 4,
+  "lastSentOn": "2026-10-25"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "tp1505-r",
+  "sent": 4,
+  "sold": 2,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-08-03"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "tp1513-bl",
+  "sent": 6,
+  "sold": 6,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-09-03"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "sk1503-bp",
+  "sent": 4,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 0,
+  "lastSentOn": "2026-07-24"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "st1512-eb",
+  "sent": 5,
+  "sold": 3,
+  "returned": 0,
+  "remaining": 2,
+  "lastSentOn": "2026-08-28"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "pa1502-ow",
+  "sent": 4,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 4,
+  "lastSentOn": "2026-08-01"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "dr1501-bl",
+  "sent": 4,
+  "sold": 3,
+  "returned": 1,
+  "remaining": 0,
+  "lastSentOn": "2026-08-20"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "st1511-rp",
+  "sent": 3,
+  "sold": 0,
+  "returned": 0,
+  "remaining": 3,
+  "lastSentOn": "2026-07-15"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "tp1507-bl",
+  "sent": 8,
+  "sold": 7,
+  "returned": 1,
+  "remaining": 0,
+  "lastSentOn": "2026-08-17"
+ },
+ {
+  "storeId": "ST05",
+  "productId": "dr1501-rp",
+  "sent": 5,
+  "sold": 4,
+  "returned": 0,
+  "remaining": 1,
+  "lastSentOn": "2026-10-28"
+ }
+]

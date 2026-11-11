@@ -1,0 +1,38 @@
+[
+ {
+  "id": "V01",
+  "name": "Nizam Embroidery Unit",
+  "service": "Hand embroidery job work",
+  "stage": "embroidery",
+  "city": "Jaipur",
+  "phone": "+91 98291 xxxxx",
+  "activeJobs": 2
+ },
+ {
+  "id": "V02",
+  "name": "Shree Dyeing House",
+  "service": "Dyeing and colour matching",
+  "stage": "cutting",
+  "city": "Sanganer",
+  "phone": "+91 94141 xxxxx",
+  "activeJobs": 0
+ },
+ {
+  "id": "V03",
+  "name": "Lucknow Chikan Collective",
+  "service": "Chikankari job work",
+  "stage": "embroidery",
+  "city": "Lucknow",
+  "phone": "+91 98390 xxxxx",
+  "activeJobs": 4
+ },
+ {
+  "id": "V04",
+  "name": "Press & Pack Services",
+  "service": "Finishing and pressing",
+  "stage": "finishing",
+  "city": "Jaipur",
+  "phone": "+91 99280 xxxxx",
+  "activeJobs": 0
+ }
+]

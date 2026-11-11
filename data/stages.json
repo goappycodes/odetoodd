@@ -1,0 +1,38 @@
+[
+ {
+  "id": "cutting",
+  "name": "Cutting",
+  "order": 1,
+  "avgDays": 1
+ },
+ {
+  "id": "embroidery",
+  "name": "Embroidery / Adda",
+  "order": 2,
+  "avgDays": 9
+ },
+ {
+  "id": "stitching",
+  "name": "Stitching",
+  "order": 3,
+  "avgDays": 3
+ },
+ {
+  "id": "finishing",
+  "name": "Finishing",
+  "order": 4,
+  "avgDays": 2
+ },
+ {
+  "id": "qc",
+  "name": "Quality check",
+  "order": 5,
+  "avgDays": 1
+ },
+ {
+  "id": "packing",
+  "name": "Packing",
+  "order": 6,
+  "avgDays": 1
+ }
+]

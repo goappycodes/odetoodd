@@ -1,0 +1,2738 @@
+[
+ {
+  "productId": "st1508-nb",
+  "version": "v1",
+  "updatedOn": "2026-10-24",
+  "lines": [
+   {
+    "materialId": "RM001",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM020",
+    "qty": 20
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "sk1504-ow",
+  "version": "v1",
+  "updatedOn": "2026-09-24",
+  "lines": [
+   {
+    "materialId": "RM002",
+    "qty": 3.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "ja1503-bl",
+  "version": "v1",
+  "updatedOn": "2026-10-02",
+  "lines": [
+   {
+    "materialId": "RM003",
+    "qty": 3
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM022",
+    "qty": 6
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "ja1502-nb",
+  "version": "v1",
+  "updatedOn": "2026-09-28",
+  "lines": [
+   {
+    "materialId": "RM001",
+    "qty": 3
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM022",
+    "qty": 6
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1508-w",
+  "version": "v1",
+  "updatedOn": "2026-09-20",
+  "lines": [
+   {
+    "materialId": "RM004",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "sk1502-bl",
+  "version": "v1",
+  "updatedOn": "2026-08-23",
+  "lines": [
+   {
+    "materialId": "RM003",
+    "qty": 3.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1510-eb",
+  "version": "v1",
+  "updatedOn": "2026-10-02",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1506-ow",
+  "version": "v1",
+  "updatedOn": "2026-09-03",
+  "lines": [
+   {
+    "materialId": "RM002",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1502-ow",
+  "version": "v1",
+  "updatedOn": "2026-10-30",
+  "lines": [
+   {
+    "materialId": "RM002",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1503-bl",
+  "version": "v1",
+  "updatedOn": "2026-10-24",
+  "lines": [
+   {
+    "materialId": "RM006",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1515-bl",
+  "version": "v1",
+  "updatedOn": "2026-08-25",
+  "lines": [
+   {
+    "materialId": "RM007",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1513-bl",
+  "version": "v1",
+  "updatedOn": "2026-09-06",
+  "lines": [
+   {
+    "materialId": "RM006",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1511-r",
+  "version": "v1",
+  "updatedOn": "2026-09-05",
+  "lines": [
+   {
+    "materialId": "RM008",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1509-bl",
+  "version": "v1",
+  "updatedOn": "2026-10-12",
+  "lines": [
+   {
+    "materialId": "RM007",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1507-bl",
+  "version": "v1",
+  "updatedOn": "2026-11-04",
+  "lines": [
+   {
+    "materialId": "RM007",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1504-rp",
+  "version": "v1",
+  "updatedOn": "2026-08-21",
+  "lines": [
+   {
+    "materialId": "RM009",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.6
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1501-eb",
+  "version": "v1",
+  "updatedOn": "2026-09-24",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1509-bl",
+  "version": "v1",
+  "updatedOn": "2026-09-28",
+  "lines": [
+   {
+    "materialId": "RM003",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM020",
+    "qty": 20
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1504-r-rp-ow",
+  "version": "v1",
+  "updatedOn": "2026-09-01",
+  "lines": [
+   {
+    "materialId": "RM008",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1502-r",
+  "version": "v1",
+  "updatedOn": "2026-09-14",
+  "lines": [
+   {
+    "materialId": "RM008",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1501-r",
+  "version": "v1",
+  "updatedOn": "2026-09-07",
+  "lines": [
+   {
+    "materialId": "RM008",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "pa1502-bl",
+  "version": "v1",
+  "updatedOn": "2026-10-02",
+  "lines": [
+   {
+    "materialId": "RM003",
+    "qty": 2.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM025",
+    "qty": 0.8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "pa1502-ow",
+  "version": "v1",
+  "updatedOn": "2026-10-29",
+  "lines": [
+   {
+    "materialId": "RM010",
+    "qty": 2.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM020",
+    "qty": 20
+   },
+   {
+    "materialId": "RM025",
+    "qty": 0.8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "sk1503-bp",
+  "version": "v1",
+  "updatedOn": "2026-09-04",
+  "lines": [
+   {
+    "materialId": "RM011",
+    "qty": 3.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM020",
+    "qty": 20
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "sk1501-eb",
+  "version": "v1",
+  "updatedOn": "2026-08-13",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 3.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "sk1501-rp",
+  "version": "v1",
+  "updatedOn": "2026-09-27",
+  "lines": [
+   {
+    "materialId": "RM009",
+    "qty": 3.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "bi1501-r",
+  "version": "v1",
+  "updatedOn": "2026-11-04",
+  "lines": [
+   {
+    "materialId": "RM008",
+    "qty": 1.2
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.6
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1514-eb",
+  "version": "v1",
+  "updatedOn": "2026-09-26",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1505-r",
+  "version": "v1",
+  "updatedOn": "2026-10-22",
+  "lines": [
+   {
+    "materialId": "RM008",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.6
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1503-ow",
+  "version": "v1",
+  "updatedOn": "2026-10-20",
+  "lines": [
+   {
+    "materialId": "RM002",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "tp1502-rp",
+  "version": "v1",
+  "updatedOn": "2026-09-27",
+  "lines": [
+   {
+    "materialId": "RM009",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM021",
+    "qty": 8
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1513-ow",
+  "version": "v1",
+  "updatedOn": "2026-10-14",
+  "lines": [
+   {
+    "materialId": "RM002",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1512-eb",
+  "version": "v1",
+  "updatedOn": "2026-09-02",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1511-rp",
+  "version": "v1",
+  "updatedOn": "2026-10-13",
+  "lines": [
+   {
+    "materialId": "RM009",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1510-eb",
+  "version": "v1",
+  "updatedOn": "2026-10-28",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1507-bl",
+  "version": "v1",
+  "updatedOn": "2026-09-21",
+  "lines": [
+   {
+    "materialId": "RM007",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1506-bp",
+  "version": "v1",
+  "updatedOn": "2026-09-29",
+  "lines": [
+   {
+    "materialId": "RM011",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "st1505-ow",
+  "version": "v1",
+  "updatedOn": "2026-09-21",
+  "lines": [
+   {
+    "materialId": "RM012",
+    "qty": 5.2
+   },
+   {
+    "materialId": "RM013",
+    "qty": 2.4
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 60
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "dr1501-bl",
+  "version": "v1",
+  "updatedOn": "2026-10-23",
+  "lines": [
+   {
+    "materialId": "RM007",
+    "qty": 3.6
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "dr1501-eb",
+  "version": "v1",
+  "updatedOn": "2026-09-13",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 3.6
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "dr1501-rp",
+  "version": "v1",
+  "updatedOn": "2026-08-27",
+  "lines": [
+   {
+    "materialId": "RM009",
+    "qty": 3.6
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 10
+   },
+   {
+    "materialId": "RM023",
+    "qty": 1
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "ja1501-bl",
+  "version": "v1",
+  "updatedOn": "2026-10-11",
+  "lines": [
+   {
+    "materialId": "RM007",
+    "qty": 3
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM022",
+    "qty": 6
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "ja1501-bp",
+  "version": "v1",
+  "updatedOn": "2026-10-06",
+  "lines": [
+   {
+    "materialId": "RM011",
+    "qty": 3
+   },
+   {
+    "materialId": "RM013",
+    "qty": 1.6
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM022",
+    "qty": 6
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "bi1504-ow",
+  "version": "v1",
+  "updatedOn": "2026-09-03",
+  "lines": [
+   {
+    "materialId": "RM012",
+    "qty": 1.2
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "bi1503-ow",
+  "version": "v1",
+  "updatedOn": "2026-10-23",
+  "lines": [
+   {
+    "materialId": "RM002",
+    "qty": 1.2
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.4
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 50
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "bi1502-eb",
+  "version": "v1",
+  "updatedOn": "2026-09-21",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 1.2
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.5
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 30
+   },
+   {
+    "materialId": "RM019",
+    "qty": 30
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "bi1502-rp",
+  "version": "v1",
+  "updatedOn": "2026-09-12",
+  "lines": [
+   {
+    "materialId": "RM009",
+    "qty": 1.2
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM016",
+    "qty": 0.2
+   },
+   {
+    "materialId": "RM018",
+    "qty": 40
+   },
+   {
+    "materialId": "RM020",
+    "qty": 10
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ },
+ {
+  "productId": "bi1501-eb",
+  "version": "v1",
+  "updatedOn": "2026-09-29",
+  "lines": [
+   {
+    "materialId": "RM005",
+    "qty": 1.2
+   },
+   {
+    "materialId": "RM014",
+    "qty": 0.3
+   },
+   {
+    "materialId": "RM018",
+    "qty": 20
+   },
+   {
+    "materialId": "RM019",
+    "qty": 20
+   },
+   {
+    "materialId": "RM024",
+    "qty": 2
+   },
+   {
+    "materialId": "RM017",
+    "qty": 0.1
+   },
+   {
+    "materialId": "RM028",
+    "qty": 1
+   },
+   {
+    "materialId": "RM029",
+    "qty": 1
+   },
+   {
+    "materialId": "RM030",
+    "qty": 1
+   },
+   {
+    "materialId": "RM026",
+    "qty": 1
+   },
+   {
+    "materialId": "RM027",
+    "qty": 2
+   }
+  ]
+ }
+]
