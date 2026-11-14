@@ -58,7 +58,7 @@ export default async function ShipmentPage({ params }: { params: Promise<{ id: s
             <KeyValues
               rows={[
                 ["Order", <Link key="o" href={`/orders/${s.orderId}`} className="hover:underline">{s.orderRef}</Link>],
-                ["Customer", o ? o.customer : "—"],
+                ["Customer", o ? o.customer : "Not found"],
                 ["Channel", s.channel],
                 ["Destination", s.destination],
                 ["Market", s.market],

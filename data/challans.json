@@ -72,7 +72,7 @@
   "purpose": "Supply on consignment (sale or return), not a sale",
   "transport": {
    "mode": "Courier",
-   "provider": "Blue Dart",
+   "provider": "Delhivery",
    "awb": "1257895427756"
   },
   "status": "In transit",
@@ -158,7 +158,7 @@
   "purpose": "Supply on consignment (sale or return), not a sale",
   "transport": {
    "mode": "Courier",
-   "provider": "Blue Dart",
+   "provider": "Delhivery",
    "awb": "5360791969113"
   },
   "status": "Received by store",
@@ -466,7 +466,7 @@
   "purpose": "Supply on consignment (sale or return), not a sale",
   "transport": {
    "mode": "Courier",
-   "provider": "Blue Dart",
+   "provider": "Delhivery",
    "awb": "1995090425014"
   },
   "status": "Received by store",
@@ -491,7 +491,7 @@
   "purpose": "Supply on consignment (sale or return), not a sale",
   "transport": {
    "mode": "Courier",
-   "provider": "Blue Dart",
+   "provider": "Delhivery",
    "awb": "5994291996816"
   },
   "status": "Received by store",

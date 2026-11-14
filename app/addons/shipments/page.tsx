@@ -144,7 +144,7 @@ export default function ShipmentsPage() {
           head={["Courier", "Shipments", "In transit", "Delivered", "Avg. days to deliver", "Flagged"]}
           align={["left", "right", "right", "right", "right", "right"]}
           rows={byProvider.map((r) => [
-            <span key="p" className="font-medium">{r.p}</span>, r.total, r.open, r.delivered, r.avg ? r.avg.toFixed(1) : "—",
+            <span key="p" className="font-medium">{r.p}</span>, r.total, r.open, r.delivered, r.avg ? r.avg.toFixed(1) : "n/a",
             r.flagged ? <span key="f" className="text-bad">{r.flagged}</span> : 0,
           ])}
         />

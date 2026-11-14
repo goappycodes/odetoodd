@@ -594,7 +594,7 @@ for (const o of shipTargets.sort((a, b) => (a.dispatchedOn < b.dispatchedOn ? 1 
   const awb = P.awb();
   if (order) { order.awb = awb; order.courier = provider; }
   const challan = challans.find((c) => c.id === o.challanId);
-  if (challan) challan.transport.awb = awb;
+  if (challan) { challan.transport.awb = awb; challan.transport.provider = provider; }
   const last = events[events.length - 1];
   shipments.push({
     id: `SHP-${String(shpNo++).padStart(4, "0")}`, orderId: o.id, orderRef: o.ref, channel: o.channel, provider, awb,
