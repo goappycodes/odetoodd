@@ -1,15 +1,17 @@
 "use client";
 
 import { useState } from "react";
+import { useQueryParam } from "@/lib/useQuery";
 import { AlertTriangle, CircleCheck, FileSpreadsheet, Upload } from "lucide-react";
 import { Card, PageHeader, Badge } from "@/components/ui";
 import { downloadCsv } from "@/components/DataTable";
 import { products, materials, boms } from "@/lib/data";
 
-type Kind = "bom" | "products" | "stock";
+type Kind = "bom" | "products" | "stock" | "orders";
 const KINDS: { id: Kind; label: string; hint: string; header: string[] }[] = [
+  { id: "orders", label: "Orders", hint: "Bulk orders, and your historical orders at go-live", header: ["source_prefix", "order_date", "customer", "city", "sku", "size", "qty", "price", "custom"] },
   { id: "bom", label: "Bills of materials", hint: "One row per material per product", header: ["product_sku", "material_code", "qty_per_piece"] },
-  { id: "products", label: "Products", hint: "Create or update products and SKUs", header: ["sku", "name", "type", "fabric", "colour", "price", "sizes"] },
+  { id: "products", label: "Products", hint: "Create or update SKUs, domestic and international prices", header: ["sku", "name", "type", "fabric", "colour", "price_inr", "price_intl_usd", "sizes"] },
   { id: "stock", label: "Opening stock", hint: "Raw material stock from a physical count", header: ["material_code", "stock", "min_level"] },
 ];
 
@@ -33,8 +35,18 @@ function parseCsv(text: string) {
 
 const skus = new Set(products.map((p) => p.sku));
 const matCodes = new Set(materials.map((m) => m.id));
+const PREFIXES = ["SH", "WHO", "CON", "EV", "OF"];
 
 function validate(kind: Kind, row: string[]): string | null {
+  if (kind === "orders") {
+    if (!PREFIXES.includes(row[0])) return `Source ${row[0] || "(blank)"} must be one of ${PREFIXES.join(", ")}`;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(row[1] ?? "")) return "Date must be YYYY-MM-DD";
+    if (!row[2]) return "Customer is required";
+    if (!skus.has(row[4])) return `SKU ${row[4] || "(blank)"} is not in the product master`;
+    if (!(Number(row[6]) > 0)) return "Quantity must be a number above 0";
+    if (!(Number(row[7]) > 0)) return "Price must be a number";
+    if (!["yes", "no"].includes((row[8] ?? "").toLowerCase())) return "Custom must be yes or no";
+  }
   if (kind === "bom") {
     if (!skus.has(row[0])) return `SKU ${row[0] || "(blank)"} is not in the product master`;
     if (!matCodes.has(row[1])) return `Material ${row[1] || "(blank)"} not found`;
@@ -42,7 +54,8 @@ function validate(kind: Kind, row: string[]): string | null {
   }
   if (kind === "products") {
     if (!row[0]) return "SKU is required";
-    if (!(Number(row[5]) > 0)) return "Price must be a number";
+    if (!(Number(row[5]) > 0)) return "Domestic price must be a number";
+    if (row[6] && !(Number(row[6]) > 0)) return "International price must be a number in US$";
   }
   if (kind === "stock") {
     if (!matCodes.has(row[0])) return `Material ${row[0] || "(blank)"} not found`;
@@ -52,17 +65,32 @@ function validate(kind: Kind, row: string[]): string | null {
 }
 
 function sample(kind: Kind): string[][] {
+  if (kind === "orders") {
+    const p = (i: number) => products[i];
+    return [
+      ["WHO", "2026-11-02", "The Loom Store", "Mumbai", p(0).sku, "Size run (S-L)", "4", String(Math.round(p(0).price * 0.55)), "no"],
+      ["EV", "2026-10-29", "Aditi Rao", "Jaipur", p(5).sku, p(5).sizes[0], "1", String(p(5).price), "no"],
+      ["OF", "2026-10-21", "Naina Khanna", "Jaipur", p(8).sku, "Custom", "1", String(p(8).price), "yes"],
+      ["SH", "2025-12-14", "Riya Mehta", "Pune", p(12).sku, p(12).sizes[0], "1", String(p(12).price), "no"],
+      ["SH", "2025-11-30", "Meera Iyer", "London", p(3).sku, p(3).sizes[0], "1", String(p(3).priceIntl * 84), "no"],
+      ["WH", "2025-09-03", "Atelier Nine", "New Delhi", p(1).sku, "M", "3", "12000", "no"],
+      ["EV", "2025-08-17", "Tara Bose", "Kolkata", "TP1599/OW", "Free size", "1", "18900", "no"],
+      ["OF", "03/07/2025", "Zoya Sethi", "Jaipur", p(2).sku, "S", "1", String(p(2).price), "maybe"],
+    ];
+  }
   if (kind === "bom") {
     const rows = boms.slice(0, 3).flatMap((b) => b.lines.slice(0, 4).map((l) => [products.find((p) => p.id === b.productId)!.sku, l.materialId, String(l.qty)]));
     rows.push(["TP1599/OW", "RM001", "2.4"], ["ST1508/NB", "RM099", "1"], ["SK1504/OW", "RM014", "abc"]);
     return rows;
   }
-  if (kind === "products") return products.slice(0, 6).map((p) => [p.sku, p.name, p.type, p.fabric, p.colour, String(p.price), p.sizes.join(" ")]).concat([["", "Untitled shirt", "Shirt", "Poplin", "White", "x", "Free size"]]);
+  if (kind === "products") return products.slice(0, 6).map((p) => [p.sku, p.name, p.type, p.fabric, p.colour, String(p.price), String(p.priceIntl), p.sizes.join(" ")]).concat([["", "Untitled shirt", "Shirt", "Poplin", "White", "x", "", "Free size"]]);
   return materials.slice(0, 8).map((m) => [m.id, String(m.stock), String(m.minLevel)]).concat([["RM404", "12", "10"]]);
 }
 
 export default function Imports() {
-  const [kind, setKind] = useState<Kind>("bom");
+  const [kindParam, setKindParam] = useQueryParam("kind", "orders");
+  const kind: Kind = KINDS.some((x) => x.id === kindParam) ? (kindParam as Kind) : "orders";
+  const setKind = (k: Kind) => setKindParam(k);
   const [file, setFile] = useState<string | null>(null);
   const [rows, setRows] = useState<string[][]>([]);
   const [done, setDone] = useState(false);
@@ -74,8 +102,8 @@ export default function Imports() {
 
   return (
     <>
-      <PageHeader title="Excel/CSV imports" subtitle="Upload products, BOMs and opening stock in bulk. Every row is checked before anything is saved." />
-      <div className="mb-6 grid gap-2 sm:grid-cols-3">
+      <PageHeader title="Excel/CSV imports" subtitle="Upload orders, products, BOMs and opening stock in bulk. Every row is checked before anything is saved." />
+      <div className="mb-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
         {KINDS.map((x) => (
           <button key={x.id} onClick={() => { setKind(x.id); setFile(null); setRows([]); }} className={`rounded-xl border p-3 text-left text-sm ${kind === x.id ? "border-ink bg-ink text-paper" : "border-line bg-card hover:bg-sand"}`}>
             <span className="block font-medium">{x.label}</span>
@@ -102,6 +130,11 @@ export default function Imports() {
             <button onClick={() => downloadCsv(`${kind}-template`, k.header, sample(kind).slice(0, 3))} className="rounded-lg border border-line bg-card px-3.5 py-2 text-sm hover:bg-sand">Download template</button>
           </div>
           <p className="text-xs text-muted">Columns: {k.header.join(", ")}. The live system also reads .xlsx files.</p>
+          {kind === "orders" && (
+            <p className="max-w-xl text-xs text-muted">
+              Each row is one order line. Rows with the same source, date and customer become one order, numbered in that source&apos;s series (SH, WHO, CON, EV, OF). Custom = yes adds the 10% markup. Use the same file to load historical orders at go-live, so sales reports cover past seasons.
+            </p>
+          )}
         </div>
       </Card>
 
