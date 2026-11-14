@@ -147,6 +147,76 @@ for (const [name, category, unit, cost, supplierId, minLevel] of other) {
   M[name.split(",")[0]] = m.id;
 }
 
+// Material photos: a drawn swatch per material in /public/materials. Labels are left
+// without a photo so the "no photo yet" state shows up in the prototype.
+const SWATCH = {
+  "Navy Blue": "#26324d", "Off White": "#ece5d6", Black: "#26221f", White: "#f6f3ec", "Electric Blue": "#2d55c4",
+  Red: "#b3262f", "Rani Pink": "#c4326c", "Blush Pink": "#e6b4b4", Multi: "#9b7a5a",
+};
+const TRIM_COLOUR = {
+  "Glass beads": ["#b4566c", "#2d55c4", "#c9a24a", "#1baf7a"], Sequins: ["#a8a29a"], Cutdana: ["#c9a24a"],
+  "Shell buttons": ["#efe7d8"], "Fabric-covered buttons": ["#26221f"], "Invisible zip": ["#26221f"],
+  "Hook and eye sets": ["#9a9590"], Elastic: ["#f6f3ec"],
+};
+const THREAD_COLOUR = {
+  "Silk embroidery thread": ["#b4566c", "#2d55c4", "#c9a24a", "#1baf7a", "#eb6834"],
+  "Cotton embroidery floss": ["#e6b4b4", "#9bc4e2", "#f2d27a", "#a7d3b5"],
+  "Zari thread": ["#c9a24a"], "Sewing thread": ["#26221f"],
+};
+function swatchSvg(m) {
+  const base = m.name.split(",")[0];
+  const W = 400, H = 300;
+  let body = "";
+  if (m.category === "Fabric" || m.category === "Lining") {
+    const colour = m.category === "Lining" ? "#efe8d8" : SWATCH[m.name.split(", ")[1]] ?? "#9b7a5a";
+    const lines = Array.from({ length: 40 }, (_, i) => `<line x1="${i * 22 - 200}" y1="0" x2="${i * 22 + 100}" y2="${H}" stroke="#fff" stroke-opacity="0.07" stroke-width="6"/>`).join("");
+    body = `<rect width="${W}" height="${H}" fill="${colour}"/>${lines}<path d="M0 ${H * 0.62} C 120 ${H * 0.5}, 260 ${H * 0.78}, ${W} ${H * 0.6} L ${W} ${H} L 0 ${H} Z" fill="#000" fill-opacity="0.12"/><path d="M0 ${H * 0.6} C 120 ${H * 0.48}, 260 ${H * 0.76}, ${W} ${H * 0.58}" stroke="#fff" stroke-opacity="0.25" stroke-width="3" fill="none"/>`;
+  } else if (m.category === "Thread") {
+    const colours = THREAD_COLOUR[base] ?? ["#26221f"];
+    body = `<rect width="${W}" height="${H}" fill="#f1ecdd"/>` + colours.map((c, i) => {
+      const cx = W / 2 + (i - (colours.length - 1) / 2) * 70;
+      return `<path d="M${cx - 24} 70 L${cx + 24} 70 L${cx + 34} 240 L${cx - 34} 240 Z" fill="${c}"/>` +
+        Array.from({ length: 9 }, (_, k) => `<line x1="${cx - 26 - k}" y1="${88 + k * 17}" x2="${cx + 26 + k}" y2="${88 + k * 17}" stroke="#000" stroke-opacity="0.12" stroke-width="2"/>`).join("") +
+        `<rect x="${cx - 30}" y="58" width="60" height="14" rx="3" fill="#d8cfbb"/><rect x="${cx - 40}" y="238" width="80" height="16" rx="3" fill="#d8cfbb"/>`;
+    }).join("");
+  } else if (base === "Invisible zip" || base === "Elastic") {
+    // tapes: a zip with teeth down the middle, or ribbed elastic
+    const tape = base === "Elastic" ? "#f6f3ec" : "#26221f";
+    const marks = base === "Elastic"
+      ? Array.from({ length: 30 }, (_, i) => `<line x1="${i * 14}" y1="100" x2="${i * 14}" y2="200" stroke="#000" stroke-opacity="0.08" stroke-width="3"/>`).join("")
+      : Array.from({ length: 34 }, (_, i) => `<rect x="${i * 12}" y="${i % 2 ? 146 : 142}" width="8" height="12" rx="2" fill="#4a443f"/>`).join("") + `<rect x="250" y="128" width="46" height="44" rx="8" fill="#9a9590"/>`;
+    body = `<rect width="${W}" height="${H}" fill="#f1ecdd"/><rect x="0" y="100" width="${W}" height="100" fill="${tape}" stroke="#000" stroke-opacity="0.1"/>${marks}`;
+  } else if (m.category === "Trims") {
+    const colours = TRIM_COLOUR[base] ?? ["#9a9590"];
+    let s = 7;
+    const r = () => ((s = (s * 9301 + 49297) % 233280) / 233280);
+    const big = /button|Hook|zip|Elastic/.test(base);
+    const n = big ? 9 : 70;
+    body = `<rect width="${W}" height="${H}" fill="#f1ecdd"/>` + Array.from({ length: n }, (_, i) => {
+      const x = big ? 70 + (i % 3) * 130 : 20 + r() * 360, y = big ? 55 + Math.floor(i / 3) * 95 : 20 + r() * 260;
+      const rad = big ? 34 : 6 + r() * 6;
+      const c = colours[i % colours.length];
+      return big
+        ? `<circle cx="${x}" cy="${y}" r="${rad}" fill="${c}" stroke="#000" stroke-opacity="0.15" stroke-width="2"/><circle cx="${x - 8}" cy="${y - 8}" r="4" fill="#000" fill-opacity="0.25"/><circle cx="${x + 8}" cy="${y - 8}" r="4" fill="#000" fill-opacity="0.25"/><circle cx="${x - 8}" cy="${y + 8}" r="4" fill="#000" fill-opacity="0.25"/><circle cx="${x + 8}" cy="${y + 8}" r="4" fill="#000" fill-opacity="0.25"/>`
+        : `<circle cx="${x}" cy="${y}" r="${rad}" fill="${c}"/><circle cx="${x - rad / 3}" cy="${y - rad / 3}" r="${rad / 3}" fill="#fff" fill-opacity="0.5"/>`;
+    }).join("");
+  } else {
+    // packaging
+    body = `<rect width="${W}" height="${H}" fill="#e9dcc3"/><rect x="110" y="50" width="180" height="200" rx="10" fill="#fffdf7" stroke="#2f2926" stroke-opacity="0.2" stroke-width="2"/><circle cx="200" cy="85" r="10" fill="#e9dcc3" stroke="#2f2926" stroke-opacity="0.3" stroke-width="2"/><text x="200" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#2f2926">Ode To Odd</text><line x1="150" y1="190" x2="250" y2="190" stroke="#2f2926" stroke-opacity="0.25" stroke-width="2"/>`;
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice">${body}</svg>\n`;
+}
+const swatchDir = join(root, "public", "materials");
+mkdirSync(swatchDir, { recursive: true });
+for (const m of materials) {
+  if (m.name === "Size label" || m.name === "Care label") {
+    m.image = null;
+    continue;
+  }
+  writeFileSync(join(swatchDir, `${m.id}.svg`), swatchSvg(m));
+  m.image = `/materials/${m.id}.svg`;
+}
+
 // ---------- BOMs ----------
 const FABRIC_M = { Shirt: 2.4, Skirt: 3.2, Trouser: 2.6, Dress: 3.6, Jacket: 3.0, Bib: 1.2, "Co-ord Set": 5.2 };
 const boms = products.map((p) => {

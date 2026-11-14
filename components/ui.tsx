@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AlertTriangle, CircleCheck, Clock, Sparkles, XCircle } from "lucide-react";
+import { AlertTriangle, CircleCheck, Clock, ImageOff, Sparkles, XCircle } from "lucide-react";
 import type { Urgency } from "@/lib/data";
 
 export function PageHeader({
@@ -155,6 +155,30 @@ export function SimpleTable({ head, rows, align }: { head: React.ReactNode[]; ro
         </tbody>
       </table>
     </div>
+  );
+}
+
+/** Square photo of a raw material, with a placeholder when none has been uploaded yet. */
+export function MaterialThumb({ src, alt, size = 32 }: { src?: string | null; alt: string; size?: number }) {
+  if (!src)
+    return (
+      <span title="No photo yet" className="grid shrink-0 place-items-center rounded-md border border-dashed border-line bg-sand/40 text-faint" style={{ width: size, height: size }}>
+        <ImageOff className="size-3.5" strokeWidth={1.5} />
+      </span>
+    );
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src={src} alt={alt} width={size} height={size} loading="lazy" className="shrink-0 rounded-md border border-line bg-sand object-cover" style={{ width: size, height: size }} />
+  );
+}
+
+/** A material name linked to its page, with its photo. */
+export function MaterialLink({ m, size = 24 }: { m: { id: string; name: string; image?: string | null }; size?: number }) {
+  return (
+    <Link href={`/inventory/materials/${m.id}`} className="inline-flex items-center gap-2 hover:underline">
+      <MaterialThumb src={m.image} alt={m.name} size={size} />
+      {m.name}
+    </Link>
   );
 }
 

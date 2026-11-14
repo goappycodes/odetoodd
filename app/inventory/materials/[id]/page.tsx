@@ -22,11 +22,16 @@ export default async function MaterialPage({ params }: { params: Promise<{ id: s
   return (
     <>
       <PageHeader back={{ href: "/inventory/materials", label: "Raw materials" }} title={m.name} subtitle={<span className="inline-flex items-center gap-2">{m.id} · {m.category} <StatusBadge status={st} /></span>} actions={<><Button variant="secondary" href="/inventory/entry">Issue or return</Button><Button href="/inventory/entry">Receive stock</Button></>} />
-      <div className="mb-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
-        <Stat label="In stock" value={`${num(m.stock, 1)} ${m.unit}`} tone={st === "OK" ? "default" : st === "Low" ? "warn" : "bad"} />
-        <Stat label="Minimum level" value={`${num(m.minLevel)} ${m.unit}`} />
-        <Stat label="Needed for upcoming production" value={`${num(needed, 1)} ${m.unit}`} hint="Orders not yet past embroidery" tone={needed > m.stock ? "bad" : "default"} />
-        <Stat label="Stock value" value={inr(m.stock * m.cost)} hint={`${inr(m.cost)} per ${m.unit}`} />
+      <div className="mb-6 grid gap-3 sm:grid-cols-[200px_1fr] xl:grid-cols-[240px_1fr]">
+        <div className="rounded-xl border border-line bg-card p-3">
+          <ImageUpload src={m.image} alt={m.name} aspect="4/3" />
+        </div>
+        <div className="grid grid-cols-2 gap-3 xl:grid-cols-4">
+          <Stat label="In stock" value={`${num(m.stock, 1)} ${m.unit}`} tone={st === "OK" ? "default" : st === "Low" ? "warn" : "bad"} />
+          <Stat label="Minimum level" value={`${num(m.minLevel)} ${m.unit}`} />
+          <Stat label="Needed for upcoming production" value={`${num(needed, 1)} ${m.unit}`} hint="Orders not yet past embroidery" tone={needed > m.stock ? "bad" : "default"} />
+          <Stat label="Stock value" value={inr(m.stock * m.cost)} hint={`${inr(m.cost)} per ${m.unit}`} />
+        </div>
       </div>
       <div className="grid gap-6 xl:grid-cols-3">
         <Card title="Movement history" className="xl:col-span-2" pad={false}>
@@ -44,9 +49,6 @@ export default async function MaterialPage({ params }: { params: Promise<{ id: s
           {moves.length === 0 && <p className="p-4 text-sm text-muted">No movements in the last 30 days.</p>}
         </Card>
         <div className="space-y-6">
-          <Card title="Photo">
-            <ImageUpload alt={m.name} aspect="4/3" />
-          </Card>
           <Card title="Supplier">
             <KeyValues rows={[["Name", sup.name], ["City", sup.city], ["Contact", sup.contact], ["Phone", sup.phone], ["Lead time", `${sup.leadTimeDays} days`]]} />
           </Card>

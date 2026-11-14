@@ -5,13 +5,14 @@ import { useQueryParam } from "@/lib/useQuery";
 import { AlertTriangle, CircleCheck, FileSpreadsheet, Upload } from "lucide-react";
 import { Card, PageHeader, Badge } from "@/components/ui";
 import { downloadCsv } from "@/components/DataTable";
-import { products, materials, boms } from "@/lib/data";
+import { products, materials, boms, suppliers } from "@/lib/data";
 
-type Kind = "bom" | "products" | "stock" | "orders";
+type Kind = "bom" | "products" | "materials" | "stock" | "orders";
 const KINDS: { id: Kind; label: string; hint: string; header: string[] }[] = [
   { id: "orders", label: "Orders", hint: "Bulk orders, and your historical orders at go-live", header: ["source_prefix", "order_date", "customer", "city", "sku", "size", "qty", "price", "custom"] },
   { id: "bom", label: "Bills of materials", hint: "One row per material per product", header: ["product_sku", "material_code", "qty_per_piece"] },
   { id: "products", label: "Products", hint: "Create or update SKUs, domestic and international prices", header: ["sku", "name", "type", "fabric", "colour", "price_inr", "price_intl_usd", "sizes"] },
+  { id: "materials", label: "Raw materials", hint: "Create or update the material master, with photos", header: ["material_code", "name", "category", "unit", "cost_inr", "supplier_code", "min_level", "image"] },
   { id: "stock", label: "Opening stock", hint: "Raw material stock from a physical count", header: ["material_code", "stock", "min_level"] },
 ];
 
@@ -36,6 +37,8 @@ function parseCsv(text: string) {
 const skus = new Set(products.map((p) => p.sku));
 const matCodes = new Set(materials.map((m) => m.id));
 const PREFIXES = ["SH", "WHO", "CON", "EV", "OF"];
+const MAT_CATS = Array.from(new Set(materials.map((m) => m.category)));
+const supplierCodes = new Set(suppliers.map((s) => s.id));
 
 function validate(kind: Kind, row: string[]): string | null {
   if (kind === "orders") {
@@ -56,6 +59,16 @@ function validate(kind: Kind, row: string[]): string | null {
     if (!row[0]) return "SKU is required";
     if (!(Number(row[5]) > 0)) return "Domestic price must be a number";
     if (row[6] && !(Number(row[6]) > 0)) return "International price must be a number in US$";
+  }
+  if (kind === "materials") {
+    if (!/^RM\d{3,}$/.test(row[0] ?? "")) return "Code must look like RM001";
+    if (!row[1]) return "Name is required";
+    if (!MAT_CATS.includes(row[2])) return `Category must be one of ${MAT_CATS.join(", ")}`;
+    if (!row[3]) return "Unit is required (m, g, pcs, cone…)";
+    if (!(Number(row[4]) > 0)) return "Cost must be a number";
+    if (!supplierCodes.has(row[5])) return `Supplier ${row[5] || "(blank)"} not found`;
+    if (!row[7]) return "Image is missing: add a photo URL or a file name from the photo zip";
+    if (!/^(https?:\/\/\S+|[\w.-]+\.(jpe?g|png|webp))$/i.test(row[7])) return "Image must be a URL or a .jpg, .png or .webp file name";
   }
   if (kind === "stock") {
     if (!matCodes.has(row[0])) return `Material ${row[0] || "(blank)"} not found`;
@@ -84,6 +97,17 @@ function sample(kind: Kind): string[][] {
     return rows;
   }
   if (kind === "products") return products.slice(0, 6).map((p) => [p.sku, p.name, p.type, p.fabric, p.colour, String(p.price), String(p.priceIntl), p.sizes.join(" ")]).concat([["", "Untitled shirt", "Shirt", "Poplin", "White", "x", "", "Free size"]]);
+  if (kind === "materials")
+    return materials
+      .filter((m) => m.image)
+      .slice(0, 7)
+      .map((m) => [m.id, m.name, m.category, m.unit, String(m.cost), m.supplierId, String(m.minLevel), `${m.id.toLowerCase()}.jpg`])
+      .concat([
+        ["RM032", "Organza Silk, Blush Pink", "Fabric", "m", "1200", "S06", "30", "https://cdn.example.com/swatches/organza-blush.jpg"],
+        ["RM033", "Mirror work, round", "Trims", "pcs", "4", "S03", "300", ""],
+        ["RM034", "Velvet ribbon", "Ribbon", "m", "18", "S03", "50", "velvet-ribbon.jpg"],
+        ["RM035", "Dori cord, gold", "Trims", "m", "12", "S09", "60", "dori.tiff"],
+      ]);
   return materials.slice(0, 8).map((m) => [m.id, String(m.stock), String(m.minLevel)]).concat([["RM404", "12", "10"]]);
 }
 
@@ -102,8 +126,8 @@ export default function Imports() {
 
   return (
     <>
-      <PageHeader title="Excel/CSV imports" subtitle="Upload orders, products, BOMs and opening stock in bulk. Every row is checked before anything is saved." />
-      <div className="mb-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+      <PageHeader title="Excel/CSV imports" subtitle="Upload orders, products, raw materials, BOMs and opening stock in bulk. Every row is checked before anything is saved." />
+      <div className="mb-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         {KINDS.map((x) => (
           <button key={x.id} onClick={() => { setKind(x.id); setFile(null); setRows([]); }} className={`rounded-xl border p-3 text-left text-sm ${kind === x.id ? "border-ink bg-ink text-paper" : "border-line bg-card hover:bg-sand"}`}>
             <span className="block font-medium">{x.label}</span>
@@ -133,6 +157,11 @@ export default function Imports() {
           {kind === "orders" && (
             <p className="max-w-xl text-xs text-muted">
               Each row is one order line. Rows with the same source, date and customer become one order, numbered in that source&apos;s series (SH, WHO, CON, EV, OF). Custom = yes adds the 10% markup. Use the same file to load historical orders at go-live, so sales reports cover past seasons.
+            </p>
+          )}
+          {kind === "materials" && (
+            <p className="max-w-xl text-xs text-muted">
+              Every material needs a photo. Put a photo URL in the image column, or a file name and upload the photos as a zip alongside the sheet. Existing codes are updated, new codes are added. Photos can also be added one at a time on each material&apos;s page.
             </p>
           )}
         </div>

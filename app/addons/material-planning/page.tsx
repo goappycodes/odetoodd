@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { AlertTriangle, CircleCheck } from "lucide-react";
-import { AddonBanner, Card, PageHeader, SimpleTable, Stat, Badge, Button } from "@/components/ui";
+import { AddonBanner, Card, PageHeader, SimpleTable, Stat, Badge, Button, MaterialLink } from "@/components/ui";
 import { productionOrders, poRequirements, materials, getSupplier, num, inr, addDays, TODAY, fmtDate } from "@/lib/data";
 
 export const metadata = { title: "Material planning" };
@@ -47,7 +46,7 @@ export default function MaterialPlanning() {
           rows={rows.map((r) => {
             const sup = getSupplier(r.m.supplierId)!;
             return [
-              <Link key="m" href={`/inventory/materials/${r.m.id}`} className="hover:underline">{r.m.name}</Link>,
+              <MaterialLink key="m" m={r.m} />,
               `${num(r.required, 1)} ${r.m.unit}`,
               r.pos,
               num(r.m.stock, 1),

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { PackagePlus } from "lucide-react";
 import DataTable, { Column, SearchBox, Select } from "@/components/DataTable";
-import { PageHeader, StatusBadge, Progress, Button, Stat } from "@/components/ui";
+import { PageHeader, StatusBadge, Progress, Button, Stat, MaterialThumb } from "@/components/ui";
 import { useQueryParam } from "@/lib/useQuery";
 import { materials, materialStatus, getSupplier, num, inr, inrShort, type Material } from "@/lib/data";
 
@@ -22,7 +22,13 @@ export default function MaterialsPage() {
 
   const columns: Column<Material>[] = [
     { key: "id", label: "Code", value: (m) => m.id },
-    { key: "name", label: "Material", value: (m) => m.name, render: (m) => <Link href={`/inventory/materials/${m.id}`} className="font-medium hover:underline">{m.name}</Link> },
+    { key: "name", label: "Material", value: (m) => m.name, render: (m) => (
+      <Link href={`/inventory/materials/${m.id}`} className="inline-flex items-center gap-2.5 font-medium hover:underline">
+        <MaterialThumb src={m.image} alt={m.name} size={36} />
+        {m.name}
+      </Link>
+    ) },
+    { key: "photo", label: "Photo", value: (m) => (m.image ? "Yes" : "Missing"), render: (m) => (m.image ? <span className="text-xs text-muted">Yes</span> : <span className="text-xs text-warn">Missing</span>) },
     { key: "cat", label: "Category", value: (m) => m.category },
     { key: "stock", label: "In stock", align: "right", value: (m) => m.stock, render: (m) => `${num(m.stock, 1)} ${m.unit}` },
     { key: "min", label: "Minimum", align: "right", value: (m) => m.minLevel, render: (m) => `${num(m.minLevel)} ${m.unit}` },

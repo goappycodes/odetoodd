@@ -7,7 +7,8 @@
   "stock": 18,
   "minLevel": 30,
   "cost": 980,
-  "supplierId": "S02"
+  "supplierId": "S02",
+  "image": "/materials/RM001.svg"
  },
  {
   "id": "RM002",
@@ -17,7 +18,8 @@
   "stock": 65,
   "minLevel": 30,
   "cost": 1450,
-  "supplierId": "S01"
+  "supplierId": "S01",
+  "image": "/materials/RM002.svg"
  },
  {
   "id": "RM003",
@@ -27,7 +29,8 @@
   "stock": 7,
   "minLevel": 30,
   "cost": 980,
-  "supplierId": "S02"
+  "supplierId": "S02",
+  "image": "/materials/RM003.svg"
  },
  {
   "id": "RM004",
@@ -37,7 +40,8 @@
   "stock": 12,
   "minLevel": 30,
   "cost": 320,
-  "supplierId": "S07"
+  "supplierId": "S07",
+  "image": "/materials/RM004.svg"
  },
  {
   "id": "RM005",
@@ -47,7 +51,8 @@
   "stock": 72,
   "minLevel": 30,
   "cost": 1450,
-  "supplierId": "S01"
+  "supplierId": "S01",
+  "image": "/materials/RM005.svg"
  },
  {
   "id": "RM006",
@@ -57,7 +62,8 @@
   "stock": 53,
   "minLevel": 30,
   "cost": 650,
-  "supplierId": "S02"
+  "supplierId": "S02",
+  "image": "/materials/RM006.svg"
  },
  {
   "id": "RM007",
@@ -67,7 +73,8 @@
   "stock": 127,
   "minLevel": 30,
   "cost": 1450,
-  "supplierId": "S01"
+  "supplierId": "S01",
+  "image": "/materials/RM007.svg"
  },
  {
   "id": "RM008",
@@ -77,7 +84,8 @@
   "stock": 19,
   "minLevel": 30,
   "cost": 1450,
-  "supplierId": "S01"
+  "supplierId": "S01",
+  "image": "/materials/RM008.svg"
  },
  {
   "id": "RM009",
@@ -87,7 +95,8 @@
   "stock": 137,
   "minLevel": 30,
   "cost": 1450,
-  "supplierId": "S01"
+  "supplierId": "S01",
+  "image": "/materials/RM009.svg"
  },
  {
   "id": "RM010",
@@ -97,7 +106,8 @@
   "stock": 62,
   "minLevel": 30,
   "cost": 980,
-  "supplierId": "S02"
+  "supplierId": "S02",
+  "image": "/materials/RM010.svg"
  },
  {
   "id": "RM011",
@@ -107,7 +117,8 @@
   "stock": 7,
   "minLevel": 30,
   "cost": 1450,
-  "supplierId": "S01"
+  "supplierId": "S01",
+  "image": "/materials/RM011.svg"
  },
  {
   "id": "RM012",
@@ -117,7 +128,8 @@
   "stock": 61,
   "minLevel": 30,
   "cost": 1200,
-  "supplierId": "S06"
+  "supplierId": "S06",
+  "image": "/materials/RM012.svg"
  },
  {
   "id": "RM013",
@@ -127,7 +139,8 @@
   "stock": 169,
   "minLevel": 60,
   "cost": 260,
-  "supplierId": "S07"
+  "supplierId": "S07",
+  "image": "/materials/RM013.svg"
  },
  {
   "id": "RM014",
@@ -137,7 +150,8 @@
   "stock": 69,
   "minLevel": 40,
   "cost": 420,
-  "supplierId": "S04"
+  "supplierId": "S04",
+  "image": "/materials/RM014.svg"
  },
  {
   "id": "RM015",
@@ -147,7 +161,8 @@
   "stock": 144,
   "minLevel": 200,
   "cost": 35,
-  "supplierId": "S04"
+  "supplierId": "S04",
+  "image": "/materials/RM015.svg"
  },
  {
   "id": "RM016",
@@ -157,7 +172,8 @@
   "stock": 11,
   "minLevel": 25,
   "cost": 380,
-  "supplierId": "S04"
+  "supplierId": "S04",
+  "image": "/materials/RM016.svg"
  },
  {
   "id": "RM017",
@@ -167,7 +183,8 @@
   "stock": 18,
   "minLevel": 30,
   "cost": 90,
-  "supplierId": "S04"
+  "supplierId": "S04",
+  "image": "/materials/RM017.svg"
  },
  {
   "id": "RM018",
@@ -177,7 +194,8 @@
   "stock": 4182,
   "minLevel": 1500,
   "cost": 2.5,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM018.svg"
  },
  {
   "id": "RM019",
@@ -187,7 +205,8 @@
   "stock": 2096,
   "minLevel": 1000,
   "cost": 3,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM019.svg"
  },
  {
   "id": "RM020",
@@ -197,7 +216,8 @@
   "stock": 2214,
   "minLevel": 600,
   "cost": 4,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM020.svg"
  },
  {
   "id": "RM021",
@@ -207,7 +227,8 @@
   "stock": 876,
   "minLevel": 300,
   "cost": 18,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM021.svg"
  },
  {
   "id": "RM022",
@@ -217,7 +238,8 @@
   "stock": 616,
   "minLevel": 200,
   "cost": 22,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM022.svg"
  },
  {
   "id": "RM023",
@@ -227,7 +249,8 @@
   "stock": 27,
   "minLevel": 80,
   "cost": 28,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM023.svg"
  },
  {
   "id": "RM024",
@@ -237,7 +260,8 @@
   "stock": 503,
   "minLevel": 200,
   "cost": 6,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM024.svg"
  },
  {
   "id": "RM025",
@@ -247,7 +271,8 @@
   "stock": 105,
   "minLevel": 40,
   "cost": 24,
-  "supplierId": "S03"
+  "supplierId": "S03",
+  "image": "/materials/RM025.svg"
  },
  {
   "id": "RM026",
@@ -257,7 +282,8 @@
   "stock": 247,
   "minLevel": 80,
   "cost": 85,
-  "supplierId": "S05"
+  "supplierId": "S05",
+  "image": "/materials/RM026.svg"
  },
  {
   "id": "RM027",
@@ -267,7 +293,8 @@
   "stock": 386,
   "minLevel": 300,
   "cost": 6,
-  "supplierId": "S05"
+  "supplierId": "S05",
+  "image": "/materials/RM027.svg"
  },
  {
   "id": "RM028",
@@ -277,7 +304,8 @@
   "stock": 816,
   "minLevel": 300,
   "cost": 9,
-  "supplierId": "S05"
+  "supplierId": "S05",
+  "image": "/materials/RM028.svg"
  },
  {
   "id": "RM029",
@@ -287,7 +315,8 @@
   "stock": 743,
   "minLevel": 400,
   "cost": 2,
-  "supplierId": "S05"
+  "supplierId": "S05",
+  "image": null
  },
  {
   "id": "RM030",
@@ -297,7 +326,8 @@
   "stock": 945,
   "minLevel": 400,
   "cost": 2,
-  "supplierId": "S05"
+  "supplierId": "S05",
+  "image": null
  },
  {
   "id": "RM031",
@@ -307,6 +337,7 @@
   "stock": 13,
   "minLevel": 40,
   "cost": 140,
-  "supplierId": "S05"
+  "supplierId": "S05",
+  "image": "/materials/RM031.svg"
  }
 ]

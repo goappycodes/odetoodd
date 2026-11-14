@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ImageUpload from "@/components/ImageUpload";
-import { Card, KeyValues, PageHeader, SimpleTable, StatusBadge, Badge, Button } from "@/components/ui";
+import { Card, KeyValues, PageHeader, SimpleTable, StatusBadge, Badge, Button, MaterialLink } from "@/components/ui";
 import {
   products, getProduct, getBom, getMaterial, getSupplier, inr, num, fmtDate, sizeStock, sampleStock, orders, productionOrders, stageName,
   materialStatus, fgCategoryMin, prLoans, prStatus, USD_RATE,
@@ -88,7 +88,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
               head={["Material", "Qty per piece", "Unit cost", "Cost", "In stock", "Supplier"]}
               align={["left", "right", "right", "right", "left", "left"]}
               rows={lines.map(({ l, m }) => [
-                <Link key="m" href={`/inventory/materials/${m.id}`} className="hover:underline">{m.name}</Link>,
+                <MaterialLink key="m" m={m} />,
                 `${num(l.qty, 2)} ${m.unit}`,
                 inr(m.cost),
                 inr(l.qty * m.cost),

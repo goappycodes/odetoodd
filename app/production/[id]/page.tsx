@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AlertTriangle, CircleCheck } from "lucide-react";
-import { Card, KeyValues, PageHeader, ProductThumb, StatusBadge, UrgencyBadge, Badge, SimpleTable, Button } from "@/components/ui";
+import { Card, KeyValues, PageHeader, ProductThumb, StatusBadge, UrgencyBadge, Badge, SimpleTable, Button, MaterialLink } from "@/components/ui";
 import {
   productionOrders, getProduct, stages, stageName, poUrgency, fmtDate, assigneeName, poRequirements, num, output,
   getKarigar, daysBetween, TODAY,
@@ -62,7 +62,7 @@ export default async function ProductionOrderPage({ params }: { params: Promise<
               head={["Material", "Per piece", `Needed for ${p.qty}`, "In stock", ""]}
               align={["left", "right", "right", "right", "left"]}
               rows={reqs.map((r) => [
-                <Link key="m" href={`/inventory/materials/${r.material.id}`} className="hover:underline">{r.material.name}</Link>,
+                <MaterialLink key="m" m={r.material} />,
                 `${num(r.perPiece, 2)} ${r.material.unit}`,
                 `${num(r.required, 2)} ${r.material.unit}`,
                 `${num(r.available, 1)} ${r.material.unit}`,

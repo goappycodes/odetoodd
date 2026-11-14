@@ -10,9 +10,9 @@ A static prototype of every screen in the proposed Ode To Odd ERP, built by Appy
 - Shopify sync log with failed syncs flagged
 - Production orders: board and list views, stage detail with assignees and material requirement, mobile daily output entry
 - Karigars, machines and vendors with output records
-- Products and BOMs with photo upload and separate domestic and international prices, raw materials, finished goods (main and sample stock), stock movements, stock entry, suppliers
+- Products and BOMs with photo upload and separate domestic and international prices, raw materials with a photo for each, finished goods (main and sample stock), stock movements, stock entry, suppliers
 - Reports with filters and CSV export, including sales by store, category, channel and SKU
-- Settings: users and roles, configurable production stages, low-stock levels per category, Excel/CSV imports with row checks (products, BOMs, stock, orders), change history, daily summary email
+- Settings: users and roles, configurable production stages, low-stock levels per category, Excel/CSV imports with row checks (products, raw materials with photos, BOMs, stock, orders), change history, daily summary email
 
 **Add-ons** (marked in the sidebar)
 - Material planning across all orders

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AlertTriangle, ArrowRight, Camera, Clock, Factory, Layers, PackageSearch, RefreshCw, Shirt, XCircle } from "lucide-react";
-import { Card, PageHeader, Stat, StatusBadge, UrgencyBadge, Button, ProductThumb } from "@/components/ui";
+import { Card, PageHeader, Stat, StatusBadge, UrgencyBadge, Button, ProductThumb, MaterialThumb } from "@/components/ui";
 import { StackedBars, HBars } from "@/components/charts";
 import {
   TODAY, addDays, fmtDate, fmtShort, inr, inrShort, num, salesDaily, salesInRange, openOrders, orderUrgency,
@@ -184,6 +184,7 @@ export default function Dashboard() {
             {low.slice(0, 7).map((m) => (
               <li key={m.id}>
                 <Link href={`/inventory/materials/${m.id}`} className="flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-sand/60">
+                  <MaterialThumb src={m.image} alt={m.name} size={28} />
                   <AlertTriangle className={`size-4 shrink-0 ${materialStatus(m) === "Critical" ? "text-bad" : "text-warn"}`} />
                   <span className="min-w-0 flex-1 truncate">{m.name}</span>
                   <span className="text-right text-xs tabular">
