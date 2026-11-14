@@ -198,7 +198,7 @@ export default function Dashboard() {
       </div>
 
       <div className="mt-6 grid gap-6 lg:grid-cols-2">
-        <Card title="Shipment health" pad={false} action={<Link href="/addons/shipments" className="text-xs text-muted hover:text-ink">Shipments →</Link>}>
+        <Card title="Shipment health" className="min-w-0" pad={false} action={<Link href="/addons/shipments" className="text-xs text-muted hover:text-ink">Shipments →</Link>}>
           <div className="grid grid-cols-3 gap-2 border-b border-line p-4 text-sm">
             <div><p className="text-xs text-muted">In transit</p><p className="font-serif text-2xl tabular">{inTransit.length}</p></div>
             <div><p className="text-xs text-muted">Flagged</p><p className={`font-serif text-2xl tabular ${shipFlags.length ? "text-bad" : ""}`}>{shipFlags.length}</p></div>
@@ -219,7 +219,7 @@ export default function Dashboard() {
             {shipFlags.length === 0 && <li className="px-4 py-6 text-sm text-muted">Every shipment is moving.</li>}
           </ul>
         </Card>
-        <Card title={`PR pieces out · ${prOpen.length}`} pad={false} action={<Link href="/addons/pr-tracker" className="text-xs text-muted hover:text-ink">PR tracker →</Link>}>
+        <Card title={`PR pieces out · ${prOpen.length}`} className="min-w-0" pad={false} action={<Link href="/addons/pr-tracker" className="text-xs text-muted hover:text-ink">PR tracker →</Link>}>
           <ul className="divide-y divide-line/70">
             {[...prOpen].sort((a, b) => (a.dueBack < b.dueBack ? -1 : 1)).slice(0, 6).map((l) => {
               const p = getProduct(l.productId)!;

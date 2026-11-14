@@ -208,7 +208,7 @@ export default function Reports() {
         )}
         {report === "sales" && (
           <>
-            <Select label="View" value={view} onChange={setView} options={VIEWS} />
+            <Select label="View" value={view} onChange={(v) => { setView(v); if (v !== "store" && channel === "Consignment") setChannel("all"); }} options={VIEWS} />
             <Select label="Channel" value={channel} onChange={setChannel} options={[{ value: "all", label: "All channels" }, ...SALES_CHANNELS.map((c) => ({ value: c, label: `${sourceOf(c).label} (${sourceOf(c).prefix})` })), ...(view === "store" ? [{ value: "Consignment", label: "Consignment store sales" }] : [])]} />
             <Select label="Product" value={product} onChange={setProduct} options={[{ value: "all", label: "All products" }, ...products.map((p) => ({ value: p.id, label: p.name }))]} />
           </>

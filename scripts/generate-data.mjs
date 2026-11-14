@@ -228,7 +228,7 @@ const offlineSources = ["Jaipur studio", "WhatsApp order", "Jaipur studio"];
 const EVENTS = [
   { name: "Delhi pop-up, Bikaner House", daysAgo: 64, days: 2, city: "New Delhi" },
   { name: "Mumbai festive exhibition", daysAgo: 36, days: 3, city: "Mumbai" },
-  { name: "Jaipur trunk show", daysAgo: 13, days: 1, city: "Jaipur" },
+  { name: "Jaipur trunk show", daysAgo: 6, days: 1, city: "Jaipur" },
 ];
 const sizeFor = (p) => {
   const sizes = p.sizes;

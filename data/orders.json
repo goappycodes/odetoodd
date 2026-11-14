@@ -547,6 +547,118 @@
   "courier": "Blue Dart"
  },
  {
+  "id": "EV-126",
+  "ref": "EV-126",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Zoya Iyer",
+  "city": "Jaipur",
+  "date": "2026-11-05",
+  "items": [
+   {
+    "productId": "tp1507-bl",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-12-04",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-05",
+  "handedOver": true,
+  "subtotal": 31900,
+  "total": 31900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-125",
+  "ref": "EV-125",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Saanvi Kapoor",
+  "city": "Jaipur",
+  "date": "2026-11-05",
+  "items": [
+   {
+    "productId": "bi1501-r",
+    "size": "S",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-12-07",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-05",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-124",
+  "ref": "EV-124",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Pallavi Nair",
+  "city": "Jaipur",
+  "date": "2026-11-05",
+  "items": [
+   {
+    "productId": "bi1502-eb",
+    "size": "XS",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-12-04",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-05",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-123",
+  "ref": "EV-123",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Anushka Bose",
+  "city": "Jaipur",
+  "date": "2026-11-05",
+  "items": [
+   {
+    "productId": "tp1511-r",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-12-01",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-05",
+  "handedOver": true,
+  "subtotal": 31900,
+  "total": 31900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
   "id": "CON-103",
   "ref": "CON-103",
   "channel": "Consignment",
@@ -1129,118 +1241,6 @@
   "status": "In production",
   "subtotal": 47400,
   "total": 47400,
-  "payment": "Paid",
-  "market": "Domestic",
-  "custom": false,
-  "markup": 0
- },
- {
-  "id": "EV-126",
-  "ref": "EV-126",
-  "channel": "Events",
-  "source": "Jaipur trunk show",
-  "customer": "Zoya Iyer",
-  "city": "Jaipur",
-  "date": "2026-10-29",
-  "items": [
-   {
-    "productId": "tp1507-bl",
-    "size": "Free size",
-    "qty": 1,
-    "price": 31900
-   }
-  ],
-  "dueDate": "2026-11-27",
-  "fulfilment": "From stock",
-  "status": "Dispatched",
-  "dispatchedOn": "2026-10-29",
-  "handedOver": true,
-  "subtotal": 31900,
-  "total": 31900,
-  "payment": "Paid",
-  "market": "Domestic",
-  "custom": false,
-  "markup": 0
- },
- {
-  "id": "EV-125",
-  "ref": "EV-125",
-  "channel": "Events",
-  "source": "Jaipur trunk show",
-  "customer": "Saanvi Kapoor",
-  "city": "Jaipur",
-  "date": "2026-10-29",
-  "items": [
-   {
-    "productId": "bi1501-r",
-    "size": "S",
-    "qty": 1,
-    "price": 23900
-   }
-  ],
-  "dueDate": "2026-11-30",
-  "fulfilment": "From stock",
-  "status": "Dispatched",
-  "dispatchedOn": "2026-10-29",
-  "handedOver": true,
-  "subtotal": 23900,
-  "total": 23900,
-  "payment": "Paid",
-  "market": "Domestic",
-  "custom": false,
-  "markup": 0
- },
- {
-  "id": "EV-124",
-  "ref": "EV-124",
-  "channel": "Events",
-  "source": "Jaipur trunk show",
-  "customer": "Pallavi Nair",
-  "city": "Jaipur",
-  "date": "2026-10-29",
-  "items": [
-   {
-    "productId": "bi1502-eb",
-    "size": "XS",
-    "qty": 1,
-    "price": 23900
-   }
-  ],
-  "dueDate": "2026-11-27",
-  "fulfilment": "From stock",
-  "status": "Dispatched",
-  "dispatchedOn": "2026-10-29",
-  "handedOver": true,
-  "subtotal": 23900,
-  "total": 23900,
-  "payment": "Paid",
-  "market": "Domestic",
-  "custom": false,
-  "markup": 0
- },
- {
-  "id": "EV-123",
-  "ref": "EV-123",
-  "channel": "Events",
-  "source": "Jaipur trunk show",
-  "customer": "Anushka Bose",
-  "city": "Jaipur",
-  "date": "2026-10-29",
-  "items": [
-   {
-    "productId": "tp1511-r",
-    "size": "Free size",
-    "qty": 1,
-    "price": 31900
-   }
-  ],
-  "dueDate": "2026-11-24",
-  "fulfilment": "From stock",
-  "status": "Dispatched",
-  "dispatchedOn": "2026-10-29",
-  "handedOver": true,
-  "subtotal": 31900,
-  "total": 31900,
   "payment": "Paid",
   "market": "Domestic",
   "custom": false,

@@ -54,7 +54,7 @@ export default function DailySummary() {
                 <li><span className="text-warn">{dueSoon.length} orders due this week</span></li>
                 <li>{late.length} production orders behind schedule</li>
                 <li>{low.length} materials below minimum: {low.slice(0, 3).map((m) => m.name).join(", ")}</li>
-                <li>{fgLow.length} styles below their category's minimum ready stock</li>
+                <li>{fgLow.length} styles below their category&apos;s minimum ready stock</li>
                 {failed.length > 0 && <li>{failed.length} Shopify syncs failed</li>}
                 {shipFlags.length > 0 && <li><span className="text-bad">{shipFlags.length} shipments delayed or not moving</span>: {shipFlags.slice(0, 3).map((s) => `${s.orderRef} (${s.provider})`).join(", ")}</li>}
                 {prLate.length > 0 && <li><span className="text-bad">{prLate.length} PR pieces not returned on time</span></li>}

@@ -479,7 +479,7 @@
   "by": "Deepak (Dispatch)"
  },
  {
-  "id": "MV-00091",
+  "id": "MV-00095",
   "date": "2026-11-06",
   "itemType": "Product",
   "itemId": "st1502-r",
@@ -582,6 +582,54 @@
   "qty": -1,
   "unit": "pcs",
   "ref": "EV-118",
+  "by": "Deepak (Dispatch)"
+ },
+ {
+  "id": "MV-00094",
+  "date": "2026-11-05",
+  "itemType": "Product",
+  "itemId": "tp1511-r",
+  "size": "Free size",
+  "type": "Dispatched",
+  "qty": -1,
+  "unit": "pcs",
+  "ref": "EV-123",
+  "by": "Deepak (Dispatch)"
+ },
+ {
+  "id": "MV-00093",
+  "date": "2026-11-05",
+  "itemType": "Product",
+  "itemId": "bi1502-eb",
+  "size": "XS",
+  "type": "Dispatched",
+  "qty": -1,
+  "unit": "pcs",
+  "ref": "EV-124",
+  "by": "Deepak (Dispatch)"
+ },
+ {
+  "id": "MV-00092",
+  "date": "2026-11-05",
+  "itemType": "Product",
+  "itemId": "bi1501-r",
+  "size": "S",
+  "type": "Dispatched",
+  "qty": -1,
+  "unit": "pcs",
+  "ref": "EV-125",
+  "by": "Deepak (Dispatch)"
+ },
+ {
+  "id": "MV-00091",
+  "date": "2026-11-05",
+  "itemType": "Product",
+  "itemId": "tp1507-bl",
+  "size": "Free size",
+  "type": "Dispatched",
+  "qty": -1,
+  "unit": "pcs",
+  "ref": "EV-126",
   "by": "Deepak (Dispatch)"
  },
  {
@@ -1063,54 +1111,6 @@
   "unit": "pcs",
   "ref": "PO-0074",
   "by": "Anjali (Production)"
- },
- {
-  "id": "MV-00095",
-  "date": "2026-10-29",
-  "itemType": "Product",
-  "itemId": "tp1511-r",
-  "size": "Free size",
-  "type": "Dispatched",
-  "qty": -1,
-  "unit": "pcs",
-  "ref": "EV-123",
-  "by": "Deepak (Dispatch)"
- },
- {
-  "id": "MV-00094",
-  "date": "2026-10-29",
-  "itemType": "Product",
-  "itemId": "bi1502-eb",
-  "size": "XS",
-  "type": "Dispatched",
-  "qty": -1,
-  "unit": "pcs",
-  "ref": "EV-124",
-  "by": "Deepak (Dispatch)"
- },
- {
-  "id": "MV-00093",
-  "date": "2026-10-29",
-  "itemType": "Product",
-  "itemId": "bi1501-r",
-  "size": "S",
-  "type": "Dispatched",
-  "qty": -1,
-  "unit": "pcs",
-  "ref": "EV-125",
-  "by": "Deepak (Dispatch)"
- },
- {
-  "id": "MV-00092",
-  "date": "2026-10-29",
-  "itemType": "Product",
-  "itemId": "tp1507-bl",
-  "size": "Free size",
-  "type": "Dispatched",
-  "qty": -1,
-  "unit": "pcs",
-  "ref": "EV-126",
-  "by": "Deepak (Dispatch)"
  },
  {
   "id": "MV-00050",

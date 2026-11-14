@@ -619,7 +619,7 @@
   "date": "2026-10-29",
   "Shopify": 127760,
   "Wholesale": 0,
-  "Events": 111600,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -675,7 +675,7 @@
   "date": "2026-11-05",
   "Shopify": 0,
   "Wholesale": 0,
-  "Events": 0,
+  "Events": 111600,
   "Offline": 0,
   "Consignment": 0
  },
