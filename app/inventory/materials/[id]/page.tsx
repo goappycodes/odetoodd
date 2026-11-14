@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ImageUpload from "@/components/ImageUpload";
 import { Card, KeyValues, PageHeader, SimpleTable, StatusBadge, Stat, Button, Badge } from "@/components/ui";
 import { materials, getMaterial, getSupplier, movements, boms, getProduct, materialStatus, num, inr, fmtDate, productionOrders, poRequirements } from "@/lib/data";
 
@@ -43,6 +44,9 @@ export default async function MaterialPage({ params }: { params: Promise<{ id: s
           {moves.length === 0 && <p className="p-4 text-sm text-muted">No movements in the last 30 days.</p>}
         </Card>
         <div className="space-y-6">
+          <Card title="Photo">
+            <ImageUpload alt={m.name} aspect="4/3" />
+          </Card>
           <Card title="Supplier">
             <KeyValues rows={[["Name", sup.name], ["City", sup.city], ["Contact", sup.contact], ["Phone", sup.phone], ["Lead time", `${sup.leadTimeDays} days`]]} />
           </Card>

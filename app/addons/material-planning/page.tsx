@@ -33,7 +33,7 @@ export default function MaterialPlanning() {
   return (
     <>
       <PageHeader title="Material planning" subtitle="Combined material needs across all upcoming production, with stock reserved for confirmed orders." actions={<Button>Create purchase list</Button>} />
-      <AddonBanner title="Material planning" price="₹15,000">The base system already checks material for each production order. This add-on adds the combined view across every order, reservations and a reorder list.</AddonBanner>
+      <AddonBanner title="Material planning" price="₹20,000">The base system already checks material for each production order. This add-on adds the combined view across every order, reservations and a reorder list.</AddonBanner>
       <div className="mb-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Stat label="Production orders planned" value={upcoming.length} hint="Not yet past embroidery" />
         <Stat label="Materials needed" value={rows.length} />

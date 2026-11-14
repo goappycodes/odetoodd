@@ -75,12 +75,15 @@ const STATUS_TONE: Record<string, Tone> = {
   Synced: "good", Retried: "warn", Failed: "bad",
   Reconciled: "good", "Needs review": "warn",
   Running: "good", "Under repair": "warn", Active: "good",
+  Returned: "good", Out: "info", Overdue: "bad",
+  Delivered: "good", "In transit": "info", Exception: "bad", "Not moving": "bad", Delayed: "warn",
+  Draft: "neutral", "Received by store": "good", Pending: "warn", "Not applicable": "neutral",
 };
 export function StatusBadge({ status }: { status: string }) {
   const tone = STATUS_TONE[status] ?? "neutral";
   return (
     <Badge tone={tone}>
-      {(status === "Low" || status === "Critical") && <AlertTriangle className="size-3" />}
+      {(status === "Low" || status === "Critical" || status === "Overdue" || status === "Not moving" || status === "Exception") && <AlertTriangle className="size-3" />}
       {status}
     </Badge>
   );

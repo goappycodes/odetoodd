@@ -1,8 +1,9 @@
 [
  {
   "date": "2026-08-13",
-  "Shopify": 52800,
+  "Shopify": 57460,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -10,6 +11,7 @@
   "date": "2026-08-14",
   "Shopify": 20900,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -17,20 +19,23 @@
   "date": "2026-08-15",
   "Shopify": 91800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-08-16",
-  "Shopify": 63700,
+  "Shopify": 76020,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-08-17",
-  "Shopify": 70700,
+  "Shopify": 84420,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -38,27 +43,31 @@
   "date": "2026-08-18",
   "Shopify": 0,
   "Wholesale": 350680,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 84000
+  "Consignment": 98000
  },
  {
   "date": "2026-08-19",
   "Shopify": 20900,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-08-20",
-  "Shopify": 60800,
+  "Shopify": 64790,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-08-21",
-  "Shopify": 51800,
+  "Shopify": 62160,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -66,6 +75,7 @@
   "date": "2026-08-22",
   "Shopify": 46800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -73,13 +83,15 @@
   "date": "2026-08-23",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 20900,
   "Consignment": 0
  },
  {
   "date": "2026-08-24",
-  "Shopify": 89400,
+  "Shopify": 92050,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -87,13 +99,15 @@
   "date": "2026-08-25",
   "Shopify": 53000,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 70000
+  "Consignment": 84000
  },
  {
   "date": "2026-08-26",
-  "Shopify": 68700,
+  "Shopify": 71390,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -101,6 +115,7 @@
   "date": "2026-08-27",
   "Shopify": 28900,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 17500,
   "Consignment": 0
  },
@@ -108,6 +123,7 @@
   "date": "2026-08-28",
   "Shopify": 31000,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 37900,
   "Consignment": 0
  },
@@ -115,6 +131,7 @@
   "date": "2026-08-29",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -122,6 +139,7 @@
   "date": "2026-08-30",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -129,6 +147,7 @@
   "date": "2026-08-31",
   "Shopify": 65300,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -136,13 +155,15 @@
   "date": "2026-09-01",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 126000
+  "Consignment": 42000
  },
  {
   "date": "2026-09-02",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -150,6 +171,7 @@
   "date": "2026-09-03",
   "Shopify": 0,
   "Wholesale": 422840,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -157,6 +179,7 @@
   "date": "2026-09-04",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -164,6 +187,7 @@
   "date": "2026-09-05",
   "Shopify": 112700,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -171,34 +195,39 @@
   "date": "2026-09-06",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-09-07",
-  "Shopify": 66700,
+  "Shopify": 74230,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-09-08",
-  "Shopify": 145500,
+  "Shopify": 168590,
   "Wholesale": 0,
+  "Events": 122300,
   "Offline": 0,
-  "Consignment": 112000
+  "Consignment": 70000
  },
  {
   "date": "2026-09-09",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 161680,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-09-10",
-  "Shopify": 49800,
+  "Shopify": 54100,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -206,6 +235,7 @@
   "date": "2026-09-11",
   "Shopify": 23900,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 48900,
   "Consignment": 0
  },
@@ -213,13 +243,15 @@
   "date": "2026-09-12",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-09-13",
-  "Shopify": 94400,
+  "Shopify": 103840,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -227,6 +259,7 @@
   "date": "2026-09-14",
   "Shopify": 31000,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -234,6 +267,7 @@
   "date": "2026-09-15",
   "Shopify": 34900,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 70000
  },
@@ -241,6 +275,7 @@
   "date": "2026-09-16",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -248,6 +283,7 @@
   "date": "2026-09-17",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -255,6 +291,7 @@
   "date": "2026-09-18",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -262,6 +299,7 @@
   "date": "2026-09-19",
   "Shopify": 0,
   "Wholesale": 264495,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -269,6 +307,7 @@
   "date": "2026-09-20",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -276,6 +315,7 @@
   "date": "2026-09-21",
   "Shopify": 52800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 31000,
   "Consignment": 0
  },
@@ -283,13 +323,15 @@
   "date": "2026-09-22",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 112000
  },
  {
   "date": "2026-09-23",
-  "Shopify": 103700,
+  "Shopify": 113700,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 23900,
   "Consignment": 0
  },
@@ -297,6 +339,7 @@
   "date": "2026-09-24",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -304,13 +347,15 @@
   "date": "2026-09-25",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-09-26",
-  "Shopify": 125700,
+  "Shopify": 130100,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -318,6 +363,7 @@
   "date": "2026-09-27",
   "Shopify": 61800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -325,6 +371,7 @@
   "date": "2026-09-28",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -332,20 +379,23 @@
   "date": "2026-09-29",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 42000
+  "Consignment": 126000
  },
  {
   "date": "2026-09-30",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-01",
-  "Shopify": 87700,
+  "Shopify": 91490,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -353,6 +403,7 @@
   "date": "2026-10-02",
   "Shopify": 69700,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -360,6 +411,7 @@
   "date": "2026-10-03",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -367,48 +419,55 @@
   "date": "2026-10-04",
   "Shopify": 43800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 48951
+  "Consignment": 93681
  },
  {
   "date": "2026-10-05",
-  "Shopify": 22900,
+  "Shopify": 25190,
   "Wholesale": 355245,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 15057
+  "Consignment": 119259
  },
  {
   "date": "2026-10-06",
-  "Shopify": 68800,
+  "Shopify": 72060,
   "Wholesale": 0,
+  "Events": 126700,
   "Offline": 0,
-  "Consignment": 84735
+  "Consignment": 16947
  },
  {
   "date": "2026-10-07",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 151500,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-08",
-  "Shopify": 95700,
+  "Shopify": 103490,
   "Wholesale": 0,
-  "Offline": 23900,
+  "Events": 130930,
+  "Offline": 26290,
   "Consignment": 0
  },
  {
   "date": "2026-10-09",
   "Shopify": 34900,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-10",
-  "Shopify": 62900,
+  "Shopify": 69190,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -416,27 +475,31 @@
   "date": "2026-10-11",
   "Shopify": 100800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 29484
+  "Consignment": 55251
  },
  {
   "date": "2026-10-12",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 94626
+  "Consignment": 104265
  },
  {
   "date": "2026-10-13",
-  "Shopify": 20900,
+  "Shopify": 22990,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 72828
+  "Consignment": 57204
  },
  {
   "date": "2026-10-14",
   "Shopify": 45800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -444,6 +507,7 @@
   "date": "2026-10-15",
   "Shopify": 102200,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -451,6 +515,7 @@
   "date": "2026-10-16",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -458,34 +523,39 @@
   "date": "2026-10-17",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-18",
-  "Shopify": 90300,
+  "Shopify": 98280,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 53361
+  "Consignment": 27720
  },
  {
   "date": "2026-10-19",
-  "Shopify": 118600,
+  "Shopify": 151830,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 91665
+  "Consignment": 85365
  },
  {
   "date": "2026-10-20",
   "Shopify": 185300,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 84168
+  "Consignment": 0
  },
  {
   "date": "2026-10-21",
   "Shopify": 35000,
   "Wholesale": 448635,
+  "Events": 0,
   "Offline": 28900,
   "Consignment": 0
  },
@@ -493,6 +563,7 @@
   "date": "2026-10-22",
   "Shopify": 138400,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 20900,
   "Consignment": 0
  },
@@ -500,13 +571,15 @@
   "date": "2026-10-23",
   "Shopify": 61700,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-24",
-  "Shopify": 201400,
+  "Shopify": 204890,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -514,41 +587,47 @@
   "date": "2026-10-25",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 0
+  "Consignment": 23877
  },
  {
   "date": "2026-10-26",
-  "Shopify": 99700,
+  "Shopify": 101790,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 45801
+  "Consignment": 51912
  },
  {
   "date": "2026-10-27",
-  "Shopify": 121600,
+  "Shopify": 131600,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 153909
+  "Consignment": 167769
  },
  {
   "date": "2026-10-28",
-  "Shopify": 68700,
+  "Shopify": 73000,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-29",
-  "Shopify": 115200,
+  "Shopify": 127760,
   "Wholesale": 0,
+  "Events": 111600,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-10-30",
-  "Shopify": 160000,
+  "Shopify": 170360,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 25900,
   "Consignment": 0
  },
@@ -556,6 +635,7 @@
   "date": "2026-10-31",
   "Shopify": 119700,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 31900,
   "Consignment": 0
  },
@@ -563,41 +643,47 @@
   "date": "2026-11-01",
   "Shopify": 62800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 0
+  "Consignment": 57834
  },
  {
   "date": "2026-11-02",
-  "Shopify": 58900,
+  "Shopify": 63560,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 41832
+  "Consignment": 81585
  },
  {
   "date": "2026-11-03",
   "Shopify": 178300,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 237384
+  "Consignment": 0
  },
  {
   "date": "2026-11-04",
   "Shopify": 31000,
   "Wholesale": 0,
-  "Offline": 21900,
+  "Events": 0,
+  "Offline": 24090,
   "Consignment": 0
  },
  {
   "date": "2026-11-05",
   "Shopify": 0,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
  {
   "date": "2026-11-06",
-  "Shopify": 94200,
+  "Shopify": 98860,
   "Wholesale": 389455,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -605,6 +691,7 @@
   "date": "2026-11-07",
   "Shopify": 140600,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  },
@@ -612,27 +699,31 @@
   "date": "2026-11-08",
   "Shopify": 73700,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 124677
+  "Consignment": 50841
  },
  {
   "date": "2026-11-09",
-  "Shopify": 20900,
+  "Shopify": 25200,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
-  "Consignment": 47691
+  "Consignment": 102816
  },
  {
   "date": "2026-11-10",
-  "Shopify": 55800,
+  "Shopify": 61380,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 20900,
-  "Consignment": 55314
+  "Consignment": 0
  },
  {
   "date": "2026-11-11",
   "Shopify": 101800,
   "Wholesale": 0,
+  "Events": 0,
   "Offline": 0,
   "Consignment": 0
  }

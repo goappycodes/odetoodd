@@ -1,7 +1,7 @@
 import { Card, PageHeader, KeyValues } from "@/components/ui";
 import {
   TODAY, addDays, fmtDate, inr, salesInRange, openOrders, orderUrgency, lowStockMaterials, outputBetween, stages,
-  productionOrders, poUrgency, orders, num, syncLog,
+  productionOrders, poUrgency, orders, num, syncLog, prOverdue, flaggedShipments, products, belowCategoryMin,
 } from "@/lib/data";
 
 export const metadata = { title: "Daily summary email" };
@@ -18,6 +18,9 @@ export default function DailySummary() {
   const low = lowStockMaterials();
   const late = productionOrders.filter((p) => p.status !== "Completed" && poUrgency(p) === "overdue");
   const failed = syncLog.filter((s) => s.status === "Failed");
+  const prLate = prOverdue();
+  const shipFlags = flaggedShipments();
+  const fgLow = products.filter(belowCategoryMin);
 
   return (
     <>
@@ -33,7 +36,7 @@ export default function DailySummary() {
             <p>Here is what happened yesterday, {fmtDate(y)}, and what needs your attention today.</p>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
-                ["Sales", inr(sales.Shopify + sales.Wholesale + sales.Offline)],
+                ["Sales", inr(sales.Shopify + sales.Wholesale + sales.Events + sales.Offline)],
                 ["New orders", newOrders.length],
                 ["Dispatched", dispatched.length],
                 ["Pieces made", out.reduce((a, o) => a + o.completed, 0)],
@@ -51,7 +54,10 @@ export default function DailySummary() {
                 <li><span className="text-warn">{dueSoon.length} orders due this week</span></li>
                 <li>{late.length} production orders behind schedule</li>
                 <li>{low.length} materials below minimum: {low.slice(0, 3).map((m) => m.name).join(", ")}</li>
-                {failed.length > 0 && <li>{failed.length} Shopify orders failed to sync</li>}
+                <li>{fgLow.length} styles below their category's minimum ready stock</li>
+                {failed.length > 0 && <li>{failed.length} Shopify syncs failed</li>}
+                {shipFlags.length > 0 && <li><span className="text-bad">{shipFlags.length} shipments delayed or not moving</span>: {shipFlags.slice(0, 3).map((s) => `${s.orderRef} (${s.provider})`).join(", ")}</li>}
+                {prLate.length > 0 && <li><span className="text-bad">{prLate.length} PR pieces not returned on time</span></li>}
               </ul>
             </div>
             <div>
@@ -71,7 +77,7 @@ export default function DailySummary() {
           </div>
         </div>
         <Card title="Settings">
-          <KeyValues rows={[["Send to", "owner@odetoodd.com"], ["Time", "8:00 every morning"], ["Days", "Monday to Saturday"], ["Includes", "Sales, orders, production, stock alerts, sync issues"]]} />
+          <KeyValues rows={[["Send to", "owner@odetoodd.com"], ["Time", "8:00 every morning"], ["Days", "Monday to Saturday"], ["Includes", "Sales, orders, production, stock alerts, sync issues, shipments, PR returns"]]} />
         </Card>
       </div>
     </>

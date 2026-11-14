@@ -1,24 +1,24 @@
 [
  {
-  "time": "2026-11-11T21:13",
+  "time": "2026-11-11T19:00",
+  "event": "AWB pushed",
+  "ref": "#OTO4293",
+  "status": "Synced",
+  "message": "Delhivery 1095843689050 added to the Shopify fulfilment. Customer notified."
+ },
+ {
+  "time": "2026-11-11T12:37",
   "event": "Order created",
   "ref": "#OTO4357",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-11-11T09:34",
+  "time": "2026-11-11T11:47",
   "event": "Order created",
   "ref": "#OTO4356",
   "status": "Synced",
   "message": "1 item(s) imported"
- },
- {
-  "time": "2026-11-10T17:35",
-  "event": "Order created",
-  "ref": "#OTO4355",
-  "status": "Synced",
-  "message": "2 item(s) imported"
  },
  {
   "time": "2026-11-11T09:42",
@@ -28,39 +28,25 @@
   "message": "SKU TP1516/GR not found in ERP product master. Add the SKU or map it, then retry."
  },
  {
-  "time": "2026-11-09T14:37",
+  "time": "2026-11-10T20:59",
   "event": "Order created",
-  "ref": "#OTO4354",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-11-08T15:50",
-  "event": "Order created",
-  "ref": "#OTO4353",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-11-08T09:12",
-  "event": "Order created",
-  "ref": "#OTO4352",
+  "ref": "#OTO4355",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-11-07T08:04",
-  "event": "Order created",
-  "ref": "#OTO4351",
-  "status": "Synced",
-  "message": "1 item(s) imported"
+  "time": "2026-11-10T20:13",
+  "event": "AWB pushed",
+  "ref": "#OTO4291",
+  "status": "Failed",
+  "message": "Order already marked fulfilled in Shopify with a different AWB. Choose which AWB to keep."
  },
  {
-  "time": "2026-11-07T18:10",
-  "event": "Order created",
-  "ref": "#OTO4350",
+  "time": "2026-11-10T18:56",
+  "event": "AWB pushed",
+  "ref": "#OTO4289",
   "status": "Synced",
-  "message": "2 item(s) imported"
+  "message": "Blue Dart 93681997176 added to the Shopify fulfilment. Customer notified."
  },
  {
   "time": "2026-11-10T18:05",
@@ -70,39 +56,25 @@
   "message": "Shopify webhook timed out. Retried automatically after 2 minutes and imported."
  },
  {
-  "time": "2026-11-07T09:51",
+  "time": "2026-11-09T17:10",
   "event": "Order created",
-  "ref": "#OTO4349",
+  "ref": "#OTO4354",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-11-06T14:05",
+  "time": "2026-11-08T22:18",
   "event": "Order created",
-  "ref": "#OTO4348",
+  "ref": "#OTO4353",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-11-06T08:15",
-  "event": "Order created",
-  "ref": "#OTO4347",
+  "time": "2026-11-08T18:59",
+  "event": "AWB pushed",
+  "ref": "#OTO4296",
   "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-11-06T15:02",
-  "event": "Order created",
-  "ref": "#OTO4346",
-  "status": "Synced",
-  "message": "2 item(s) imported"
- },
- {
-  "time": "2026-11-04T15:42",
-  "event": "Order created",
-  "ref": "#OTO4345",
-  "status": "Synced",
-  "message": "1 item(s) imported"
+  "message": "Blue Dart 74011862667 added to the Shopify fulfilment. Customer notified."
  },
  {
   "time": "2026-11-08T11:20",
@@ -112,189 +84,259 @@
   "message": "Shipping address missing pincode. Order imported, address flagged for the sales team."
  },
  {
-  "time": "2026-11-03T20:13",
+  "time": "2026-11-08T09:58",
+  "event": "Order created",
+  "ref": "#OTO4352",
+  "status": "Synced",
+  "message": "2 item(s) imported"
+ },
+ {
+  "time": "2026-11-07T22:38",
+  "event": "Order created",
+  "ref": "#OTO4349",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-11-07T21:15",
+  "event": "AWB pushed",
+  "ref": "#OTO4348",
+  "status": "Synced",
+  "message": "Blue Dart 95272627471 added to the Shopify fulfilment. Customer notified."
+ },
+ {
+  "time": "2026-11-07T19:45",
+  "event": "AWB pushed",
+  "ref": "#OTO4285",
+  "status": "Synced",
+  "message": "Blue Dart 92860642119 added to the Shopify fulfilment. Customer notified."
+ },
+ {
+  "time": "2026-11-07T13:32",
+  "event": "Order created",
+  "ref": "#OTO4351",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-11-07T08:20",
+  "event": "Order created",
+  "ref": "#OTO4350",
+  "status": "Synced",
+  "message": "2 item(s) imported"
+ },
+ {
+  "time": "2026-11-06T12:11",
+  "event": "Order created",
+  "ref": "#OTO4346",
+  "status": "Synced",
+  "message": "2 item(s) imported"
+ },
+ {
+  "time": "2026-11-06T12:05",
+  "event": "Order created",
+  "ref": "#OTO4347",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-11-06T09:06",
+  "event": "Order created",
+  "ref": "#OTO4348",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-11-04T15:21",
+  "event": "Order created",
+  "ref": "#OTO4345",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-11-03T22:48",
   "event": "Order created",
   "ref": "#OTO4344",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-11-03T20:48",
+  "time": "2026-11-03T17:00",
   "event": "Order created",
   "ref": "#OTO4343",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-11-03T19:52",
+  "time": "2026-11-03T14:41",
   "event": "Order created",
   "ref": "#OTO4342",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-11-03T18:00",
+  "time": "2026-11-03T09:09",
   "event": "Order created",
   "ref": "#OTO4341",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-11-02T11:47",
-  "event": "Order created",
-  "ref": "#OTO4340",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-11-02T08:07",
+  "time": "2026-11-02T16:52",
   "event": "Order created",
   "ref": "#OTO4339",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-11-01T18:06",
+  "time": "2026-11-02T09:49",
+  "event": "Order created",
+  "ref": "#OTO4340",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-11-01T18:56",
   "event": "Order created",
   "ref": "#OTO4338",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-31T15:16",
+  "time": "2026-10-31T22:24",
   "event": "Order created",
   "ref": "#OTO4337",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-31T13:13",
+  "time": "2026-10-31T21:22",
   "event": "Order created",
   "ref": "#OTO4336",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-30T16:16",
-  "event": "Order created",
-  "ref": "#OTO4335",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-10-30T18:21",
-  "event": "Order created",
-  "ref": "#OTO4334",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-10-30T09:26",
+  "time": "2026-10-30T21:32",
   "event": "Order created",
   "ref": "#OTO4333",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-30T19:42",
+  "time": "2026-10-30T13:32",
   "event": "Order created",
   "ref": "#OTO4332",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-29T22:31",
+  "time": "2026-10-30T10:10",
+  "event": "Order created",
+  "ref": "#OTO4335",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-10-30T08:03",
+  "event": "Order created",
+  "ref": "#OTO4334",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-10-29T22:53",
   "event": "Order created",
   "ref": "#OTO4331",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-29T18:22",
+  "time": "2026-10-29T22:08",
   "event": "Order created",
   "ref": "#OTO4330",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-29T17:18",
-  "event": "Order created",
-  "ref": "#OTO4329",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-10-29T12:15",
+  "time": "2026-10-29T12:57",
   "event": "Order created",
   "ref": "#OTO4328",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-28T17:02",
+  "time": "2026-10-29T09:53",
+  "event": "Order created",
+  "ref": "#OTO4329",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-10-28T17:20",
   "event": "Order created",
   "ref": "#OTO4327",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-28T22:16",
+  "time": "2026-10-28T16:01",
   "event": "Order created",
   "ref": "#OTO4326",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-27T09:17",
-  "event": "Order created",
-  "ref": "#OTO4325",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-10-27T14:40",
+  "time": "2026-10-27T18:45",
   "event": "Order created",
   "ref": "#OTO4324",
   "status": "Synced",
   "message": "2 item(s) imported"
  },
  {
-  "time": "2026-10-27T14:51",
+  "time": "2026-10-27T17:02",
+  "event": "Order created",
+  "ref": "#OTO4325",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-10-27T15:40",
   "event": "Order created",
   "ref": "#OTO4323",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-26T13:41",
-  "event": "Order created",
-  "ref": "#OTO4322",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-10-26T16:53",
+  "time": "2026-10-26T19:33",
   "event": "Order created",
   "ref": "#OTO4321",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-26T21:05",
-  "event": "Order created",
-  "ref": "#OTO4320",
-  "status": "Synced",
-  "message": "1 item(s) imported"
- },
- {
-  "time": "2026-10-26T21:42",
+  "time": "2026-10-26T18:28",
   "event": "Order created",
   "ref": "#OTO4319",
   "status": "Synced",
   "message": "1 item(s) imported"
  },
  {
-  "time": "2026-10-24T08:32",
+  "time": "2026-10-26T13:52",
+  "event": "Order created",
+  "ref": "#OTO4320",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-10-26T10:37",
+  "event": "Order created",
+  "ref": "#OTO4322",
+  "status": "Synced",
+  "message": "1 item(s) imported"
+ },
+ {
+  "time": "2026-10-24T13:13",
   "event": "Order created",
   "ref": "#OTO4318",
   "status": "Synced",

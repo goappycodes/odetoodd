@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "karigarId": "K01",
   "stage": "embroidery",
-  "poId": "PO-0116",
+  "poId": "PO-0138",
   "completed": 1,
   "rejected": 0,
   "machineId": null
@@ -12,7 +12,7 @@
   "date": "2026-10-07",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0126",
+  "poId": "PO-0169",
   "completed": 1,
   "rejected": 0,
   "machineId": null
@@ -21,7 +21,7 @@
   "date": "2026-10-07",
   "karigarId": "K03",
   "stage": "embroidery",
-  "poId": "PO-0198",
+  "poId": "PO-0184",
   "completed": 1,
   "rejected": 0,
   "machineId": null
@@ -29,6 +29,1752 @@
  {
   "date": "2026-10-07",
   "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0114",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0085",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0164",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0201",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0103",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0153",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0165",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0171",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0145",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0086",
+  "completed": 10,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-07",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0176",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0079",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0185",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0103",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0159",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0150",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0114",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0161",
+  "completed": 8,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0155",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0148",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0202",
+  "completed": 2,
+  "rejected": 1,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0145",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0141",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0097",
+  "completed": 8,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-08",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0152",
+  "completed": 11,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0093",
+  "completed": 1,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0168",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0164",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0120",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0152",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0112",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0171",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0118",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0114",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0086",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0157",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0200",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-09",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0116",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0155",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0182",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0096",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0143",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0168",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0176",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0167",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0128",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0117",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0197",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0157",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0149",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0168",
+  "completed": 7,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-10",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0186",
+  "completed": 11,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0166",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0195",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0126",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0200",
+  "completed": 1,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0185",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0079",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0162",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0192",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0168",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0113",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0145",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0131",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-12",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0168",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0198",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0197",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0172",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0156",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0174",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0141",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0188",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0111",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0080",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0138",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0126",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0176",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-13",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0149",
+  "completed": 12,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0079",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0193",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0151",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0170",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0165",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0163",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0097",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0142",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0103",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0179",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0142",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0176",
+  "completed": 11,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-14",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0151",
+  "completed": 13,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0164",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0116",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0113",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0145",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0140",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0124",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0161",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0150",
+  "completed": 2,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0158",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0197",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0112",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-15",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0191",
+  "completed": 12,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0125",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0112",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0200",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0169",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0170",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0177",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0184",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0146",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0187",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0194",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0107",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0126",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-16",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0140",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0150",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0147",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0107",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0154",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0142",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0139",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0103",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0146",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0191",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0184",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0149",
+  "completed": 5,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0177",
+  "completed": 11,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-17",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0178",
+  "completed": 13,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0160",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0189",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0175",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0155",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0103",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0155",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0141",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0093",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0201",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0197",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0107",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0167",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0186",
+  "completed": 10,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-19",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0177",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0193",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0151",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0189",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0107",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0149",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0188",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0103",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0188",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0160",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0170",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0184",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-20",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0097",
+  "completed": 10,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0202",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0124",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0094",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0116",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0177",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0117",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0188",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0120",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0114",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0188",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0194",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0162",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0167",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-21",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0146",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0177",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0145",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0169",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0186",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0092",
+  "completed": 1,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0163",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0163",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0111",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0148",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0143",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0175",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0118",
+  "completed": 7,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-22",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0103",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0136",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0196",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0172",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0178",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0200",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0182",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0120",
+  "completed": 2,
+  "rejected": 1,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0168",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0163",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0135",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0080",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-23",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0178",
+  "completed": 13,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-24",
+  "karigarId": "K01",
   "stage": "embroidery",
   "poId": "PO-0153",
   "completed": 1,
@@ -36,1178 +1782,17 @@
   "machineId": null
  },
  {
-  "date": "2026-10-07",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0164",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0157",
-  "completed": 5,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0110",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0163",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0095",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0171",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0094",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0137",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-07",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0125",
-  "completed": 13,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0181",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
+  "date": "2026-10-24",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0108",
+  "poId": "PO-0201",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-08",
+  "date": "2026-10-24",
   "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0191",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0170",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0146",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0130",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0181",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0103",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0176",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0197",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0123",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0110",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-08",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0139",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0168",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0131",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0134",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0124",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0099",
-  "completed": 1,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0182",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0099",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0078",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0189",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0138",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0084",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0172",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0077",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-09",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0181",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0099",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0155",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0146",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0110",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0157",
-  "completed": 1,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0151",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0172",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0121",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0091",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0121",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-10",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0191",
-  "completed": 10,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0159",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0197",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0126",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0103",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0154",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0140",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0179",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0114",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0148",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0143",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0160",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0117",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0173",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-12",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0183",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0194",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0137",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0094",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0160",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0181",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0137",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0157",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0126",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0183",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0195",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0121",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0157",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-13",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0101",
-  "completed": 10,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0123",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0184",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0191",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0191",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0122",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0196",
-  "completed": 1,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0181",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0077",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0136",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0128",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0084",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0109",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0141",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-14",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0127",
-  "completed": 10,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0164",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0194",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0193",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0168",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0152",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0170",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0137",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0184",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0122",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0119",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0085",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0091",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-15",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0145",
-  "completed": 12,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0107",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0094",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0168",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0192",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0166",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0161",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0159",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0095",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0138",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0099",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0175",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0138",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0172",
-  "completed": 11,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-16",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0147",
-  "completed": 13,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0160",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0112",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0109",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0141",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0136",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0120",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0157",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0146",
-  "completed": 2,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0154",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0193",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0108",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-17",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0187",
-  "completed": 12,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-19",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0121",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-19",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0108",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-19",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0196",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-19",
-  "karigarId": "K04",
   "stage": "embroidery",
   "poId": "PO-0165",
   "completed": 1,
@@ -1215,134 +1800,467 @@
   "machineId": null
  },
  {
-  "date": "2026-10-19",
-  "karigarId": "K05",
+  "date": "2026-10-24",
+  "karigarId": "K04",
   "stage": "embroidery",
-  "poId": "PO-0166",
+  "poId": "PO-0148",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-19",
+  "date": "2026-10-24",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0080",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-24",
   "karigarId": "K06",
   "stage": "embroidery",
-  "poId": "PO-0173",
+  "poId": "PO-0198",
   "completed": 0,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-19",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0180",
-  "completed": 3,
+  "date": "2026-10-24",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0190",
+  "completed": 8,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-19",
+  "date": "2026-10-24",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0122",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-24",
   "karigarId": "K09",
   "stage": "stitching",
-  "poId": "PO-0142",
+  "poId": "PO-0178",
+  "completed": 3,
+  "rejected": 1,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-24",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0175",
   "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-24",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0087",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-24",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0199",
+  "completed": 6,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-24",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0122",
+  "completed": 12,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0093",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0175",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0178",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0079",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0164",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0085",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0093",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-26",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0181",
+  "completed": 3,
   "rejected": 0,
   "machineId": "SN-01"
  },
  {
-  "date": "2026-10-19",
+  "date": "2026-10-26",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0188",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-26",
   "karigarId": "K10",
   "stage": "stitching",
-  "poId": "PO-0183",
+  "poId": "PO-0173",
   "completed": 3,
   "rejected": 0,
-  "machineId": "SN-02"
+  "machineId": "OL-01"
  },
  {
-  "date": "2026-10-19",
+  "date": "2026-10-26",
   "karigarId": "K11",
   "stage": "finishing",
-  "poId": "PO-0190",
-  "completed": 4,
+  "poId": "PO-0192",
+  "completed": 3,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-19",
+  "date": "2026-10-26",
   "karigarId": "K12",
   "stage": "finishing",
-  "poId": "PO-0103",
-  "completed": 4,
-  "rejected": 0,
+  "poId": "PO-0130",
+  "completed": 3,
+  "rejected": 1,
   "machineId": null
  },
  {
-  "date": "2026-10-19",
+  "date": "2026-10-26",
   "karigarId": "K13",
   "stage": "qc",
-  "poId": "PO-0122",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-19",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0136",
+  "poId": "PO-0142",
   "completed": 9,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-26",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0118",
+  "completed": 11,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
   "karigarId": "K01",
   "stage": "embroidery",
-  "poId": "PO-0146",
+  "poId": "PO-0154",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-27",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0143",
+  "poId": "PO-0125",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-27",
   "karigarId": "K03",
   "stage": "embroidery",
-  "poId": "PO-0103",
+  "poId": "PO-0124",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-27",
   "karigarId": "K04",
   "stage": "embroidery",
-  "poId": "PO-0150",
+  "poId": "PO-0086",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-27",
   "karigarId": "K05",
   "stage": "embroidery",
-  "poId": "PO-0138",
+  "poId": "PO-0163",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-27",
   "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0131",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0192",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0126",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0132",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0122",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0096",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0136",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0201",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-27",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0187",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0158",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0114",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0140",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0142",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0171",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0113",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0185",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0133",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0156",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0120",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0118",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0192",
+  "completed": 6,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-28",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0198",
+  "completed": 14,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-29",
+  "karigarId": "K01",
   "stage": "embroidery",
   "poId": "PO-0135",
   "completed": 1,
@@ -1350,197 +2268,836 @@
   "machineId": null
  },
  {
-  "date": "2026-10-20",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0099",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-20",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0142",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-20",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0187",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-20",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0180",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-20",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0145",
-  "completed": 5,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-20",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0173",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-20",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0174",
-  "completed": 13,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-21",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0156",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0185",
+  "poId": "PO-0186",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K03",
   "stage": "embroidery",
-  "poId": "PO-0171",
+  "poId": "PO-0180",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K04",
   "stage": "embroidery",
-  "poId": "PO-0151",
-  "completed": 0,
+  "poId": "PO-0093",
+  "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K05",
   "stage": "embroidery",
-  "poId": "PO-0099",
+  "poId": "PO-0155",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K06",
   "stage": "embroidery",
-  "poId": "PO-0151",
+  "poId": "PO-0195",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K07",
   "stage": "cutting",
-  "poId": "PO-0137",
+  "poId": "PO-0155",
   "completed": 5,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K08",
   "stage": "stitching",
-  "poId": "PO-0091",
-  "completed": 4,
+  "poId": "PO-0121",
+  "completed": 3,
   "rejected": 0,
   "machineId": "OL-01"
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K09",
   "stage": "stitching",
-  "poId": "PO-0197",
+  "poId": "PO-0155",
   "completed": 3,
   "rejected": 0,
-  "machineId": null
+  "machineId": "SN-01"
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K10",
   "stage": "stitching",
-  "poId": "PO-0193",
+  "poId": "PO-0131",
   "completed": 3,
   "rejected": 0,
-  "machineId": "SN-02"
+  "machineId": "SN-01"
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "karigarId": "K11",
   "stage": "finishing",
-  "poId": "PO-0103",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-21",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0163",
+  "poId": "PO-0173",
   "completed": 5,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0182",
-  "completed": 10,
-  "rejected": 1,
+  "date": "2026-10-29",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0169",
+  "completed": 3,
+  "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-21",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0173",
+  "date": "2026-10-29",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0145",
   "completed": 8,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-22",
+  "date": "2026-10-29",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0117",
+  "completed": 11,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
   "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0148",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0146",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0128",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0183",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0170",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0130",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0092",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0124",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0199",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0189",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0122",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0178",
+  "completed": 3,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-30",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0135",
+  "completed": 12,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0181",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0092",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0130",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0142",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0166",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0144",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0097",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0156",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0176",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0172",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0168",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-10-31",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0166",
+  "completed": 12,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0124",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0200",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0200",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0171",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0126",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0103",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0131",
+  "completed": 7,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0176",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0159",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0152",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0131",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0111",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0143",
+  "completed": 11,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-02",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0138",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0140",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0141",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0092",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0121",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0149",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0195",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0097",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0197",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0144",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0178",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0190",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0168",
+  "completed": 10,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-03",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0202",
+  "completed": 12,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0137",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0080",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0133",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0107",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0079",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0105",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0142",
+  "completed": 7,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0114",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0118",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0201",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0191",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-04",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0179",
+  "completed": 14,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0167",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0160",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0086",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0094",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0175",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0086",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0117",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0201",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0166",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0161",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "OL-01"
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0138",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0079",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0168",
+  "completed": 11,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-05",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0191",
+  "completed": 14,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-06",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0165",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-06",
+  "karigarId": "K02",
   "stage": "embroidery",
   "poId": "PO-0189",
   "completed": 1,
@@ -1548,35 +3105,8 @@
   "machineId": null
  },
  {
-  "date": "2026-10-22",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0147",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-22",
+  "date": "2026-11-06",
   "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0185",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-22",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0103",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-22",
-  "karigarId": "K05",
   "stage": "embroidery",
   "poId": "PO-0145",
   "completed": 1,
@@ -1584,98 +3114,215 @@
   "machineId": null
  },
  {
-  "date": "2026-10-22",
+  "date": "2026-11-06",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0152",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-06",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0201",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-06",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0172",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-06",
   "karigarId": "K07",
   "stage": "cutting",
-  "poId": "PO-0184",
-  "completed": 8,
+  "poId": "PO-0079",
+  "completed": 9,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-22",
+  "date": "2026-11-06",
   "karigarId": "K08",
   "stage": "stitching",
-  "poId": "PO-0099",
-  "completed": 3,
+  "poId": "PO-0127",
+  "completed": 4,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-22",
+  "date": "2026-11-06",
   "karigarId": "K10",
   "stage": "stitching",
-  "poId": "PO-0184",
+  "poId": "PO-0086",
   "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-11-06",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0125",
+  "completed": 4,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-22",
-  "karigarId": "K11",
+  "date": "2026-11-06",
+  "karigarId": "K12",
   "stage": "finishing",
-  "poId": "PO-0156",
+  "poId": "PO-0133",
   "completed": 5,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-22",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0166",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-22",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0180",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-22",
+  "date": "2026-11-06",
   "karigarId": "K14",
   "stage": "packing",
-  "poId": "PO-0095",
-  "completed": 10,
+  "poId": "PO-0105",
+  "completed": 8,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-23",
+  "date": "2026-11-07",
   "karigarId": "K01",
   "stage": "embroidery",
-  "poId": "PO-0198",
+  "poId": "PO-0116",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-23",
+  "date": "2026-11-07",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0120",
+  "poId": "PO-0130",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-23",
+  "date": "2026-11-07",
   "karigarId": "K03",
   "stage": "embroidery",
-  "poId": "PO-0092",
+  "poId": "PO-0126",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-10-23",
+  "date": "2026-11-07",
   "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0151",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0118",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0125",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0158",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0146",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0164",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0186",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0174",
+  "completed": 5,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K12",
+  "stage": "finishing",
+  "poId": "PO-0153",
+  "completed": 6,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0176",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-07",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0189",
+  "completed": 13,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-09",
+  "karigarId": "K01",
   "stage": "embroidery",
   "poId": "PO-0112",
   "completed": 1,
@@ -1683,1312 +3330,25 @@
   "machineId": null
  },
  {
-  "date": "2026-10-23",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0173",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0113",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0184",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0116",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0110",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0184",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0190",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0158",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0163",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-23",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0142",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0173",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
+  "date": "2026-11-09",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0141",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0165",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0182",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0090",
-  "completed": 1,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0159",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0159",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0107",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0144",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0139",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0171",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0114",
-  "completed": 7,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-24",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0099",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0132",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0192",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0168",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0174",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0196",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0178",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0116",
-  "completed": 2,
-  "rejected": 1,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0164",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0159",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0131",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0078",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-26",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0174",
-  "completed": 13,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0149",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0197",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0161",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0144",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0078",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0194",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0186",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0118",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0174",
-  "completed": 3,
-  "rejected": 1,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0171",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0085",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0195",
-  "completed": 6,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-27",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0118",
-  "completed": 12,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0091",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0171",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0174",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0077",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0160",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0083",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0091",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0177",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0184",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0169",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0188",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0126",
-  "completed": 3,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0138",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-28",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0114",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0150",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0121",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0120",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0084",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0159",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0127",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0188",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0122",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0128",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0118",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0094",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0132",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0197",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-29",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0183",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0154",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0110",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0136",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0138",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0167",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0109",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0181",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0129",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0152",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0116",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0114",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0188",
-  "completed": 6,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-10-30",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0194",
-  "completed": 14,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0131",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0182",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0176",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0091",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0151",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0191",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0151",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0117",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0151",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0127",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0169",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0165",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0141",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-10-31",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0113",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0144",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0142",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0124",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0179",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0166",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0126",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0090",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0120",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0195",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K10",
-  "stage": "stitching",
   "poId": "PO-0185",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0118",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0174",
-  "completed": 3,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-11-02",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0131",
-  "completed": 12,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0177",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-03",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0090",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
+  "date": "2026-11-09",
   "karigarId": "K03",
   "stage": "embroidery",
-  "poId": "PO-0126",
+  "poId": "PO-0195",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-03",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0138",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0162",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0140",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0095",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0152",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0172",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0168",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0164",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-03",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0162",
-  "completed": 12,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0120",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0196",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0196",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0167",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0122",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0099",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0127",
-  "completed": 7,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0172",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0155",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0148",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0127",
-  "completed": 4,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0107",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0139",
-  "completed": 11,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-04",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0134",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0136",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0137",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0090",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
+  "date": "2026-11-09",
   "karigarId": "K04",
   "stage": "embroidery",
   "poId": "PO-0117",
@@ -2997,412 +3357,286 @@
   "machineId": null
  },
  {
-  "date": "2026-11-05",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0145",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0191",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0095",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0193",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0140",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0174",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0186",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0164",
-  "completed": 10,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-05",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0198",
-  "completed": 12,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0133",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0078",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0129",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0103",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0077",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "karigarId": "K06",
   "stage": "embroidery",
-  "poId": "PO-0101",
+  "poId": "PO-0130",
   "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0138",
-  "completed": 7,
   "rejected": 1,
   "machineId": null
  },
  {
-  "date": "2026-11-06",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0110",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0114",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0197",
+  "date": "2026-11-09",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0128",
   "completed": 6,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-06",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0187",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-06",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0175",
-  "completed": 14,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0163",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0156",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0084",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0092",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0171",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0084",
-  "completed": 0,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0113",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-07",
+  "date": "2026-11-09",
   "karigarId": "K08",
   "stage": "stitching",
-  "poId": "PO-0197",
+  "poId": "PO-0195",
   "completed": 2,
-  "rejected": 0,
-  "machineId": "OL-01"
- },
- {
-  "date": "2026-11-07",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0162",
-  "completed": 3,
   "rejected": 0,
   "machineId": "SN-02"
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-09",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0112",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": "SN-01"
+ },
+ {
+  "date": "2026-11-09",
+  "karigarId": "K10",
+  "stage": "stitching",
+  "poId": "PO-0111",
+  "completed": 2,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-09",
+  "karigarId": "K11",
+  "stage": "finishing",
+  "poId": "PO-0156",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-09",
+  "karigarId": "K13",
+  "stage": "qc",
+  "poId": "PO-0141",
+  "completed": 9,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K01",
+  "stage": "embroidery",
+  "poId": "PO-0198",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K02",
+  "stage": "embroidery",
+  "poId": "PO-0112",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K03",
+  "stage": "embroidery",
+  "poId": "PO-0168",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K04",
+  "stage": "embroidery",
+  "poId": "PO-0147",
+  "completed": 0,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K05",
+  "stage": "embroidery",
+  "poId": "PO-0122",
+  "completed": 1,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K06",
+  "stage": "embroidery",
+  "poId": "PO-0111",
+  "completed": 1,
+  "rejected": 1,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K07",
+  "stage": "cutting",
+  "poId": "PO-0097",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K08",
+  "stage": "stitching",
+  "poId": "PO-0192",
+  "completed": 4,
+  "rejected": 0,
+  "machineId": "SN-02"
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K09",
+  "stage": "stitching",
+  "poId": "PO-0187",
+  "completed": 3,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
   "karigarId": "K10",
   "stage": "stitching",
   "poId": "PO-0157",
   "completed": 2,
   "rejected": 0,
-  "machineId": "OL-01"
+  "machineId": "SN-01"
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-10",
   "karigarId": "K11",
   "stage": "finishing",
-  "poId": "PO-0134",
-  "completed": 6,
+  "poId": "PO-0118",
+  "completed": 3,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-10",
   "karigarId": "K12",
   "stage": "finishing",
-  "poId": "PO-0077",
+  "poId": "PO-0201",
   "completed": 4,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-10",
   "karigarId": "K13",
   "stage": "qc",
-  "poId": "PO-0164",
+  "poId": "PO-0162",
+  "completed": 8,
+  "rejected": 0,
+  "machineId": null
+ },
+ {
+  "date": "2026-11-10",
+  "karigarId": "K14",
+  "stage": "packing",
+  "poId": "PO-0177",
   "completed": 11,
   "rejected": 1,
   "machineId": null
  },
  {
-  "date": "2026-11-07",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0187",
-  "completed": 14,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K01",
   "stage": "embroidery",
-  "poId": "PO-0161",
+  "poId": "PO-0159",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K02",
   "stage": "embroidery",
-  "poId": "PO-0185",
+  "poId": "PO-0174",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K03",
   "stage": "embroidery",
-  "poId": "PO-0141",
+  "poId": "PO-0199",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K04",
   "stage": "embroidery",
-  "poId": "PO-0148",
+  "poId": "PO-0127",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K05",
   "stage": "embroidery",
-  "poId": "PO-0197",
+  "poId": "PO-0128",
   "completed": 1,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K06",
   "stage": "embroidery",
-  "poId": "PO-0168",
-  "completed": 1,
+  "poId": "PO-0184",
+  "completed": 0,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K07",
   "stage": "cutting",
-  "poId": "PO-0077",
-  "completed": 9,
+  "poId": "PO-0181",
+  "completed": 6,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
-  "karigarId": "K08",
+  "date": "2026-11-11",
+  "karigarId": "K09",
   "stage": "stitching",
-  "poId": "PO-0123",
-  "completed": 4,
+  "poId": "PO-0201",
+  "completed": 2,
   "rejected": 0,
-  "machineId": null
+  "machineId": "OL-01"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K10",
   "stage": "stitching",
-  "poId": "PO-0084",
+  "poId": "PO-0146",
   "completed": 2,
   "rejected": 0,
   "machineId": "SN-01"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K11",
   "stage": "finishing",
-  "poId": "PO-0121",
-  "completed": 4,
+  "poId": "PO-0149",
+  "completed": 5,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "karigarId": "K12",
   "stage": "finishing",
   "poId": "PO-0129",
@@ -3411,235 +3645,19 @@
   "machineId": null
  },
  {
-  "date": "2026-11-09",
-  "karigarId": "K14",
-  "stage": "packing",
-  "poId": "PO-0101",
-  "completed": 8,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0112",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K02",
-  "stage": "embroidery",
-  "poId": "PO-0126",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0122",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0147",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K05",
-  "stage": "embroidery",
-  "poId": "PO-0114",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0121",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0154",
-  "completed": 9,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0142",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0160",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0182",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0170",
-  "completed": 5,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
-  "karigarId": "K12",
-  "stage": "finishing",
-  "poId": "PO-0149",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "karigarId": "K13",
   "stage": "qc",
-  "poId": "PO-0172",
+  "poId": "PO-0139",
   "completed": 9,
   "rejected": 0,
   "machineId": null
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "karigarId": "K14",
   "stage": "packing",
-  "poId": "PO-0185",
-  "completed": 13,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K01",
-  "stage": "embroidery",
-  "poId": "PO-0108",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K02",
-  "stage": "embroidery",
   "poId": "PO-0181",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K03",
-  "stage": "embroidery",
-  "poId": "PO-0191",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K04",
-  "stage": "embroidery",
-  "poId": "PO-0113",
-  "completed": 1,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K06",
-  "stage": "embroidery",
-  "poId": "PO-0126",
-  "completed": 1,
-  "rejected": 1,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K07",
-  "stage": "cutting",
-  "poId": "PO-0124",
-  "completed": 6,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K08",
-  "stage": "stitching",
-  "poId": "PO-0191",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-02"
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K09",
-  "stage": "stitching",
-  "poId": "PO-0108",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": "SN-01"
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K10",
-  "stage": "stitching",
-  "poId": "PO-0107",
-  "completed": 2,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K11",
-  "stage": "finishing",
-  "poId": "PO-0152",
-  "completed": 3,
-  "rejected": 0,
-  "machineId": null
- },
- {
-  "date": "2026-11-11",
-  "karigarId": "K13",
-  "stage": "qc",
-  "poId": "PO-0137",
   "completed": 9,
   "rejected": 0,
   "machineId": null

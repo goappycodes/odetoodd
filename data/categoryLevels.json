@@ -1,0 +1,61 @@
+{
+ "finished": [
+  {
+   "category": "Shirt",
+   "minPerStyle": 3
+  },
+  {
+   "category": "Co-ord Set",
+   "minPerStyle": 2
+  },
+  {
+   "category": "Bib",
+   "minPerStyle": 1
+  },
+  {
+   "category": "Skirt",
+   "minPerStyle": 1
+  },
+  {
+   "category": "Dress",
+   "minPerStyle": 1
+  },
+  {
+   "category": "Jacket",
+   "minPerStyle": 0
+  },
+  {
+   "category": "Trouser",
+   "minPerStyle": 0
+  }
+ ],
+ "materials": [
+  {
+   "category": "Fabric",
+   "unit": "m",
+   "defaultMin": 30
+  },
+  {
+   "category": "Lining",
+   "unit": "m",
+   "defaultMin": 60
+  },
+  {
+   "category": "Thread",
+   "unit": "cone/spool",
+   "defaultMin": 25
+  },
+  {
+   "category": "Trims",
+   "unit": "pcs/g",
+   "defaultMin": 200
+  },
+  {
+   "category": "Packaging",
+   "unit": "pcs",
+   "defaultMin": 80
+  }
+ ],
+ "shipmentStuckDays": 3,
+ "prReminderDays": 2
+}

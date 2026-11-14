@@ -1,0 +1,3240 @@
+[
+ {
+  "id": "SHP-0001",
+  "orderId": "SH-4293",
+  "orderRef": "SH-4293",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "1095843689050",
+  "destination": "Chennai",
+  "market": "Domestic",
+  "shippedOn": "2026-11-11",
+  "expectedBy": "2026-11-16",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-11",
+   "time": "22:10",
+   "location": "Jaipur Hub",
+   "text": "In transit"
+  },
+  "events": [
+   {
+    "date": "2026-11-11",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-11",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0002",
+  "orderId": "SH-4289",
+  "orderRef": "SH-4289",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "93681997176",
+  "destination": "Bengaluru",
+  "market": "Domestic",
+  "shippedOn": "2026-11-10",
+  "expectedBy": "2026-11-13",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-11",
+   "time": "05:30",
+   "location": "Delhi Gateway",
+   "text": "In transit"
+  },
+  "events": [
+   {
+    "date": "2026-11-11",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0003",
+  "orderId": "SH-4291",
+  "orderRef": "SH-4291",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "6277211242355",
+  "destination": "Jaipur",
+  "market": "Domestic",
+  "shippedOn": "2026-11-10",
+  "expectedBy": "2026-11-14",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-11",
+   "time": "05:30",
+   "location": "Delhi Gateway",
+   "text": "In transit"
+  },
+  "events": [
+   {
+    "date": "2026-11-11",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Failed",
+  "shopifyMessage": "Order already marked fulfilled in Shopify with a different AWB. Choose which AWB to keep."
+ },
+ {
+  "id": "SHP-0004",
+  "orderId": "CON-108",
+  "orderRef": "CON-108",
+  "channel": "Consignment",
+  "provider": "Delhivery",
+  "awb": "1257895427756",
+  "destination": "Bengaluru",
+  "market": "Domestic",
+  "shippedOn": "2026-11-09",
+  "expectedBy": "2026-11-14",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-11",
+   "time": "05:30",
+   "location": "Delhi Gateway",
+   "text": "In transit"
+  },
+  "events": [
+   {
+    "date": "2026-11-11",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0005",
+  "orderId": "SH-4296",
+  "orderRef": "SH-4296",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "74011862667",
+  "destination": "Kolkata",
+  "market": "Domestic",
+  "shippedOn": "2026-11-08",
+  "expectedBy": "2026-11-11",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-11",
+  "lastScan": {
+   "date": "2026-11-11",
+   "time": "19:15",
+   "location": "Kolkata",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-11",
+    "time": "19:15",
+    "location": "Kolkata",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-11",
+    "time": "09:05",
+    "location": "Kolkata",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "05:30",
+    "location": "Kolkata Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0006",
+  "orderId": "SH-4285",
+  "orderRef": "SH-4285",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "92860642119",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-11-07",
+  "expectedBy": "2026-11-10",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-10",
+  "lastScan": {
+   "date": "2026-11-10",
+   "time": "18:24",
+   "location": "Mumbai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-10",
+    "time": "18:24",
+    "location": "Mumbai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "09:05",
+    "location": "Mumbai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "05:30",
+    "location": "Bhiwandi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0007",
+  "orderId": "SH-4348",
+  "orderRef": "SH-4348",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "95272627471",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-11-07",
+  "expectedBy": "2026-11-11",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-08",
+   "time": "06:15",
+   "location": "Ahmedabad Hub",
+   "text": "Arrived at transit hub"
+  },
+  "events": [
+   {
+    "date": "2026-11-08",
+    "time": "06:15",
+    "location": "Ahmedabad Hub",
+    "text": "Arrived at transit hub"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0008",
+  "orderId": "CON-106",
+  "orderRef": "CON-106",
+  "channel": "Consignment",
+  "provider": "Blue Dart",
+  "awb": "83903242674",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-11-06",
+  "expectedBy": "2026-11-09",
+  "status": "Exception",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-09",
+   "time": "13:20",
+   "location": "New Delhi",
+   "text": "Delivery attempted, customer not available"
+  },
+  "events": [
+   {
+    "date": "2026-11-09",
+    "time": "13:20",
+    "location": "New Delhi",
+    "text": "Delivery attempted, customer not available"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0009",
+  "orderId": "SH-4295",
+  "orderRef": "SH-4295",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "95830796797",
+  "destination": "Chandigarh",
+  "market": "Domestic",
+  "shippedOn": "2026-11-06",
+  "expectedBy": "2026-11-10",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-10",
+  "lastScan": {
+   "date": "2026-11-10",
+   "time": "11:15",
+   "location": "Chandigarh",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-10",
+    "time": "11:15",
+    "location": "Chandigarh",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "09:05",
+    "location": "Chandigarh",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "05:30",
+    "location": "Chandigarh Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0010",
+  "orderId": "SH-4345",
+  "orderRef": "SH-4345",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "92365321005",
+  "destination": "Lucknow",
+  "market": "Domestic",
+  "shippedOn": "2026-11-06",
+  "expectedBy": "2026-11-10",
+  "status": "Exception",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-10",
+   "time": "13:20",
+   "location": "Lucknow",
+   "text": "Delivery attempted, customer not available"
+  },
+  "events": [
+   {
+    "date": "2026-11-10",
+    "time": "13:20",
+    "location": "Lucknow",
+    "text": "Delivery attempted, customer not available"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "05:30",
+    "location": "Lucknow Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0011",
+  "orderId": "CON-103",
+  "orderRef": "CON-103",
+  "channel": "Consignment",
+  "provider": "Delhivery",
+  "awb": "5360791969113",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-11-05",
+  "expectedBy": "2026-11-10",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-10",
+  "lastScan": {
+   "date": "2026-11-10",
+   "time": "11:04",
+   "location": "Mumbai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-10",
+    "time": "11:04",
+    "location": "Mumbai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-10",
+    "time": "09:05",
+    "location": "Mumbai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "05:30",
+    "location": "Bhiwandi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0012",
+  "orderId": "EV-118",
+  "orderRef": "EV-118",
+  "channel": "Events",
+  "provider": "Delhivery",
+  "awb": "4604610898764",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-11-05",
+  "expectedBy": "2026-11-09",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-06",
+   "time": "06:15",
+   "location": "Delhi Gateway",
+   "text": "Arrived at transit hub"
+  },
+  "events": [
+   {
+    "date": "2026-11-06",
+    "time": "06:15",
+    "location": "Delhi Gateway",
+    "text": "Arrived at transit hub"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0013",
+  "orderId": "SH-4288",
+  "orderRef": "SH-4288",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "5852222379995",
+  "destination": "Ahmedabad",
+  "market": "Domestic",
+  "shippedOn": "2026-11-04",
+  "expectedBy": "2026-11-07",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-07",
+  "lastScan": {
+   "date": "2026-11-07",
+   "time": "14:04",
+   "location": "Ahmedabad",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-07",
+    "time": "14:04",
+    "location": "Ahmedabad",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "09:05",
+    "location": "Ahmedabad",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "05:30",
+    "location": "Ahmedabad Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-04",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-04",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0014",
+  "orderId": "CON-113",
+  "orderRef": "CON-113",
+  "channel": "Consignment",
+  "provider": "Blue Dart",
+  "awb": "97574436522",
+  "destination": "Hyderabad",
+  "market": "Domestic",
+  "shippedOn": "2026-11-03",
+  "expectedBy": "2026-11-07",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-07",
+  "lastScan": {
+   "date": "2026-11-07",
+   "time": "17:38",
+   "location": "Hyderabad",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-07",
+    "time": "17:38",
+    "location": "Hyderabad",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "09:05",
+    "location": "Hyderabad",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "05:30",
+    "location": "Hyderabad Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0015",
+  "orderId": "EV-120",
+  "orderRef": "EV-120",
+  "channel": "Events",
+  "provider": "Delhivery",
+  "awb": "4270503483712",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-11-03",
+  "expectedBy": "2026-11-09",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-09",
+  "lastScan": {
+   "date": "2026-11-09",
+   "time": "17:23",
+   "location": "Mumbai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-09",
+    "time": "17:23",
+    "location": "Mumbai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "09:05",
+    "location": "Mumbai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "05:30",
+    "location": "Bhiwandi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0016",
+  "orderId": "SH-4278",
+  "orderRef": "SH-4278",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "3888543370645",
+  "destination": "Chandigarh",
+  "market": "Domestic",
+  "shippedOn": "2026-11-01",
+  "expectedBy": "2026-11-07",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-07",
+  "lastScan": {
+   "date": "2026-11-07",
+   "time": "15:56",
+   "location": "Chandigarh",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-07",
+    "time": "15:56",
+    "location": "Chandigarh",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "09:05",
+    "location": "Chandigarh",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-06",
+    "time": "05:30",
+    "location": "Chandigarh Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0017",
+  "orderId": "SH-4279",
+  "orderRef": "SH-4279",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "87216984798",
+  "destination": "Chandigarh",
+  "market": "Domestic",
+  "shippedOn": "2026-10-31",
+  "expectedBy": "2026-11-04",
+  "status": "In transit",
+  "deliveredOn": null,
+  "lastScan": {
+   "date": "2026-11-01",
+   "time": "06:15",
+   "location": "Nagpur Hub",
+   "text": "Arrived at transit hub"
+  },
+  "events": [
+   {
+    "date": "2026-11-01",
+    "time": "06:15",
+    "location": "Nagpur Hub",
+    "text": "Arrived at transit hub"
+   },
+   {
+    "date": "2026-10-31",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-31",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0018",
+  "orderId": "SH-4280",
+  "orderRef": "SH-4280",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "1835108884377",
+  "destination": "Lucknow",
+  "market": "Domestic",
+  "shippedOn": "2026-10-31",
+  "expectedBy": "2026-11-03",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-03",
+  "lastScan": {
+   "date": "2026-11-03",
+   "time": "14:29",
+   "location": "Lucknow",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-03",
+    "time": "14:29",
+    "location": "Lucknow",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "09:05",
+    "location": "Lucknow",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "05:30",
+    "location": "Lucknow Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-31",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-31",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0019",
+  "orderId": "SH-4271",
+  "orderRef": "SH-4271",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "83252880262",
+  "destination": "Lucknow",
+  "market": "Domestic",
+  "shippedOn": "2026-10-30",
+  "expectedBy": "2026-11-03",
+  "status": "Delivered",
+  "deliveredOn": "2026-11-03",
+  "lastScan": {
+   "date": "2026-11-03",
+   "time": "14:29",
+   "location": "Lucknow",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-11-03",
+    "time": "14:29",
+    "location": "Lucknow",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "09:05",
+    "location": "Lucknow",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "05:30",
+    "location": "Lucknow Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-30",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-30",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0020",
+  "orderId": "CON-102",
+  "orderRef": "CON-102",
+  "channel": "Consignment",
+  "provider": "Blue Dart",
+  "awb": "78329516392",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-10-28",
+  "expectedBy": "2026-10-31",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-31",
+  "lastScan": {
+   "date": "2026-10-31",
+   "time": "14:27",
+   "location": "Mumbai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-31",
+    "time": "14:27",
+    "location": "Mumbai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-31",
+    "time": "09:05",
+    "location": "Mumbai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-30",
+    "time": "05:30",
+    "location": "Bhiwandi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0021",
+  "orderId": "WHO-103",
+  "orderRef": "WHO-103",
+  "channel": "Wholesale",
+  "provider": "Blue Dart",
+  "awb": "75066869702",
+  "destination": "Bengaluru",
+  "market": "Domestic",
+  "shippedOn": "2026-10-25",
+  "expectedBy": "2026-10-28",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-28",
+  "lastScan": {
+   "date": "2026-10-28",
+   "time": "18:44",
+   "location": "Bengaluru",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-28",
+    "time": "18:44",
+    "location": "Bengaluru",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "09:05",
+    "location": "Bengaluru",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-27",
+    "time": "05:30",
+    "location": "Bengaluru Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0022",
+  "orderId": "SH-4269",
+  "orderRef": "SH-4269",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "85659057490",
+  "destination": "Kolkata",
+  "market": "Domestic",
+  "shippedOn": "2026-10-25",
+  "expectedBy": "2026-10-27",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-27",
+  "lastScan": {
+   "date": "2026-10-27",
+   "time": "13:47",
+   "location": "Kolkata",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-27",
+    "time": "13:47",
+    "location": "Kolkata",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-27",
+    "time": "09:05",
+    "location": "Kolkata",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "05:30",
+    "location": "Kolkata Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0023",
+  "orderId": "SH-4272",
+  "orderRef": "SH-4272",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "87476192507",
+  "destination": "Chennai",
+  "market": "Domestic",
+  "shippedOn": "2026-10-24",
+  "expectedBy": "2026-10-28",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-28",
+  "lastScan": {
+   "date": "2026-10-28",
+   "time": "17:46",
+   "location": "Chennai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-28",
+    "time": "17:46",
+    "location": "Chennai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "09:05",
+    "location": "Chennai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-27",
+    "time": "05:30",
+    "location": "Chennai Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0024",
+  "orderId": "OF-308",
+  "orderRef": "OF-308",
+  "channel": "Offline",
+  "provider": "Blue Dart",
+  "awb": "91275863235",
+  "destination": "Jaipur",
+  "market": "Domestic",
+  "shippedOn": "2026-10-24",
+  "expectedBy": "2026-10-27",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-27",
+  "lastScan": {
+   "date": "2026-10-27",
+   "time": "11:07",
+   "location": "Jaipur",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-27",
+    "time": "11:07",
+    "location": "Jaipur",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-27",
+    "time": "09:05",
+    "location": "Jaipur",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "05:30",
+    "location": "Jaipur Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0025",
+  "orderId": "OF-306",
+  "orderRef": "OF-306",
+  "channel": "Offline",
+  "provider": "Blue Dart",
+  "awb": "74465930577",
+  "destination": "Jaipur",
+  "market": "Domestic",
+  "shippedOn": "2026-10-23",
+  "expectedBy": "2026-10-26",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-26",
+  "lastScan": {
+   "date": "2026-10-26",
+   "time": "17:46",
+   "location": "Jaipur",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-26",
+    "time": "17:46",
+    "location": "Jaipur",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "09:05",
+    "location": "Jaipur",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "05:30",
+    "location": "Jaipur Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0026",
+  "orderId": "SH-4275",
+  "orderRef": "SH-4275",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "74242763374",
+  "destination": "Lucknow",
+  "market": "Domestic",
+  "shippedOn": "2026-10-23",
+  "expectedBy": "2026-10-26",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-26",
+  "lastScan": {
+   "date": "2026-10-26",
+   "time": "18:49",
+   "location": "Lucknow",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-26",
+    "time": "18:49",
+    "location": "Lucknow",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "09:05",
+    "location": "Lucknow",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "05:30",
+    "location": "Lucknow Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0027",
+  "orderId": "SH-4302",
+  "orderRef": "SH-4302",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "8387035168",
+  "destination": "London",
+  "market": "International",
+  "shippedOn": "2026-10-22",
+  "expectedBy": "2026-10-28",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-28",
+  "lastScan": {
+   "date": "2026-10-28",
+   "time": "17:06",
+   "location": "London",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-28",
+    "time": "17:06",
+    "location": "London",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "09:05",
+    "location": "London",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-27",
+    "time": "05:30",
+    "location": "London East Midlands",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-22",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-22",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0028",
+  "orderId": "SH-4308",
+  "orderRef": "SH-4308",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "99857484612",
+  "destination": "Chennai",
+  "market": "Domestic",
+  "shippedOn": "2026-10-22",
+  "expectedBy": "2026-10-25",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-25",
+  "lastScan": {
+   "date": "2026-10-25",
+   "time": "16:19",
+   "location": "Chennai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-25",
+    "time": "16:19",
+    "location": "Chennai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "09:05",
+    "location": "Chennai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "05:30",
+    "location": "Chennai Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-22",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-22",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0029",
+  "orderId": "SH-4270",
+  "orderRef": "SH-4270",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "76000488597",
+  "destination": "Chandigarh",
+  "market": "Domestic",
+  "shippedOn": "2026-10-21",
+  "expectedBy": "2026-10-23",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-23",
+  "lastScan": {
+   "date": "2026-10-23",
+   "time": "19:39",
+   "location": "Chandigarh",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-23",
+    "time": "19:39",
+    "location": "Chandigarh",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "09:05",
+    "location": "Chandigarh",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-22",
+    "time": "05:30",
+    "location": "Chandigarh Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0030",
+  "orderId": "SH-4274",
+  "orderRef": "SH-4274",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "5685135709587",
+  "destination": "Bengaluru",
+  "market": "Domestic",
+  "shippedOn": "2026-10-21",
+  "expectedBy": "2026-10-24",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-24",
+  "lastScan": {
+   "date": "2026-10-24",
+   "time": "16:23",
+   "location": "Bengaluru",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-24",
+    "time": "16:23",
+    "location": "Bengaluru",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "09:05",
+    "location": "Bengaluru",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "05:30",
+    "location": "Bengaluru Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0031",
+  "orderId": "SH-4300",
+  "orderRef": "SH-4300",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "1009173787664",
+  "destination": "Gurugram",
+  "market": "Domestic",
+  "shippedOn": "2026-10-21",
+  "expectedBy": "2026-10-25",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-25",
+  "lastScan": {
+   "date": "2026-10-25",
+   "time": "19:53",
+   "location": "Gurugram",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-25",
+    "time": "19:53",
+    "location": "Gurugram",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "09:05",
+    "location": "Gurugram",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "05:30",
+    "location": "Gurugram Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0032",
+  "orderId": "SH-4266",
+  "orderRef": "SH-4266",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "87973924368",
+  "destination": "Chennai",
+  "market": "Domestic",
+  "shippedOn": "2026-10-20",
+  "expectedBy": "2026-10-24",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-24",
+  "lastScan": {
+   "date": "2026-10-24",
+   "time": "11:45",
+   "location": "Chennai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-24",
+    "time": "11:45",
+    "location": "Chennai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "09:05",
+    "location": "Chennai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "05:30",
+    "location": "Chennai Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0033",
+  "orderId": "SH-4267",
+  "orderRef": "SH-4267",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "7421833631815",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-20",
+  "expectedBy": "2026-10-25",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-25",
+  "lastScan": {
+   "date": "2026-10-25",
+   "time": "12:12",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-25",
+    "time": "12:12",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0034",
+  "orderId": "SH-4268",
+  "orderRef": "SH-4268",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "5103437345",
+  "destination": "London",
+  "market": "International",
+  "shippedOn": "2026-10-20",
+  "expectedBy": "2026-10-26",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-26",
+  "lastScan": {
+   "date": "2026-10-26",
+   "time": "19:19",
+   "location": "London",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-26",
+    "time": "19:19",
+    "location": "London",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "09:05",
+    "location": "London",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "05:30",
+    "location": "London East Midlands",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0035",
+  "orderId": "SH-4264",
+  "orderRef": "SH-4264",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "81401579078",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-10-16",
+  "expectedBy": "2026-10-20",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-20",
+  "lastScan": {
+   "date": "2026-10-20",
+   "time": "14:38",
+   "location": "Mumbai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-20",
+    "time": "14:38",
+    "location": "Mumbai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "09:05",
+    "location": "Mumbai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-19",
+    "time": "05:30",
+    "location": "Bhiwandi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0036",
+  "orderId": "OF-305",
+  "orderRef": "OF-305",
+  "channel": "Offline",
+  "provider": "Delhivery",
+  "awb": "8732139077037",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-14",
+  "expectedBy": "2026-10-17",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-17",
+  "lastScan": {
+   "date": "2026-10-17",
+   "time": "17:54",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-17",
+    "time": "17:54",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-17",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0037",
+  "orderId": "SH-4261",
+  "orderRef": "SH-4261",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "86264516497",
+  "destination": "Ahmedabad",
+  "market": "Domestic",
+  "shippedOn": "2026-10-13",
+  "expectedBy": "2026-10-16",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-16",
+  "lastScan": {
+   "date": "2026-10-16",
+   "time": "17:43",
+   "location": "Ahmedabad",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-16",
+    "time": "17:43",
+    "location": "Ahmedabad",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "09:05",
+    "location": "Ahmedabad",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-15",
+    "time": "05:30",
+    "location": "Ahmedabad Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0038",
+  "orderId": "WHO-102",
+  "orderRef": "WHO-102",
+  "channel": "Wholesale",
+  "provider": "Delhivery",
+  "awb": "9521302948938",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-11",
+  "expectedBy": "2026-10-16",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-16",
+  "lastScan": {
+   "date": "2026-10-16",
+   "time": "15:09",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-16",
+    "time": "15:09",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-15",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0039",
+  "orderId": "SH-4265",
+  "orderRef": "SH-4265",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "89867939963",
+  "destination": "Jaipur",
+  "market": "Domestic",
+  "shippedOn": "2026-10-11",
+  "expectedBy": "2026-10-13",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-13",
+  "lastScan": {
+   "date": "2026-10-13",
+   "time": "14:53",
+   "location": "Jaipur",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-13",
+    "time": "14:53",
+    "location": "Jaipur",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "09:05",
+    "location": "Jaipur",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-12",
+    "time": "05:30",
+    "location": "Jaipur Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0040",
+  "orderId": "SH-4259",
+  "orderRef": "SH-4259",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "6224670032",
+  "destination": "London",
+  "market": "International",
+  "shippedOn": "2026-10-10",
+  "expectedBy": "2026-10-16",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-16",
+  "lastScan": {
+   "date": "2026-10-16",
+   "time": "16:44",
+   "location": "London",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-16",
+    "time": "16:44",
+    "location": "London",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "09:05",
+    "location": "London",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-15",
+    "time": "05:30",
+    "location": "London East Midlands",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0041",
+  "orderId": "OF-304",
+  "orderRef": "OF-304",
+  "channel": "Offline",
+  "provider": "Blue Dart",
+  "awb": "87393946273",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-10",
+  "expectedBy": "2026-10-14",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-14",
+  "lastScan": {
+   "date": "2026-10-14",
+   "time": "15:22",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-14",
+    "time": "15:22",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0042",
+  "orderId": "SH-4263",
+  "orderRef": "SH-4263",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "4300851775566",
+  "destination": "Jaipur",
+  "market": "Domestic",
+  "shippedOn": "2026-10-10",
+  "expectedBy": "2026-10-16",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-16",
+  "lastScan": {
+   "date": "2026-10-16",
+   "time": "12:20",
+   "location": "Jaipur",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-16",
+    "time": "12:20",
+    "location": "Jaipur",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "09:05",
+    "location": "Jaipur",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-15",
+    "time": "05:30",
+    "location": "Jaipur Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0043",
+  "orderId": "EV-107",
+  "orderRef": "EV-107",
+  "channel": "Events",
+  "provider": "Delhivery",
+  "awb": "4662162525346",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-09",
+  "expectedBy": "2026-10-15",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-15",
+  "lastScan": {
+   "date": "2026-10-15",
+   "time": "12:19",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-15",
+    "time": "12:19",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-15",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0044",
+  "orderId": "OF-307",
+  "orderRef": "OF-307",
+  "channel": "Offline",
+  "provider": "Delhivery",
+  "awb": "2526786958100",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-09",
+  "expectedBy": "2026-10-14",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-14",
+  "lastScan": {
+   "date": "2026-10-14",
+   "time": "16:07",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-14",
+    "time": "16:07",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0045",
+  "orderId": "SH-4257",
+  "orderRef": "SH-4257",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "6793314480",
+  "destination": "Dubai",
+  "market": "International",
+  "shippedOn": "2026-10-08",
+  "expectedBy": "2026-10-13",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-13",
+  "lastScan": {
+   "date": "2026-10-13",
+   "time": "18:42",
+   "location": "Dubai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-13",
+    "time": "18:42",
+    "location": "Dubai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "09:05",
+    "location": "Dubai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-12",
+    "time": "05:30",
+    "location": "Dubai DXB",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0046",
+  "orderId": "EV-106",
+  "orderRef": "EV-106",
+  "channel": "Events",
+  "provider": "Delhivery",
+  "awb": "6739229825325",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-10-08",
+  "expectedBy": "2026-10-13",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-13",
+  "lastScan": {
+   "date": "2026-10-13",
+   "time": "16:20",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-13",
+    "time": "16:20",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-12",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0047",
+  "orderId": "SH-4258",
+  "orderRef": "SH-4258",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "81607116269",
+  "destination": "Kolkata",
+  "market": "Domestic",
+  "shippedOn": "2026-10-08",
+  "expectedBy": "2026-10-11",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-11",
+  "lastScan": {
+   "date": "2026-10-11",
+   "time": "13:03",
+   "location": "Kolkata",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-11",
+    "time": "13:03",
+    "location": "Kolkata",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "09:05",
+    "location": "Kolkata",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "05:30",
+    "location": "Kolkata Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0048",
+  "orderId": "CON-112",
+  "orderRef": "CON-112",
+  "channel": "Consignment",
+  "provider": "Blue Dart",
+  "awb": "98152333345",
+  "destination": "Hyderabad",
+  "market": "Domestic",
+  "shippedOn": "2026-10-07",
+  "expectedBy": "2026-10-11",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-11",
+  "lastScan": {
+   "date": "2026-10-11",
+   "time": "11:36",
+   "location": "Hyderabad",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-11",
+    "time": "11:36",
+    "location": "Hyderabad",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "09:05",
+    "location": "Hyderabad",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "05:30",
+    "location": "Hyderabad Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0049",
+  "orderId": "SH-4252",
+  "orderRef": "SH-4252",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "97207928213",
+  "destination": "Lucknow",
+  "market": "Domestic",
+  "shippedOn": "2026-10-07",
+  "expectedBy": "2026-10-11",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-11",
+  "lastScan": {
+   "date": "2026-10-11",
+   "time": "17:22",
+   "location": "Lucknow",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-11",
+    "time": "17:22",
+    "location": "Lucknow",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "09:05",
+    "location": "Lucknow",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "05:30",
+    "location": "Lucknow Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0050",
+  "orderId": "SH-4253",
+  "orderRef": "SH-4253",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "4039945308",
+  "destination": "Singapore",
+  "market": "International",
+  "shippedOn": "2026-10-07",
+  "expectedBy": "2026-10-14",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-14",
+  "lastScan": {
+   "date": "2026-10-14",
+   "time": "12:00",
+   "location": "Singapore",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-14",
+    "time": "12:00",
+    "location": "Singapore",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "09:05",
+    "location": "Singapore",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "05:30",
+    "location": "Singapore Changi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0051",
+  "orderId": "SH-4260",
+  "orderRef": "SH-4260",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "78483218951",
+  "destination": "Pune",
+  "market": "Domestic",
+  "shippedOn": "2026-10-07",
+  "expectedBy": "2026-10-10",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-10",
+  "lastScan": {
+   "date": "2026-10-10",
+   "time": "15:08",
+   "location": "Pune",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-10",
+    "time": "15:08",
+    "location": "Pune",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "09:05",
+    "location": "Pune",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "05:30",
+    "location": "Pune Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0052",
+  "orderId": "SH-4262",
+  "orderRef": "SH-4262",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "77383106416",
+  "destination": "Lucknow",
+  "market": "Domestic",
+  "shippedOn": "2026-10-07",
+  "expectedBy": "2026-10-11",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-11",
+  "lastScan": {
+   "date": "2026-10-11",
+   "time": "14:02",
+   "location": "Lucknow",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-11",
+    "time": "14:02",
+    "location": "Lucknow",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-11",
+    "time": "09:05",
+    "location": "Lucknow",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-10",
+    "time": "05:30",
+    "location": "Lucknow Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0053",
+  "orderId": "SH-4250",
+  "orderRef": "SH-4250",
+  "channel": "Shopify",
+  "provider": "Delhivery",
+  "awb": "6731319177895",
+  "destination": "Jaipur",
+  "market": "Domestic",
+  "shippedOn": "2026-10-05",
+  "expectedBy": "2026-10-09",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-09",
+  "lastScan": {
+   "date": "2026-10-09",
+   "time": "13:52",
+   "location": "Jaipur",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-09",
+    "time": "13:52",
+    "location": "Jaipur",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "09:05",
+    "location": "Jaipur",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "05:30",
+    "location": "Jaipur Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0054",
+  "orderId": "SH-4256",
+  "orderRef": "SH-4256",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "96829575486",
+  "destination": "Bengaluru",
+  "market": "Domestic",
+  "shippedOn": "2026-10-05",
+  "expectedBy": "2026-10-07",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-07",
+  "lastScan": {
+   "date": "2026-10-07",
+   "time": "14:08",
+   "location": "Bengaluru",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-07",
+    "time": "14:08",
+    "location": "Bengaluru",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "09:05",
+    "location": "Bengaluru",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "05:30",
+    "location": "Bengaluru Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0055",
+  "orderId": "SH-4255",
+  "orderRef": "SH-4255",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "3834446584",
+  "destination": "Singapore",
+  "market": "International",
+  "shippedOn": "2026-10-04",
+  "expectedBy": "2026-10-09",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-09",
+  "lastScan": {
+   "date": "2026-10-09",
+   "time": "18:46",
+   "location": "Singapore",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-09",
+    "time": "18:46",
+    "location": "Singapore",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "09:05",
+    "location": "Singapore",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-08",
+    "time": "05:30",
+    "location": "Singapore Changi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0056",
+  "orderId": "SH-4251",
+  "orderRef": "SH-4251",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "94062010913",
+  "destination": "Gurugram",
+  "market": "Domestic",
+  "shippedOn": "2026-10-03",
+  "expectedBy": "2026-10-05",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-05",
+  "lastScan": {
+   "date": "2026-10-05",
+   "time": "17:07",
+   "location": "Gurugram",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-05",
+    "time": "17:07",
+    "location": "Gurugram",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "09:05",
+    "location": "Gurugram",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "05:30",
+    "location": "Gurugram Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0057",
+  "orderId": "SH-4254",
+  "orderRef": "SH-4254",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "99575830535",
+  "destination": "Kolkata",
+  "market": "Domestic",
+  "shippedOn": "2026-10-02",
+  "expectedBy": "2026-10-06",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-06",
+  "lastScan": {
+   "date": "2026-10-06",
+   "time": "16:52",
+   "location": "Kolkata",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-06",
+    "time": "16:52",
+    "location": "Kolkata",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "09:05",
+    "location": "Kolkata",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "05:30",
+    "location": "Kolkata Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0058",
+  "orderId": "SH-4249",
+  "orderRef": "SH-4249",
+  "channel": "Shopify",
+  "provider": "Blue Dart",
+  "awb": "85675034367",
+  "destination": "Chennai",
+  "market": "Domestic",
+  "shippedOn": "2026-09-28",
+  "expectedBy": "2026-10-02",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-02",
+  "lastScan": {
+   "date": "2026-10-02",
+   "time": "17:15",
+   "location": "Chennai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-02",
+    "time": "17:15",
+    "location": "Chennai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "09:05",
+    "location": "Chennai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "05:30",
+    "location": "Chennai Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0059",
+  "orderId": "SH-4273",
+  "orderRef": "SH-4273",
+  "channel": "Shopify",
+  "provider": "DHL Express",
+  "awb": "9237857028",
+  "destination": "London",
+  "market": "International",
+  "shippedOn": "2026-09-28",
+  "expectedBy": "2026-10-02",
+  "status": "Delivered",
+  "deliveredOn": "2026-10-02",
+  "lastScan": {
+   "date": "2026-10-02",
+   "time": "17:47",
+   "location": "London",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-10-02",
+    "time": "17:47",
+    "location": "London",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "09:05",
+    "location": "London",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "05:30",
+    "location": "London East Midlands",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Synced"
+ },
+ {
+  "id": "SHP-0060",
+  "orderId": "CON-101",
+  "orderRef": "CON-101",
+  "channel": "Consignment",
+  "provider": "Blue Dart",
+  "awb": "96317430048",
+  "destination": "Mumbai",
+  "market": "Domestic",
+  "shippedOn": "2026-09-03",
+  "expectedBy": "2026-09-06",
+  "status": "Delivered",
+  "deliveredOn": "2026-09-06",
+  "lastScan": {
+   "date": "2026-09-06",
+   "time": "18:49",
+   "location": "Mumbai",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-09-06",
+    "time": "18:49",
+    "location": "Mumbai",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-09-06",
+    "time": "09:05",
+    "location": "Mumbai",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-09-05",
+    "time": "05:30",
+    "location": "Bhiwandi",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-09-03",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-09-03",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0061",
+  "orderId": "CON-107",
+  "orderRef": "CON-107",
+  "channel": "Consignment",
+  "provider": "Blue Dart",
+  "awb": "71087898830",
+  "destination": "Bengaluru",
+  "market": "Domestic",
+  "shippedOn": "2026-08-30",
+  "expectedBy": "2026-09-02",
+  "status": "Delivered",
+  "deliveredOn": "2026-09-02",
+  "lastScan": {
+   "date": "2026-09-02",
+   "time": "18:49",
+   "location": "Bengaluru",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-09-02",
+    "time": "18:49",
+    "location": "Bengaluru",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-09-02",
+    "time": "09:05",
+    "location": "Bengaluru",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-09-01",
+    "time": "05:30",
+    "location": "Bengaluru Hub",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-08-30",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-08-30",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0062",
+  "orderId": "CON-105",
+  "orderRef": "CON-105",
+  "channel": "Consignment",
+  "provider": "Delhivery",
+  "awb": "1995090425014",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-08-29",
+  "expectedBy": "2026-09-04",
+  "status": "Delivered",
+  "deliveredOn": "2026-09-04",
+  "lastScan": {
+   "date": "2026-09-04",
+   "time": "17:26",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-09-04",
+    "time": "17:26",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-09-04",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-09-03",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-08-29",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-08-29",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ },
+ {
+  "id": "SHP-0063",
+  "orderId": "CON-104",
+  "orderRef": "CON-104",
+  "channel": "Consignment",
+  "provider": "Delhivery",
+  "awb": "5994291996816",
+  "destination": "New Delhi",
+  "market": "Domestic",
+  "shippedOn": "2026-08-20",
+  "expectedBy": "2026-08-25",
+  "status": "Delivered",
+  "deliveredOn": "2026-08-25",
+  "lastScan": {
+   "date": "2026-08-25",
+   "time": "11:03",
+   "location": "New Delhi",
+   "text": "Delivered"
+  },
+  "events": [
+   {
+    "date": "2026-08-25",
+    "time": "11:03",
+    "location": "New Delhi",
+    "text": "Delivered"
+   },
+   {
+    "date": "2026-08-25",
+    "time": "09:05",
+    "location": "New Delhi",
+    "text": "Out for delivery"
+   },
+   {
+    "date": "2026-08-24",
+    "time": "05:30",
+    "location": "Delhi Gateway",
+    "text": "Arrived at destination hub"
+   },
+   {
+    "date": "2026-08-20",
+    "time": "22:10",
+    "location": "Jaipur Hub",
+    "text": "In transit"
+   },
+   {
+    "date": "2026-08-20",
+    "time": "17:40",
+    "location": "Jaipur",
+    "text": "Picked up from Ode To Odd studio"
+   }
+  ],
+  "shopifySync": "Not applicable"
+ }
+]

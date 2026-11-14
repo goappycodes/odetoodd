@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { AddonBanner, Card, KeyValues, PageHeader, SimpleTable, Stat, StatusBadge, ProductThumb, Badge } from "@/components/ui";
+import { Send } from "lucide-react";
+import { AddonBanner, Card, KeyValues, PageHeader, SimpleTable, Stat, StatusBadge, ProductThumb, Badge, Button } from "@/components/ui";
 import { HBars } from "@/components/charts";
-import { stores, getStore, consignmentStock, consignmentReports, getProduct, inr, fmtDate, num } from "@/lib/data";
+import { stores, getStore, consignmentStock, consignmentReports, challans, shipmentForOrder, getProduct, inr, fmtDate, num } from "@/lib/data";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -17,11 +18,17 @@ export default async function StorePage({ params }: { params: Promise<{ id: stri
   const sold = items.reduce((a, x) => a + x.c.sold, 0);
   const rem = items.reduce((a, x) => a + x.c.remaining, 0);
   const slow = items.filter((x) => x.c.sold === 0 && x.c.remaining > 0);
+  const storeChallans = challans.filter((c) => c.storeId === id);
 
   return (
     <>
-      <PageHeader back={{ href: "/addons/consignment", label: "Consignment" }} title={s.name} subtitle={`${s.city} · ${s.terms}`} />
-      <AddonBanner title="Consignment management" price="₹50,000">Part of the consignment add-on.</AddonBanner>
+      <PageHeader
+        back={{ href: "/addons/consignment", label: "Consignment" }}
+        title={s.name}
+        subtitle={`${s.city} · ${s.terms}`}
+        actions={<Button href="/addons/consignment/challans/new"><Send className="size-4" />Send stock</Button>}
+      />
+      <AddonBanner title="Consignment management" price="₹20,000">Part of the consignment add-on.</AddonBanner>
       <div className="mb-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Stat label="Pieces sent" value={sent} />
         <Stat label="Sold" value={sold} hint={`${Math.round((sold / sent) * 100)}% sell-through`} />
@@ -49,6 +56,22 @@ export default async function StorePage({ params }: { params: Promise<{ id: stri
           </Card>
         </div>
       </div>
+      <Card title="Challans to this store" className="mt-6" pad={false}>
+        <SimpleTable
+          head={["Challan", "Date", "Pieces", "Value at MRP", "Status", "Transport"]}
+          align={["left", "left", "right", "right", "left", "left"]}
+          rows={storeChallans.map((c) => {
+            const sh = shipmentForOrder(c.orderId);
+            return [
+              <Link key="c" href={`/addons/consignment/challans/${c.id}`} className="font-medium hover:underline">{c.id}</Link>,
+              fmtDate(c.date), c.totalQty, inr(c.value), <StatusBadge key="s" status={c.status} />,
+              c.transport.mode === "Hand delivery" ? <span key="t" className="text-muted">Hand delivery</span>
+                : sh ? <Link key="t" href={`/addons/shipments/${sh.id}`} className="hover:underline">{sh.provider} {sh.awb}</Link>
+                : <span key="t" className="text-muted">AWB not added yet</span>,
+            ];
+          })}
+        />
+      </Card>
       <Card title="Weekly sales reports" className="mt-6" pad={false}>
         <SimpleTable
           head={["Week ending", "File", "Uploaded", "Units sold", "Value", "Status", "Issues"]}

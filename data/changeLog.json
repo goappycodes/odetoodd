@@ -1,5 +1,17 @@
 [
  {
+  "time": "2026-11-11 10:20",
+  "user": "Owner",
+  "action": "Changed low-stock level",
+  "detail": "Shirts: minimum ready pieces per style 2 to 3"
+ },
+ {
+  "time": "2026-11-11 09:15",
+  "user": "Simran Kaur",
+  "action": "Marked order as custom",
+  "detail": "SH-4355: 10% custom markup applied"
+ },
+ {
   "time": "2026-11-11 10:02",
   "user": "Rohit Saini",
   "action": "Updated minimum level",
@@ -9,7 +21,7 @@
   "time": "2026-11-11 09:31",
   "user": "Anjali Rathore",
   "action": "Reassigned stage",
-  "detail": "PO-0198: Embroidery moved to Nizam Embroidery Unit"
+  "detail": "PO-0202: Embroidery moved to Nizam Embroidery Unit"
  },
  {
   "time": "2026-11-10 17:45",
@@ -27,7 +39,7 @@
   "time": "2026-11-09 12:05",
   "user": "Simran Kaur",
   "action": "Edited order due date",
-  "detail": "WH-105: due date moved by 5 days at buyer request"
+  "detail": "WHO-105: due date moved by 5 days at buyer request"
  },
  {
   "time": "2026-11-08 11:40",

@@ -33,7 +33,7 @@ export default function Reconcile() {
   return (
     <>
       <PageHeader back={{ href: "/addons/consignment", label: "Consignment" }} title="Weekly sales reports" subtitle="Upload a store's weekly sales report. Sales are matched against the store's stock and anything that doesn't add up is flagged." />
-      <AddonBanner title="Consignment management" price="₹50,000">Part of the consignment add-on.</AddonBanner>
+      <AddonBanner title="Consignment management" price="₹20,000">Part of the consignment add-on.</AddonBanner>
       <Card className="mb-6">
         <div className="flex flex-wrap items-end gap-3">
           <label className="text-sm">

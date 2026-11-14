@@ -28,8 +28,12 @@
    "XL": 1,
    "XXL": 2
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 800,
+  "sampleStock": {
+   "S": 1
+  }
  },
  {
   "id": "sk1504-ow",
@@ -60,8 +64,12 @@
    "XL": 1,
    "XXL": 1
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {
+   "S": 2
+  }
  },
  {
   "id": "ja1503-bl",
@@ -93,7 +101,11 @@
    "XXL": 0
   },
   "minStock": 0,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 500,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "ja1502-nb",
@@ -125,7 +137,11 @@
    "XXL": 0
   },
   "minStock": 0,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 500,
+  "sampleStock": {
+   "S": 2
+  }
  },
  {
   "id": "tp1508-w",
@@ -145,8 +161,12 @@
   "stock": {
    "Free size": 4
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 240,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "sk1502-bl",
@@ -177,8 +197,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 325,
+  "sampleStock": {}
  },
  {
   "id": "tp1510-eb",
@@ -198,8 +220,12 @@
   "stock": {
    "Free size": 1
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 415,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "tp1506-ow",
@@ -219,8 +245,12 @@
   "stock": {
    "Free size": 0
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 380,
+  "sampleStock": {
+   "Free size": 2
+  }
  },
  {
   "id": "tp1502-ow",
@@ -240,8 +270,10 @@
   "stock": {
    "Free size": 3
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {}
  },
  {
   "id": "st1503-bl",
@@ -262,7 +294,11 @@
    "Free size": 5
   },
   "minStock": 2,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 600,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "tp1515-bl",
@@ -293,8 +329,12 @@
    "XL": 0,
    "XXL": 1
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 380,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "tp1513-bl",
@@ -314,8 +354,12 @@
   "stock": {
    "Free size": 1
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "Free size": 2
+  }
  },
  {
   "id": "tp1511-r",
@@ -335,8 +379,10 @@
   "stock": {
    "Free size": 4
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 455,
+  "sampleStock": {}
  },
  {
   "id": "tp1509-bl",
@@ -356,8 +402,12 @@
   "stock": {
    "Free size": 1
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 415,
+  "sampleStock": {
+   "Free size": 2
+  }
  },
  {
   "id": "tp1507-bl",
@@ -377,8 +427,10 @@
   "stock": {
    "Free size": 5
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 455,
+  "sampleStock": {}
  },
  {
   "id": "tp1504-rp",
@@ -398,8 +450,10 @@
   "stock": {
    "Free size": 1
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 325,
+  "sampleStock": {}
  },
  {
   "id": "tp1501-eb",
@@ -419,8 +473,12 @@
   "stock": {
    "Free size": 5
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "st1509-bl",
@@ -451,8 +509,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 700,
+  "sampleStock": {}
  },
  {
   "id": "st1504-r-rp-ow",
@@ -483,8 +543,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 445,
+  "sampleStock": {}
  },
  {
   "id": "st1502-r",
@@ -505,7 +567,11 @@
    "Free size": 1
   },
   "minStock": 2,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 445,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "st1501-r",
@@ -526,7 +592,11 @@
    "Free size": 1
   },
   "minStock": 2,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 500,
+  "sampleStock": {
+   "Free size": 2
+  }
  },
  {
   "id": "pa1502-bl",
@@ -558,7 +628,11 @@
    "XXL": 0
   },
   "minStock": 0,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 250,
+  "sampleStock": {
+   "M": 2
+  }
  },
  {
   "id": "pa1502-ow",
@@ -590,7 +664,11 @@
    "XXL": 0
   },
   "minStock": 0,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 270,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "sk1503-bp",
@@ -621,8 +699,12 @@
    "XL": 1,
    "XXL": 2
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "sk1501-eb",
@@ -653,8 +735,10 @@
    "XL": 0,
    "XXL": 2
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {}
  },
  {
   "id": "sk1501-rp",
@@ -685,8 +769,10 @@
    "XL": 1,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {}
  },
  {
   "id": "bi1501-r",
@@ -717,8 +803,12 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "S": 2
+  }
  },
  {
   "id": "tp1514-eb",
@@ -738,8 +828,12 @@
   "stock": {
    "Free size": 5
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 315,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "tp1505-r",
@@ -759,8 +853,12 @@
   "stock": {
    "Free size": 3
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 370,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "tp1503-ow",
@@ -780,8 +878,10 @@
   "stock": {
    "Free size": 5
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 325,
+  "sampleStock": {}
  },
  {
   "id": "tp1502-rp",
@@ -801,8 +901,12 @@
   "stock": {
    "Free size": 4
   },
-  "minStock": 2,
-  "status": "Active"
+  "minStock": 3,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "Free size": 1
+  }
  },
  {
   "id": "st1513-ow",
@@ -833,8 +937,12 @@
    "XL": 1,
    "XXL": 1
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 600,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "st1512-eb",
@@ -865,8 +973,12 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 570,
+  "sampleStock": {
+   "S": 1
+  }
  },
  {
   "id": "st1511-rp",
@@ -897,8 +1009,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 570,
+  "sampleStock": {}
  },
  {
   "id": "st1510-eb",
@@ -929,8 +1043,12 @@
    "XL": 2,
    "XXL": 2
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 570,
+  "sampleStock": {
+   "S": 1
+  }
  },
  {
   "id": "st1507-bl",
@@ -961,8 +1079,12 @@
    "XL": 1,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 725,
+  "sampleStock": {
+   "S": 1
+  }
  },
  {
   "id": "st1506-bp",
@@ -993,8 +1115,12 @@
    "XL": 2,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 800,
+  "sampleStock": {
+   "S": 1
+  }
  },
  {
   "id": "st1505-ow",
@@ -1025,8 +1151,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 2,
+  "status": "Active",
+  "priceIntl": 385,
+  "sampleStock": {}
  },
  {
   "id": "dr1501-bl",
@@ -1057,8 +1185,10 @@
    "XL": 2,
    "XXL": 2
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {}
  },
  {
   "id": "dr1501-eb",
@@ -1089,8 +1219,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {}
  },
  {
   "id": "dr1501-rp",
@@ -1121,8 +1253,12 @@
    "XL": 0,
    "XXL": 1
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 300,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "ja1501-bl",
@@ -1154,7 +1290,11 @@
    "XXL": 1
   },
   "minStock": 0,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 540,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "ja1501-bp",
@@ -1186,7 +1326,11 @@
    "XXL": 2
   },
   "minStock": 0,
-  "status": "Active"
+  "status": "Active",
+  "priceIntl": 540,
+  "sampleStock": {
+   "S": 1
+  }
  },
  {
   "id": "bi1504-ow",
@@ -1217,8 +1361,12 @@
    "XL": 1,
    "XXL": 2
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 255,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "bi1503-ow",
@@ -1249,8 +1397,10 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 325,
+  "sampleStock": {}
  },
  {
   "id": "bi1502-eb",
@@ -1281,8 +1431,12 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "bi1502-rp",
@@ -1313,8 +1467,12 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "M": 1
+  }
  },
  {
   "id": "bi1501-eb",
@@ -1345,7 +1503,11 @@
    "XL": 0,
    "XXL": 0
   },
-  "minStock": 0,
-  "status": "Active"
+  "minStock": 1,
+  "status": "Active",
+  "priceIntl": 340,
+  "sampleStock": {
+   "M": 1
+  }
  }
 ]

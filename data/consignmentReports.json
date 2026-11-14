@@ -7,23 +7,13 @@
   "file": "the-loom-store-week-2026-11-07.xlsx",
   "lines": [
    {
-    "productId": "bi1501-r",
+    "productId": "bi1501-eb",
     "reportedSold": 1,
     "price": 23900
-   },
-   {
-    "productId": "ja1501-bl",
-    "reportedSold": 1,
-    "price": 37900
-   },
-   {
-    "productId": "bi1503-ow",
-    "reportedSold": 1,
-    "price": 22900
    }
   ],
-  "unitsSold": 3,
-  "value": 84700,
+  "unitsSold": 1,
+  "value": 23900,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -31,27 +21,32 @@
   "id": "CR-ST02-2026-11-07",
   "storeId": "ST02",
   "weekEnding": "2026-11-07",
-  "uploadedOn": "2026-11-10",
+  "uploadedOn": "2026-11-09",
   "file": "atelier-nine-week-2026-11-07.xlsx",
   "lines": [
    {
-    "productId": "st1508-nb",
+    "productId": "sk1501-eb",
     "reportedSold": 1,
-    "price": 55900
+    "price": 20900
    },
    {
-    "productId": "tp1507-bl",
+    "productId": "st1502-r",
     "reportedSold": 1,
-    "price": 31900
+    "price": 31000
+   },
+   {
+    "productId": "tp1510-eb",
+    "reportedSold": 1,
+    "price": 28900
    }
   ],
-  "unitsSold": 2,
-  "value": 87800,
+  "unitsSold": 3,
+  "value": 80800,
   "status": "Needs review",
   "discrepancies": [
    {
-    "productId": "st1508-nb",
-    "issue": "Store reports 3 in stock, ERP shows 1",
+    "productId": "sk1503-bp",
+    "issue": "Store reports 5 in stock, ERP shows 3",
     "kind": "Count mismatch"
    },
    {
@@ -66,22 +61,22 @@
   "id": "CR-ST03-2026-11-07",
   "storeId": "ST03",
   "weekEnding": "2026-11-07",
-  "uploadedOn": "2026-11-08",
+  "uploadedOn": "2026-11-09",
   "file": "kora-concept-store-week-2026-11-07.xlsx",
   "lines": [
-   {
-    "productId": "st1512-eb",
-    "reportedSold": 1,
-    "price": 39900
-   },
    {
     "productId": "tp1506-ow",
     "reportedSold": 1,
     "price": 26500
+   },
+   {
+    "productId": "st1506-bp",
+    "reportedSold": 1,
+    "price": 55900
    }
   ],
   "unitsSold": 2,
-  "value": 66400,
+  "value": 82400,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -89,27 +84,17 @@
   "id": "CR-ST04-2026-11-07",
   "storeId": "ST04",
   "weekEnding": "2026-11-07",
-  "uploadedOn": "2026-11-09",
+  "uploadedOn": "2026-11-08",
   "file": "indigo-house-week-2026-11-07.xlsx",
   "lines": [
    {
-    "productId": "sk1504-ow",
+    "productId": "tp1514-eb",
     "reportedSold": 1,
-    "price": 20900
-   },
-   {
-    "productId": "tp1507-bl",
-    "reportedSold": 1,
-    "price": 31900
-   },
-   {
-    "productId": "tp1503-ow",
-    "reportedSold": 1,
-    "price": 22900
+    "price": 21900
    }
   ],
-  "unitsSold": 3,
-  "value": 75700,
+  "unitsSold": 1,
+  "value": 21900,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -121,23 +106,18 @@
   "file": "studio-saanjh-week-2026-11-07.xlsx",
   "lines": [
    {
-    "productId": "tp1505-r",
+    "productId": "ja1503-bl",
     "reportedSold": 1,
-    "price": 25900
-   },
-   {
-    "productId": "dr1501-rp",
-    "reportedSold": 1,
-    "price": 20900
+    "price": 34900
    }
   ],
-  "unitsSold": 2,
-  "value": 46800,
+  "unitsSold": 1,
+  "value": 34900,
   "status": "Needs review",
   "discrepancies": [
    {
-    "productId": "st1505-ow",
-    "issue": "Store reports 6 in stock, ERP shows 4",
+    "productId": "st1504-r-rp-ow",
+    "issue": "Store reports 3 in stock, ERP shows 1",
     "kind": "Count mismatch"
    }
   ]
@@ -146,46 +126,18 @@
   "id": "CR-ST01-2026-10-31",
   "storeId": "ST01",
   "weekEnding": "2026-10-31",
-  "uploadedOn": "2026-11-03",
+  "uploadedOn": "2026-11-02",
   "file": "the-loom-store-week-2026-10-31.xlsx",
   "lines": [
    {
-    "productId": "bi1503-ow",
+    "productId": "ja1501-bl",
+    "reportedSold": 1,
+    "price": 37900
+   },
+   {
+    "productId": "tp1503-ow",
     "reportedSold": 1,
     "price": 22900
-   }
-  ],
-  "unitsSold": 1,
-  "value": 22900,
-  "status": "Reconciled",
-  "discrepancies": []
- },
- {
-  "id": "CR-ST02-2026-10-31",
-  "storeId": "ST02",
-  "weekEnding": "2026-10-31",
-  "uploadedOn": "2026-11-03",
-  "file": "atelier-nine-week-2026-10-31.xlsx",
-  "lines": [
-   {
-    "productId": "st1508-nb",
-    "reportedSold": 1,
-    "price": 55900
-   },
-   {
-    "productId": "ja1502-nb",
-    "reportedSold": 1,
-    "price": 34900
-   },
-   {
-    "productId": "tp1509-bl",
-    "reportedSold": 1,
-    "price": 28900
-   },
-   {
-    "productId": "sk1501-rp",
-    "reportedSold": 1,
-    "price": 20900
    },
    {
     "productId": "bi1501-eb",
@@ -193,8 +145,36 @@
     "price": 23900
    }
   ],
-  "unitsSold": 5,
-  "value": 164500,
+  "unitsSold": 3,
+  "value": 84700,
+  "status": "Reconciled",
+  "discrepancies": []
+ },
+ {
+  "id": "CR-ST02-2026-10-31",
+  "storeId": "ST02",
+  "weekEnding": "2026-10-31",
+  "uploadedOn": "2026-11-01",
+  "file": "atelier-nine-week-2026-10-31.xlsx",
+  "lines": [
+   {
+    "productId": "sk1501-eb",
+    "reportedSold": 1,
+    "price": 20900
+   },
+   {
+    "productId": "st1502-r",
+    "reportedSold": 1,
+    "price": 31000
+   },
+   {
+    "productId": "st1511-rp",
+    "reportedSold": 1,
+    "price": 39900
+   }
+  ],
+  "unitsSold": 3,
+  "value": 91800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -204,20 +184,9 @@
   "weekEnding": "2026-10-31",
   "uploadedOn": "2026-11-02",
   "file": "kora-concept-store-week-2026-10-31.xlsx",
-  "lines": [
-   {
-    "productId": "st1512-eb",
-    "reportedSold": 1,
-    "price": 39900
-   },
-   {
-    "productId": "tp1506-ow",
-    "reportedSold": 1,
-    "price": 26500
-   }
-  ],
-  "unitsSold": 2,
-  "value": 66400,
+  "lines": [],
+  "unitsSold": 0,
+  "value": 0,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -225,32 +194,22 @@
   "id": "CR-ST04-2026-10-31",
   "storeId": "ST04",
   "weekEnding": "2026-10-31",
-  "uploadedOn": "2026-11-03",
+  "uploadedOn": "2026-11-02",
   "file": "indigo-house-week-2026-10-31.xlsx",
   "lines": [
    {
-    "productId": "tp1510-eb",
+    "productId": "dr1501-eb",
     "reportedSold": 1,
-    "price": 28900
+    "price": 20900
    },
    {
-    "productId": "bi1504-ow",
+    "productId": "bi1502-rp",
     "reportedSold": 1,
-    "price": 17900
-   },
-   {
-    "productId": "pa1502-ow",
-    "reportedSold": 1,
-    "price": 18900
-   },
-   {
-    "productId": "st1502-r",
-    "reportedSold": 1,
-    "price": 31000
+    "price": 23900
    }
   ],
-  "unitsSold": 4,
-  "value": 96700,
+  "unitsSold": 2,
+  "value": 44800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -260,25 +219,9 @@
   "weekEnding": "2026-10-31",
   "uploadedOn": "2026-11-03",
   "file": "studio-saanjh-week-2026-10-31.xlsx",
-  "lines": [
-   {
-    "productId": "st1512-eb",
-    "reportedSold": 1,
-    "price": 39900
-   },
-   {
-    "productId": "tp1507-bl",
-    "reportedSold": 1,
-    "price": 31900
-   },
-   {
-    "productId": "dr1501-rp",
-    "reportedSold": 1,
-    "price": 20900
-   }
-  ],
-  "unitsSold": 3,
-  "value": 92700,
+  "lines": [],
+  "unitsSold": 0,
+  "value": 0,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -286,22 +229,17 @@
   "id": "CR-ST01-2026-10-24",
   "storeId": "ST01",
   "weekEnding": "2026-10-24",
-  "uploadedOn": "2026-10-27",
+  "uploadedOn": "2026-10-25",
   "file": "the-loom-store-week-2026-10-24.xlsx",
   "lines": [
    {
-    "productId": "bi1501-r",
+    "productId": "ja1501-bl",
     "reportedSold": 1,
-    "price": 23900
-   },
-   {
-    "productId": "st1509-bl",
-    "reportedSold": 1,
-    "price": 48900
+    "price": 37900
    }
   ],
-  "unitsSold": 2,
-  "value": 72800,
+  "unitsSold": 1,
+  "value": 37900,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -313,18 +251,28 @@
   "file": "atelier-nine-week-2026-10-24.xlsx",
   "lines": [
    {
-    "productId": "bi1502-rp",
+    "productId": "sk1503-bp",
     "reportedSold": 1,
-    "price": 23900
+    "price": 20900
    },
    {
-    "productId": "tp1507-bl",
+    "productId": "sk1501-eb",
     "reportedSold": 1,
-    "price": 31900
+    "price": 20900
+   },
+   {
+    "productId": "st1502-r",
+    "reportedSold": 1,
+    "price": 31000
+   },
+   {
+    "productId": "dr1501-eb",
+    "reportedSold": 1,
+    "price": 20900
    }
   ],
-  "unitsSold": 2,
-  "value": 55800,
+  "unitsSold": 4,
+  "value": 93700,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -332,22 +280,22 @@
   "id": "CR-ST03-2026-10-24",
   "storeId": "ST03",
   "weekEnding": "2026-10-24",
-  "uploadedOn": "2026-10-27",
+  "uploadedOn": "2026-10-26",
   "file": "kora-concept-store-week-2026-10-24.xlsx",
   "lines": [
    {
-    "productId": "st1504-r-rp-ow",
+    "productId": "tp1506-ow",
     "reportedSold": 1,
-    "price": 31000
+    "price": 26500
    },
    {
-    "productId": "tp1501-eb",
+    "productId": "st1506-bp",
     "reportedSold": 1,
-    "price": 23900
+    "price": 55900
    }
   ],
   "unitsSold": 2,
-  "value": 54900,
+  "value": 82400,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -355,27 +303,27 @@
   "id": "CR-ST04-2026-10-24",
   "storeId": "ST04",
   "weekEnding": "2026-10-24",
-  "uploadedOn": "2026-10-26",
+  "uploadedOn": "2026-10-27",
   "file": "indigo-house-week-2026-10-24.xlsx",
   "lines": [
    {
-    "productId": "sk1504-ow",
+    "productId": "st1501-r",
     "reportedSold": 1,
-    "price": 20900
+    "price": 35000
    },
    {
-    "productId": "tp1510-eb",
+    "productId": "bi1502-rp",
     "reportedSold": 1,
-    "price": 28900
+    "price": 23900
    },
    {
-    "productId": "tp1503-ow",
+    "productId": "ja1503-bl",
     "reportedSold": 1,
-    "price": 22900
+    "price": 34900
    }
   ],
   "unitsSold": 3,
-  "value": 72700,
+  "value": 93800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -387,18 +335,18 @@
   "file": "studio-saanjh-week-2026-10-24.xlsx",
   "lines": [
    {
-    "productId": "sk1503-bp",
+    "productId": "st1506-bp",
     "reportedSold": 1,
-    "price": 20900
+    "price": 55900
    },
    {
-    "productId": "st1512-eb",
+    "productId": "tp1504-rp",
     "reportedSold": 1,
-    "price": 39900
+    "price": 22900
    }
   ],
   "unitsSold": 2,
-  "value": 60800,
+  "value": 78800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -406,41 +354,18 @@
   "id": "CR-ST01-2026-10-17",
   "storeId": "ST01",
   "weekEnding": "2026-10-17",
-  "uploadedOn": "2026-10-20",
+  "uploadedOn": "2026-10-19",
   "file": "the-loom-store-week-2026-10-17.xlsx",
   "lines": [
-   {
-    "productId": "bi1501-r",
-    "reportedSold": 1,
-    "price": 23900
-   },
    {
     "productId": "ja1501-bl",
     "reportedSold": 1,
     "price": 37900
-   }
-  ],
-  "unitsSold": 2,
-  "value": 61800,
-  "status": "Reconciled",
-  "discrepancies": []
- },
- {
-  "id": "CR-ST02-2026-10-17",
-  "storeId": "ST02",
-  "weekEnding": "2026-10-17",
-  "uploadedOn": "2026-10-19",
-  "file": "atelier-nine-week-2026-10-17.xlsx",
-  "lines": [
-   {
-    "productId": "tp1509-bl",
-    "reportedSold": 1,
-    "price": 28900
    },
    {
-    "productId": "tp1507-bl",
+    "productId": "tp1510-eb",
     "reportedSold": 1,
-    "price": 31900
+    "price": 28900
    },
    {
     "productId": "bi1501-eb",
@@ -449,7 +374,19 @@
    }
   ],
   "unitsSold": 3,
-  "value": 84700,
+  "value": 90700,
+  "status": "Reconciled",
+  "discrepancies": []
+ },
+ {
+  "id": "CR-ST02-2026-10-17",
+  "storeId": "ST02",
+  "weekEnding": "2026-10-17",
+  "uploadedOn": "2026-10-20",
+  "file": "atelier-nine-week-2026-10-17.xlsx",
+  "lines": [],
+  "unitsSold": 0,
+  "value": 0,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -461,23 +398,18 @@
   "file": "kora-concept-store-week-2026-10-17.xlsx",
   "lines": [
    {
-    "productId": "st1512-eb",
+    "productId": "pa1502-bl",
     "reportedSold": 1,
-    "price": 39900
+    "price": 17500
    },
    {
-    "productId": "sk1501-rp",
+    "productId": "tp1506-ow",
     "reportedSold": 1,
-    "price": 20900
-   },
-   {
-    "productId": "tp1501-eb",
-    "reportedSold": 1,
-    "price": 23900
+    "price": 26500
    }
   ],
-  "unitsSold": 3,
-  "value": 84700,
+  "unitsSold": 2,
+  "value": 44000,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -489,18 +421,18 @@
   "file": "indigo-house-week-2026-10-17.xlsx",
   "lines": [
    {
-    "productId": "tp1510-eb",
+    "productId": "dr1501-eb",
     "reportedSold": 1,
-    "price": 28900
+    "price": 20900
    },
    {
-    "productId": "tp1507-bl",
+    "productId": "bi1502-rp",
     "reportedSold": 1,
-    "price": 31900
+    "price": 23900
    }
   ],
   "unitsSold": 2,
-  "value": 60800,
+  "value": 44800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -510,20 +442,9 @@
   "weekEnding": "2026-10-17",
   "uploadedOn": "2026-10-20",
   "file": "studio-saanjh-week-2026-10-17.xlsx",
-  "lines": [
-   {
-    "productId": "st1512-eb",
-    "reportedSold": 1,
-    "price": 39900
-   },
-   {
-    "productId": "tp1507-bl",
-    "reportedSold": 1,
-    "price": 31900
-   }
-  ],
-  "unitsSold": 2,
-  "value": 71800,
+  "lines": [],
+  "unitsSold": 0,
+  "value": 0,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -531,17 +452,22 @@
   "id": "CR-ST01-2026-10-10",
   "storeId": "ST01",
   "weekEnding": "2026-10-10",
-  "uploadedOn": "2026-10-13",
+  "uploadedOn": "2026-10-11",
   "file": "the-loom-store-week-2026-10-10.xlsx",
   "lines": [
    {
-    "productId": "tp1503-ow",
+    "productId": "sk1504-ow",
     "reportedSold": 1,
-    "price": 22900
+    "price": 20900
+   },
+   {
+    "productId": "ja1501-bl",
+    "reportedSold": 1,
+    "price": 37900
    }
   ],
-  "unitsSold": 1,
-  "value": 22900,
+  "unitsSold": 2,
+  "value": 58800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -553,13 +479,23 @@
   "file": "atelier-nine-week-2026-10-10.xlsx",
   "lines": [
    {
-    "productId": "tp1507-bl",
+    "productId": "sk1501-eb",
     "reportedSold": 1,
-    "price": 31900
+    "price": 20900
+   },
+   {
+    "productId": "st1509-bl",
+    "reportedSold": 1,
+    "price": 48900
+   },
+   {
+    "productId": "dr1501-eb",
+    "reportedSold": 1,
+    "price": 20900
    }
   ],
-  "unitsSold": 1,
-  "value": 31900,
+  "unitsSold": 3,
+  "value": 90700,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -567,32 +503,17 @@
   "id": "CR-ST03-2026-10-10",
   "storeId": "ST03",
   "weekEnding": "2026-10-10",
-  "uploadedOn": "2026-10-12",
+  "uploadedOn": "2026-10-11",
   "file": "kora-concept-store-week-2026-10-10.xlsx",
   "lines": [
    {
-    "productId": "st1512-eb",
+    "productId": "tp1509-bl",
     "reportedSold": 1,
-    "price": 39900
-   },
-   {
-    "productId": "sk1501-rp",
-    "reportedSold": 1,
-    "price": 20900
-   },
-   {
-    "productId": "tp1506-ow",
-    "reportedSold": 1,
-    "price": 26500
-   },
-   {
-    "productId": "st1504-r-rp-ow",
-    "reportedSold": 1,
-    "price": 31000
+    "price": 28900
    }
   ],
-  "unitsSold": 4,
-  "value": 118300,
+  "unitsSold": 1,
+  "value": 28900,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -600,22 +521,27 @@
   "id": "CR-ST04-2026-10-10",
   "storeId": "ST04",
   "weekEnding": "2026-10-10",
-  "uploadedOn": "2026-10-11",
+  "uploadedOn": "2026-10-13",
   "file": "indigo-house-week-2026-10-10.xlsx",
   "lines": [
    {
-    "productId": "sk1504-ow",
+    "productId": "dr1501-eb",
     "reportedSold": 1,
     "price": 20900
    },
    {
-    "productId": "tp1505-r",
+    "productId": "st1501-r",
     "reportedSold": 1,
-    "price": 25900
+    "price": 35000
+   },
+   {
+    "productId": "ja1503-bl",
+    "reportedSold": 1,
+    "price": 34900
    }
   ],
-  "unitsSold": 2,
-  "value": 46800,
+  "unitsSold": 3,
+  "value": 90800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -623,27 +549,27 @@
   "id": "CR-ST05-2026-10-10",
   "storeId": "ST05",
   "weekEnding": "2026-10-10",
-  "uploadedOn": "2026-10-13",
+  "uploadedOn": "2026-10-12",
   "file": "studio-saanjh-week-2026-10-10.xlsx",
   "lines": [
    {
-    "productId": "sk1503-bp",
+    "productId": "st1504-r-rp-ow",
+    "reportedSold": 1,
+    "price": 31000
+   },
+   {
+    "productId": "sk1501-rp",
     "reportedSold": 1,
     "price": 20900
    },
    {
-    "productId": "st1512-eb",
+    "productId": "tp1504-rp",
     "reportedSold": 1,
-    "price": 39900
-   },
-   {
-    "productId": "tp1507-bl",
-    "reportedSold": 1,
-    "price": 31900
+    "price": 22900
    }
   ],
   "unitsSold": 3,
-  "value": 92700,
+  "value": 74800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -651,22 +577,22 @@
   "id": "CR-ST01-2026-10-03",
   "storeId": "ST01",
   "weekEnding": "2026-10-03",
-  "uploadedOn": "2026-10-06",
+  "uploadedOn": "2026-10-05",
   "file": "the-loom-store-week-2026-10-03.xlsx",
   "lines": [
    {
-    "productId": "bi1501-r",
+    "productId": "sk1504-ow",
     "reportedSold": 1,
-    "price": 23900
+    "price": 20900
    },
    {
-    "productId": "bi1503-ow",
+    "productId": "tp1503-ow",
     "reportedSold": 1,
     "price": 22900
    }
   ],
   "unitsSold": 2,
-  "value": 46800,
+  "value": 43800,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -674,27 +600,32 @@
   "id": "CR-ST02-2026-10-03",
   "storeId": "ST02",
   "weekEnding": "2026-10-03",
-  "uploadedOn": "2026-10-06",
+  "uploadedOn": "2026-10-04",
   "file": "atelier-nine-week-2026-10-03.xlsx",
   "lines": [
    {
-    "productId": "ja1502-nb",
+    "productId": "st1502-r",
     "reportedSold": 1,
-    "price": 34900
+    "price": 31000
    },
    {
-    "productId": "tp1509-bl",
+    "productId": "st1509-bl",
+    "reportedSold": 1,
+    "price": 48900
+   },
+   {
+    "productId": "st1511-rp",
+    "reportedSold": 1,
+    "price": 39900
+   },
+   {
+    "productId": "tp1510-eb",
     "reportedSold": 1,
     "price": 28900
-   },
-   {
-    "productId": "bi1501-eb",
-    "reportedSold": 1,
-    "price": 23900
    }
   ],
-  "unitsSold": 3,
-  "value": 87700,
+  "unitsSold": 4,
+  "value": 148700,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -702,11 +633,17 @@
   "id": "CR-ST03-2026-10-03",
   "storeId": "ST03",
   "weekEnding": "2026-10-03",
-  "uploadedOn": "2026-10-05",
+  "uploadedOn": "2026-10-06",
   "file": "kora-concept-store-week-2026-10-03.xlsx",
-  "lines": [],
-  "unitsSold": 0,
-  "value": 0,
+  "lines": [
+   {
+    "productId": "st1505-ow",
+    "reportedSold": 1,
+    "price": 26900
+   }
+  ],
+  "unitsSold": 1,
+  "value": 26900,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -714,27 +651,17 @@
   "id": "CR-ST04-2026-10-03",
   "storeId": "ST04",
   "weekEnding": "2026-10-03",
-  "uploadedOn": "2026-10-04",
+  "uploadedOn": "2026-10-05",
   "file": "indigo-house-week-2026-10-03.xlsx",
   "lines": [
    {
-    "productId": "tp1510-eb",
+    "productId": "tp1514-eb",
     "reportedSold": 1,
-    "price": 28900
-   },
-   {
-    "productId": "tp1503-ow",
-    "reportedSold": 1,
-    "price": 22900
-   },
-   {
-    "productId": "tp1505-r",
-    "reportedSold": 1,
-    "price": 25900
+    "price": 21900
    }
   ],
-  "unitsSold": 3,
-  "value": 77700,
+  "unitsSold": 1,
+  "value": 21900,
   "status": "Reconciled",
   "discrepancies": []
  },
@@ -749,10 +676,25 @@
     "productId": "tp1513-bl",
     "reportedSold": 1,
     "price": 23900
+   },
+   {
+    "productId": "st1506-bp",
+    "reportedSold": 1,
+    "price": 55900
+   },
+   {
+    "productId": "sk1501-rp",
+    "reportedSold": 1,
+    "price": 20900
+   },
+   {
+    "productId": "tp1504-rp",
+    "reportedSold": 1,
+    "price": 22900
    }
   ],
-  "unitsSold": 1,
-  "value": 23900,
+  "unitsSold": 4,
+  "value": 123600,
   "status": "Reconciled",
   "discrepancies": []
  }

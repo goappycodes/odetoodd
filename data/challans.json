@@ -1,0 +1,532 @@
+[
+ {
+  "id": "DC-2627-044",
+  "orderId": "CON-114",
+  "storeId": "ST03",
+  "date": "2026-11-11",
+  "lines": [
+   {
+    "productId": "tp1508-w",
+    "size": "Free size",
+    "qty": 2,
+    "mrp": 16900
+   },
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 2,
+    "mrp": 28900
+   },
+   {
+    "productId": "tp1506-ow",
+    "size": "Free size",
+    "qty": 2,
+    "mrp": 26500
+   }
+  ],
+  "totalQty": 6,
+  "value": 144600,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": null
+  },
+  "status": "Draft",
+  "receivedOn": null,
+  "preparedBy": "Rohit Saini"
+ },
+ {
+  "id": "DC-2627-038",
+  "orderId": "CON-108",
+  "storeId": "ST03",
+  "date": "2026-11-09",
+  "lines": [
+   {
+    "productId": "tp1509-bl",
+    "size": "Free size",
+    "qty": 4,
+    "mrp": 28900
+   },
+   {
+    "productId": "st1505-ow",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "mrp": 26900
+   },
+   {
+    "productId": "tp1506-ow",
+    "size": "Free size",
+    "qty": 5,
+    "mrp": 26500
+   },
+   {
+    "productId": "tp1507-bl",
+    "size": "Free size",
+    "qty": 4,
+    "mrp": 31900
+   }
+  ],
+  "totalQty": 17,
+  "value": 483300,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "1257895427756"
+  },
+  "status": "In transit",
+  "receivedOn": null,
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-036",
+  "orderId": "CON-106",
+  "storeId": "ST02",
+  "date": "2026-11-06",
+  "lines": [
+   {
+    "productId": "st1512-eb",
+    "size": "Size run (S-L)",
+    "qty": 3,
+    "mrp": 39900
+   },
+   {
+    "productId": "st1502-r",
+    "size": "Free size",
+    "qty": 8,
+    "mrp": 31000
+   },
+   {
+    "productId": "st1511-rp",
+    "size": "Size run (S-L)",
+    "qty": 5,
+    "mrp": 39900
+   },
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 5,
+    "mrp": 28900
+   }
+  ],
+  "totalQty": 21,
+  "value": 711700,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "83903242674"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-11-08",
+  "preparedBy": "Rohit Saini"
+ },
+ {
+  "id": "DC-2627-033",
+  "orderId": "CON-103",
+  "storeId": "ST01",
+  "date": "2026-11-05",
+  "lines": [
+   {
+    "productId": "ja1501-bl",
+    "size": "Size run (S-L)",
+    "qty": 8,
+    "mrp": 37900
+   },
+   {
+    "productId": "sk1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 20900
+   },
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 4,
+    "mrp": 28900
+   },
+   {
+    "productId": "bi1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "mrp": 23900
+   }
+  ],
+  "totalQty": 21,
+  "value": 627900,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "5360791969113"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-11-08",
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-043",
+  "orderId": "CON-113",
+  "storeId": "ST05",
+  "date": "2026-11-03",
+  "lines": [
+   {
+    "productId": "tp1513-bl",
+    "size": "Free size",
+    "qty": 4,
+    "mrp": 23900
+   },
+   {
+    "productId": "sk1501-rp",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "mrp": 20900
+   },
+   {
+    "productId": "tp1504-rp",
+    "size": "Free size",
+    "qty": 5,
+    "mrp": 22900
+   }
+  ],
+  "totalQty": 15,
+  "value": 335500,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "97574436522"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-11-07",
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-032",
+  "orderId": "CON-102",
+  "storeId": "ST01",
+  "date": "2026-10-28",
+  "lines": [
+   {
+    "productId": "sk1504-ow",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "mrp": 20900
+   },
+   {
+    "productId": "st1512-eb",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "mrp": 39900
+   },
+   {
+    "productId": "pa1502-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 17500
+   }
+  ],
+  "totalQty": 12,
+  "value": 320000,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "78329516392"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-10-31",
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-042",
+  "orderId": "CON-112",
+  "storeId": "ST05",
+  "date": "2026-10-07",
+  "lines": [
+   {
+    "productId": "st1504-r-rp-ow",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "mrp": 31000
+   },
+   {
+    "productId": "st1513-ow",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 42000
+   },
+   {
+    "productId": "st1506-bp",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 55900
+   },
+   {
+    "productId": "bi1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "mrp": 23900
+   },
+   {
+    "productId": "dr1501-rp",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "mrp": 20900
+   },
+   {
+    "productId": "ja1503-bl",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "mrp": 34900
+   }
+  ],
+  "totalQty": 32,
+  "value": 970700,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "98152333345"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-10-11",
+  "preparedBy": "Rohit Saini"
+ },
+ {
+  "id": "DC-2627-041",
+  "orderId": "CON-111",
+  "storeId": "ST04",
+  "date": "2026-09-10",
+  "lines": [
+   {
+    "productId": "bi1502-rp",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "mrp": 23900
+   },
+   {
+    "productId": "ja1503-bl",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "mrp": 34900
+   },
+   {
+    "productId": "tp1514-eb",
+    "size": "Free size",
+    "qty": 3,
+    "mrp": 21900
+   }
+  ],
+  "totalQty": 11,
+  "value": 300900,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Hand delivery",
+   "provider": null,
+   "awb": null
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-09-10",
+  "preparedBy": "Rohit Saini"
+ },
+ {
+  "id": "DC-2627-040",
+  "orderId": "CON-110",
+  "storeId": "ST04",
+  "date": "2026-09-05",
+  "lines": [
+   {
+    "productId": "st1501-r",
+    "size": "Free size",
+    "qty": 5,
+    "mrp": 35000
+   },
+   {
+    "productId": "tp1508-w",
+    "size": "Free size",
+    "qty": 5,
+    "mrp": 16900
+   }
+  ],
+  "totalQty": 10,
+  "value": 259500,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Hand delivery",
+   "provider": null,
+   "awb": null
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-09-05",
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-031",
+  "orderId": "CON-101",
+  "storeId": "ST01",
+  "date": "2026-09-03",
+  "lines": [
+   {
+    "productId": "ja1503-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 34900
+   },
+   {
+    "productId": "tp1503-ow",
+    "size": "Free size",
+    "qty": 7,
+    "mrp": 22900
+   }
+  ],
+  "totalQty": 9,
+  "value": 230100,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "96317430048"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-09-05",
+  "preparedBy": "Rohit Saini"
+ },
+ {
+  "id": "DC-2627-037",
+  "orderId": "CON-107",
+  "storeId": "ST03",
+  "date": "2026-08-30",
+  "lines": [
+   {
+    "productId": "pa1502-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 17500
+   },
+   {
+    "productId": "tp1505-r",
+    "size": "Free size",
+    "qty": 6,
+    "mrp": 25900
+   },
+   {
+    "productId": "st1506-bp",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "mrp": 55900
+   },
+   {
+    "productId": "st1512-eb",
+    "size": "Size run (S-L)",
+    "qty": 3,
+    "mrp": 39900
+   }
+  ],
+  "totalQty": 15,
+  "value": 533700,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "71087898830"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-09-02",
+  "preparedBy": "Rohit Saini"
+ },
+ {
+  "id": "DC-2627-035",
+  "orderId": "CON-105",
+  "storeId": "ST02",
+  "date": "2026-08-29",
+  "lines": [
+   {
+    "productId": "sk1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "mrp": 20900
+   },
+   {
+    "productId": "st1509-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "mrp": 48900
+   },
+   {
+    "productId": "dr1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 8,
+    "mrp": 20900
+   }
+  ],
+  "totalQty": 16,
+  "value": 390400,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "1995090425014"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-08-31",
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-034",
+  "orderId": "CON-104",
+  "storeId": "ST02",
+  "date": "2026-08-20",
+  "lines": [
+   {
+    "productId": "sk1503-bp",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "mrp": 20900
+   }
+  ],
+  "totalQty": 6,
+  "value": 125400,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Courier",
+   "provider": "Blue Dart",
+   "awb": "5994291996816"
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-08-23",
+  "preparedBy": "Vikram Joshi"
+ },
+ {
+  "id": "DC-2627-039",
+  "orderId": "CON-109",
+  "storeId": "ST04",
+  "date": "2026-07-26",
+  "lines": [
+   {
+    "productId": "dr1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 8,
+    "mrp": 20900
+   },
+   {
+    "productId": "st1506-bp",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "mrp": 55900
+   }
+  ],
+  "totalQty": 14,
+  "value": 502600,
+  "purpose": "Supply on consignment (sale or return), not a sale",
+  "transport": {
+   "mode": "Hand delivery",
+   "provider": null,
+   "awb": null
+  },
+  "status": "Received by store",
+  "receivedOn": "2026-07-26",
+  "preparedBy": "Vikram Joshi"
+ }
+]

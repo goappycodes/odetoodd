@@ -10,7 +10,7 @@ export const metadata = { title: "Sales and productivity analytics" };
 export default function Analytics() {
   // product performance over 90 days
   const perf = products.map((p) => {
-    const lines = orders.flatMap((o) => o.items.filter((i) => i.productId === p.id));
+    const lines = orders.filter((o) => o.channel !== "Consignment").flatMap((o) => o.items.filter((i) => i.productId === p.id));
     return { p, units: lines.reduce((a, i) => a + i.qty, 0), revenue: lines.reduce((a, i) => a + i.qty * i.price, 0) };
   });
   const best = [...perf].sort((a, b) => b.revenue - a.revenue).slice(0, 8);
@@ -21,7 +21,7 @@ export default function Analytics() {
     const end = addDays(TODAY, -7 * (12 - i));
     const start = addDays(end, -6);
     const rows = salesDaily.filter((r) => r.date >= start && r.date <= end);
-    const v = { Shopify: 0, Wholesale: 0, Offline: 0, Consignment: 0 };
+    const v = { Shopify: 0, Wholesale: 0, Events: 0, Offline: 0, Consignment: 0 };
     for (const r of rows) for (const k of Object.keys(v) as (keyof typeof v)[]) v[k] += r[k];
     return { label: fmtShort(start), values: v };
   });
@@ -52,7 +52,7 @@ export default function Analytics() {
   return (
     <>
       <PageHeader title="Sales and productivity analytics" subtitle="Which products sell, which don't, and how each karigar and stage is performing." />
-      <AddonBanner title="Sales and productivity analytics" price="₹40,000">The base system has daily and weekly output and sales by channel. This add-on adds bestsellers, slow movers, trends and side-by-side karigar comparisons.</AddonBanner>
+      <AddonBanner title="Sales and productivity analytics" price="₹25,000">The base system has daily and weekly output and sales by channel. This add-on adds bestsellers, slow movers, trends and side-by-side karigar comparisons.</AddonBanner>
       <div className="mb-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Stat label="Sales, last 13 weeks" value={inrShort(weeks.reduce((a, w) => a + Object.values(w.values).reduce((x, y) => x + y, 0), 0))} />
         <Stat label="Products with no sale in 90 days" value={perf.filter((x) => x.units === 0).length} tone="warn" />
@@ -66,8 +66,9 @@ export default function Analytics() {
           series={[
             { key: "Shopify", label: "Shopify", color: "var(--color-s1)" },
             { key: "Wholesale", label: "Wholesale", color: "var(--color-s2)" },
-            { key: "Offline", label: "Offline", color: "var(--color-s3)" },
-            { key: "Consignment", label: "Consignment", color: "var(--color-s4)" },
+            { key: "Events", label: "Events", color: "var(--color-s4)" },
+            { key: "Offline", label: "Studio and offline", color: "var(--color-s3)" },
+            { key: "Consignment", label: "Consignment stores", color: "var(--color-s5)" },
           ]}
           format="inr"
         />

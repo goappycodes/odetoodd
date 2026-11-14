@@ -1,7 +1,8 @@
 [
  {
   "id": "SH-4357",
-  "ref": "#OTO4357",
+  "ref": "SH-4357",
+  "shopifyRef": "#OTO4357",
   "channel": "Shopify",
   "customer": "Mira Rao",
   "city": "Mumbai",
@@ -17,12 +18,17 @@
   "dueDate": "2026-12-14",
   "fulfilment": "Make to order",
   "status": "New",
+  "subtotal": 50900,
   "total": 50900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4356",
-  "ref": "#OTO4356",
+  "ref": "SH-4356",
+  "shopifyRef": "#OTO4356",
   "channel": "Shopify",
   "customer": "Zoya Mehta",
   "city": "Mumbai",
@@ -38,14 +44,57 @@
   "dueDate": "2026-12-12",
   "fulfilment": "Make to order",
   "status": "New",
+  "subtotal": 50900,
   "total": 50900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-114",
+  "ref": "CON-114",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-044",
+  "challanId": "DC-2627-044",
+  "customer": "Kora Concept Store",
+  "city": "Bengaluru",
+  "date": "2026-11-11",
+  "items": [
+   {
+    "productId": "tp1508-w",
+    "size": "Free size",
+    "qty": 2,
+    "price": 16900
+   },
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 2,
+    "price": 28900
+   },
+   {
+    "productId": "tp1506-ow",
+    "size": "Free size",
+    "qty": 2,
+    "price": 26500
+   }
+  ],
+  "dueDate": "2026-11-13",
+  "fulfilment": "From stock",
+  "status": "Ready to dispatch",
+  "subtotal": 144600,
+  "markup": 0,
+  "total": 144600,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells"
  },
  {
   "id": "OF-313",
   "ref": "OF-313",
   "channel": "Offline",
-  "source": "Exhibition: Delhi pop-up",
+  "source": "Jaipur studio",
   "customer": "Kavya Mehta",
   "city": "Jaipur",
   "date": "2026-11-10",
@@ -60,12 +109,17 @@
   "dueDate": "2026-12-12",
   "fulfilment": "Make to order",
   "status": "New",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4355",
-  "ref": "#OTO4355",
+  "ref": "SH-4355",
+  "shopifyRef": "#OTO4355",
   "channel": "Shopify",
   "customer": "Mira Reddy",
   "city": "Chennai",
@@ -88,12 +142,17 @@
   "dueDate": "2026-12-11",
   "fulfilment": "Make to order",
   "status": "New",
-  "total": 55800,
-  "payment": "Paid"
+  "subtotal": 55800,
+  "total": 61380,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 5580
  },
  {
   "id": "SH-4354",
-  "ref": "#OTO4354",
+  "ref": "SH-4354",
+  "shopifyRef": "#OTO4354",
   "channel": "Shopify",
   "customer": "Malini Kapoor",
   "city": "London",
@@ -103,19 +162,73 @@
     "productId": "sk1501-rp",
     "size": "Custom",
     "qty": 1,
-    "price": 20900,
-    "note": "Custom measurements received"
+    "price": 25200,
+    "note": "Custom measurements received",
+    "priceUsd": 300
    }
   ],
   "dueDate": "2026-12-07",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 25200,
+  "total": 25200,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-108",
+  "ref": "CON-108",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-038",
+  "challanId": "DC-2627-038",
+  "customer": "Kora Concept Store",
+  "city": "Bengaluru",
+  "date": "2026-11-09",
+  "items": [
+   {
+    "productId": "tp1509-bl",
+    "size": "Free size",
+    "qty": 4,
+    "price": 28900
+   },
+   {
+    "productId": "st1505-ow",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "price": 26900
+   },
+   {
+    "productId": "tp1506-ow",
+    "size": "Free size",
+    "qty": 5,
+    "price": 26500
+   },
+   {
+    "productId": "tp1507-bl",
+    "size": "Free size",
+    "qty": 4,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-11-09",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-09",
+  "subtotal": 483300,
+  "markup": 0,
+  "total": 483300,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "1257895427756",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4353",
-  "ref": "#OTO4353",
+  "ref": "SH-4353",
+  "shopifyRef": "#OTO4353",
   "channel": "Shopify",
   "customer": "Diya Sharma",
   "city": "Lucknow",
@@ -131,12 +244,17 @@
   "dueDate": "2026-12-07",
   "fulfilment": "Make to order",
   "status": "New",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4352",
-  "ref": "#OTO4352",
+  "ref": "SH-4352",
+  "shopifyRef": "#OTO4352",
   "channel": "Shopify",
   "customer": "Aditi Khanna",
   "city": "Chennai",
@@ -158,12 +276,17 @@
   "dueDate": "2026-12-12",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 49800,
   "total": 49800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4351",
-  "ref": "#OTO4351",
+  "ref": "SH-4351",
+  "shopifyRef": "#OTO4351",
   "channel": "Shopify",
   "customer": "Anushka Bose",
   "city": "Gurugram",
@@ -179,12 +302,17 @@
   "dueDate": "2026-12-07",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 55900,
   "total": 55900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4350",
-  "ref": "#OTO4350",
+  "ref": "SH-4350",
+  "shopifyRef": "#OTO4350",
   "channel": "Shopify",
   "customer": "Aanya Nair",
   "city": "New Delhi",
@@ -206,12 +334,17 @@
   "dueDate": "2026-12-07",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 44800,
   "total": 44800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4349",
-  "ref": "#OTO4349",
+  "ref": "SH-4349",
+  "shopifyRef": "#OTO4349",
   "channel": "Shopify",
   "customer": "Nandini Rao",
   "city": "Chennai",
@@ -227,12 +360,16 @@
   "dueDate": "2026-12-05",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 39900,
   "total": 39900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
-  "id": "WH-106",
-  "ref": "WH-106",
+  "id": "WHO-106",
+  "ref": "WHO-106",
   "channel": "Wholesale",
   "customer": "Atelier Nine",
   "city": "New Delhi",
@@ -266,12 +403,17 @@
   "dueDate": "2026-12-16",
   "fulfilment": "Make to order",
   "status": "New",
+  "subtotal": 389455,
   "total": 389455,
-  "payment": "Advance received"
+  "payment": "Advance received",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4348",
-  "ref": "#OTO4348",
+  "ref": "SH-4348",
+  "shopifyRef": "#OTO4348",
   "channel": "Shopify",
   "customer": "Nandini Nair",
   "city": "Mumbai",
@@ -288,13 +430,19 @@
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-07",
-  "awb": "DTDC 34003292",
+  "subtotal": 26500,
   "total": 26500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "95272627471",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4347",
-  "ref": "#OTO4347",
+  "ref": "SH-4347",
+  "shopifyRef": "#OTO4347",
   "channel": "Shopify",
   "customer": "Ishita Desai",
   "city": "London",
@@ -304,18 +452,24 @@
     "productId": "tp1502-rp",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-12-07",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4346",
-  "ref": "#OTO4346",
+  "ref": "SH-4346",
+  "shopifyRef": "#OTO4346",
   "channel": "Shopify",
   "customer": "Pallavi Reddy",
   "city": "New Delhi",
@@ -337,8 +491,108 @@
   "dueDate": "2026-12-03",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 43800,
   "total": 43800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-106",
+  "ref": "CON-106",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-036",
+  "challanId": "DC-2627-036",
+  "customer": "Atelier Nine",
+  "city": "New Delhi",
+  "date": "2026-11-06",
+  "items": [
+   {
+    "productId": "st1512-eb",
+    "size": "Size run (S-L)",
+    "qty": 3,
+    "price": 39900
+   },
+   {
+    "productId": "st1502-r",
+    "size": "Free size",
+    "qty": 8,
+    "price": 31000
+   },
+   {
+    "productId": "st1511-rp",
+    "size": "Size run (S-L)",
+    "qty": 5,
+    "price": 39900
+   },
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 5,
+    "price": 28900
+   }
+  ],
+  "dueDate": "2026-11-06",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-06",
+  "subtotal": 711700,
+  "markup": 0,
+  "total": 711700,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "83903242674",
+  "courier": "Blue Dart"
+ },
+ {
+  "id": "CON-103",
+  "ref": "CON-103",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-033",
+  "challanId": "DC-2627-033",
+  "customer": "The Loom Store",
+  "city": "Mumbai",
+  "date": "2026-11-05",
+  "items": [
+   {
+    "productId": "ja1501-bl",
+    "size": "Size run (S-L)",
+    "qty": 8,
+    "price": 37900
+   },
+   {
+    "productId": "sk1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 20900
+   },
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 4,
+    "price": 28900
+   },
+   {
+    "productId": "bi1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-11-05",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-05",
+  "subtotal": 627900,
+  "markup": 0,
+  "total": 627900,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "5360791969113",
+  "courier": "Delhivery"
  },
  {
   "id": "OF-312",
@@ -353,18 +607,24 @@
     "productId": "tp1514-eb",
     "size": "Free size",
     "qty": 1,
-    "price": 21900
+    "price": 21900,
+    "note": "Neckline changed"
    }
   ],
   "dueDate": "2026-12-08",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 21900,
-  "payment": "Paid"
+  "subtotal": 21900,
+  "total": 24090,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2190
  },
  {
   "id": "SH-4345",
-  "ref": "#OTO4345",
+  "ref": "SH-4345",
+  "shopifyRef": "#OTO4345",
   "channel": "Shopify",
   "customer": "Nandini Nair",
   "city": "Lucknow",
@@ -381,13 +641,19 @@
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-06",
-  "awb": "DTDC 43347710",
+  "subtotal": 31000,
   "total": 31000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "92365321005",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4344",
-  "ref": "#OTO4344",
+  "ref": "SH-4344",
+  "shopifyRef": "#OTO4344",
   "channel": "Shopify",
   "customer": "Tanvi Reddy",
   "city": "Bengaluru",
@@ -403,12 +669,17 @@
   "dueDate": "2026-11-29",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4343",
-  "ref": "#OTO4343",
+  "ref": "SH-4343",
+  "shopifyRef": "#OTO4343",
   "channel": "Shopify",
   "customer": "Pallavi Nair",
   "city": "Lucknow",
@@ -430,12 +701,17 @@
   "dueDate": "2026-12-05",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 57800,
   "total": 57800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4342",
-  "ref": "#OTO4342",
+  "ref": "SH-4342",
+  "shopifyRef": "#OTO4342",
   "channel": "Shopify",
   "customer": "Anushka Singh",
   "city": "Lucknow",
@@ -457,12 +733,17 @@
   "dueDate": "2026-12-04",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 43800,
   "total": 43800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4341",
-  "ref": "#OTO4341",
+  "ref": "SH-4341",
+  "shopifyRef": "#OTO4341",
   "channel": "Shopify",
   "customer": "Ira Malhotra",
   "city": "Bengaluru",
@@ -484,12 +765,59 @@
   "dueDate": "2026-11-29",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 52800,
   "total": 52800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-113",
+  "ref": "CON-113",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-043",
+  "challanId": "DC-2627-043",
+  "customer": "Studio Saanjh",
+  "city": "Hyderabad",
+  "date": "2026-11-03",
+  "items": [
+   {
+    "productId": "tp1513-bl",
+    "size": "Free size",
+    "qty": 4,
+    "price": 23900
+   },
+   {
+    "productId": "sk1501-rp",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "price": 20900
+   },
+   {
+    "productId": "tp1504-rp",
+    "size": "Free size",
+    "qty": 5,
+    "price": 22900
+   }
+  ],
+  "dueDate": "2026-11-03",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-03",
+  "subtotal": 335500,
+  "markup": 0,
+  "total": 335500,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "97574436522",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4340",
-  "ref": "#OTO4340",
+  "ref": "SH-4340",
+  "shopifyRef": "#OTO4340",
   "channel": "Shopify",
   "customer": "Mira Kapoor",
   "city": "Dubai",
@@ -499,18 +827,24 @@
     "productId": "tp1513-bl",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-12-05",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4339",
-  "ref": "#OTO4339",
+  "ref": "SH-4339",
+  "shopifyRef": "#OTO4339",
   "channel": "Shopify",
   "customer": "Gauri Malhotra",
   "city": "Chennai",
@@ -526,12 +860,17 @@
   "dueDate": "2026-12-04",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 35000,
   "total": 35000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4338",
-  "ref": "#OTO4338",
+  "ref": "SH-4338",
+  "shopifyRef": "#OTO4338",
   "channel": "Shopify",
   "customer": "Rhea Khanna",
   "city": "Chandigarh",
@@ -553,8 +892,12 @@
   "dueDate": "2026-12-05",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 62800,
   "total": 62800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "OF-311",
@@ -575,12 +918,17 @@
   "dueDate": "2026-11-28",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 31900,
   "total": 31900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4337",
-  "ref": "#OTO4337",
+  "ref": "SH-4337",
+  "shopifyRef": "#OTO4337",
   "channel": "Shopify",
   "customer": "Aanya Malhotra",
   "city": "Bengaluru",
@@ -602,12 +950,17 @@
   "dueDate": "2026-12-04",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 58900,
   "total": 58900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4336",
-  "ref": "#OTO4336",
+  "ref": "SH-4336",
+  "shopifyRef": "#OTO4336",
   "channel": "Shopify",
   "customer": "Sanya Bose",
   "city": "New Delhi",
@@ -629,14 +982,18 @@
   "dueDate": "2026-12-03",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 60800,
   "total": 60800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "OF-310",
   "ref": "OF-310",
   "channel": "Offline",
-  "source": "Exhibition: Delhi pop-up",
+  "source": "Jaipur studio",
   "customer": "Pallavi Desai",
   "city": "Jaipur",
   "date": "2026-10-30",
@@ -651,12 +1008,17 @@
   "dueDate": "2026-12-03",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 25900,
   "total": 25900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4335",
-  "ref": "#OTO4335",
+  "ref": "SH-4335",
+  "shopifyRef": "#OTO4335",
   "channel": "Shopify",
   "customer": "Kavya Sethi",
   "city": "Gurugram",
@@ -672,12 +1034,17 @@
   "dueDate": "2026-11-30",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4334",
-  "ref": "#OTO4334",
+  "ref": "SH-4334",
+  "shopifyRef": "#OTO4334",
   "channel": "Shopify",
   "customer": "Sanya Reddy",
   "city": "New Delhi",
@@ -694,12 +1061,17 @@
   "dueDate": "2026-12-03",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 39900,
   "total": 39900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4333",
-  "ref": "#OTO4333",
+  "ref": "SH-4333",
+  "shopifyRef": "#OTO4333",
   "channel": "Shopify",
   "customer": "Zoya Sethi",
   "city": "Dubai",
@@ -709,24 +1081,31 @@
     "productId": "tp1504-rp",
     "size": "Free size",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    },
    {
     "productId": "tp1509-bl",
     "size": "Free size",
     "qty": 1,
-    "price": 28900
+    "price": 34860,
+    "priceUsd": 415
    }
   ],
   "dueDate": "2026-11-26",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 51800,
-  "payment": "Paid"
+  "subtotal": 62160,
+  "total": 62160,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4332",
-  "ref": "#OTO4332",
+  "ref": "SH-4332",
+  "shopifyRef": "#OTO4332",
   "channel": "Shopify",
   "customer": "Aanya Gupta",
   "city": "Hyderabad",
@@ -748,12 +1127,129 @@
   "dueDate": "2026-11-27",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 47400,
   "total": 47400,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-126",
+  "ref": "EV-126",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Zoya Iyer",
+  "city": "Jaipur",
+  "date": "2026-10-29",
+  "items": [
+   {
+    "productId": "tp1507-bl",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-11-27",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-29",
+  "handedOver": true,
+  "subtotal": 31900,
+  "total": 31900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-125",
+  "ref": "EV-125",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Saanvi Kapoor",
+  "city": "Jaipur",
+  "date": "2026-10-29",
+  "items": [
+   {
+    "productId": "bi1501-r",
+    "size": "S",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-11-30",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-29",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-124",
+  "ref": "EV-124",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Pallavi Nair",
+  "city": "Jaipur",
+  "date": "2026-10-29",
+  "items": [
+   {
+    "productId": "bi1502-eb",
+    "size": "XS",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-11-27",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-29",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-123",
+  "ref": "EV-123",
+  "channel": "Events",
+  "source": "Jaipur trunk show",
+  "customer": "Anushka Bose",
+  "city": "Jaipur",
+  "date": "2026-10-29",
+  "items": [
+   {
+    "productId": "tp1511-r",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-11-24",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-29",
+  "handedOver": true,
+  "subtotal": 31900,
+  "total": 31900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4331",
-  "ref": "#OTO4331",
+  "ref": "SH-4331",
+  "shopifyRef": "#OTO4331",
   "channel": "Shopify",
   "customer": "Ishita Sethi",
   "city": "London",
@@ -763,18 +1259,24 @@
     "productId": "tp1503-ow",
     "size": "Free size",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    }
   ],
   "dueDate": "2026-11-28",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 22900,
-  "payment": "Paid"
+  "subtotal": 27300,
+  "total": 27300,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4330",
-  "ref": "#OTO4330",
+  "ref": "SH-4330",
+  "shopifyRef": "#OTO4330",
   "channel": "Shopify",
   "customer": "Aanya Sethi",
   "city": "New Delhi",
@@ -790,12 +1292,17 @@
   "dueDate": "2026-11-30",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 50900,
   "total": 50900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4329",
-  "ref": "#OTO4329",
+  "ref": "SH-4329",
+  "shopifyRef": "#OTO4329",
   "channel": "Shopify",
   "customer": "Naina Singh",
   "city": "London",
@@ -805,18 +1312,24 @@
     "productId": "tp1513-bl",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-11-24",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4328",
-  "ref": "#OTO4328",
+  "ref": "SH-4328",
+  "shopifyRef": "#OTO4328",
   "channel": "Shopify",
   "customer": "Zoya Nair",
   "city": "London",
@@ -826,19 +1339,25 @@
     "productId": "pa1502-bl",
     "size": "Custom",
     "qty": 1,
-    "price": 17500,
-    "note": "Custom measurements received"
+    "price": 21000,
+    "note": "Custom measurements received",
+    "priceUsd": 250
    }
   ],
   "dueDate": "2026-11-25",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 17500,
-  "payment": "Paid"
+  "subtotal": 21000,
+  "total": 21000,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4327",
-  "ref": "#OTO4327",
+  "ref": "SH-4327",
+  "shopifyRef": "#OTO4327",
   "channel": "Shopify",
   "customer": "Tara Mehta",
   "city": "London",
@@ -848,18 +1367,24 @@
     "productId": "dr1501-bl",
     "size": "XXL",
     "qty": 1,
-    "price": 20900
+    "price": 25200,
+    "priceUsd": 300
    }
   ],
   "dueDate": "2026-11-29",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 25200,
+  "total": 25200,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4326",
-  "ref": "#OTO4326",
+  "ref": "SH-4326",
+  "shopifyRef": "#OTO4326",
   "channel": "Shopify",
   "customer": "Radhika Chopra",
   "city": "New Delhi",
@@ -881,12 +1406,59 @@
   "dueDate": "2026-11-23",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 47800,
   "total": 47800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-102",
+  "ref": "CON-102",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-032",
+  "challanId": "DC-2627-032",
+  "customer": "The Loom Store",
+  "city": "Mumbai",
+  "date": "2026-10-28",
+  "items": [
+   {
+    "productId": "sk1504-ow",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "price": 20900
+   },
+   {
+    "productId": "st1512-eb",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "price": 39900
+   },
+   {
+    "productId": "pa1502-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 17500
+   }
+  ],
+  "dueDate": "2026-10-28",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-28",
+  "subtotal": 320000,
+  "markup": 0,
+  "total": 320000,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "78329516392",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4325",
-  "ref": "#OTO4325",
+  "ref": "SH-4325",
+  "shopifyRef": "#OTO4325",
   "channel": "Shopify",
   "customer": "Radhika Singh",
   "city": "Hyderabad",
@@ -902,12 +1474,17 @@
   "dueDate": "2026-11-24",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4324",
-  "ref": "#OTO4324",
+  "ref": "SH-4324",
+  "shopifyRef": "#OTO4324",
   "channel": "Shopify",
   "customer": "Zoya Khanna",
   "city": "Ahmedabad",
@@ -929,12 +1506,17 @@
   "dueDate": "2026-11-28",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 46800,
   "total": 46800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4323",
-  "ref": "#OTO4323",
+  "ref": "SH-4323",
+  "shopifyRef": "#OTO4323",
   "channel": "Shopify",
   "customer": "Gauri Chopra",
   "city": "London",
@@ -944,18 +1526,24 @@
     "productId": "st1507-bl",
     "size": "M",
     "qty": 1,
-    "price": 50900
+    "price": 60900,
+    "priceUsd": 725
    }
   ],
   "dueDate": "2026-11-27",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 50900,
-  "payment": "Paid"
+  "subtotal": 60900,
+  "total": 60900,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4322",
-  "ref": "#OTO4322",
+  "ref": "SH-4322",
+  "shopifyRef": "#OTO4322",
   "channel": "Shopify",
   "customer": "Nandini Kapoor",
   "city": "Bengaluru",
@@ -971,12 +1559,17 @@
   "dueDate": "2026-11-25",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4321",
-  "ref": "#OTO4321",
+  "ref": "SH-4321",
+  "shopifyRef": "#OTO4321",
   "channel": "Shopify",
   "customer": "Meera Desai",
   "city": "Mumbai",
@@ -993,12 +1586,17 @@
   "dueDate": "2026-11-25",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4320",
-  "ref": "#OTO4320",
+  "ref": "SH-4320",
+  "shopifyRef": "#OTO4320",
   "channel": "Shopify",
   "customer": "Shruti Khanna",
   "city": "Mumbai",
@@ -1015,12 +1613,17 @@
   "dueDate": "2026-11-21",
   "fulfilment": "Make to order",
   "status": "Quality check",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 20900,
+  "total": 22990,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2090
  },
  {
   "id": "SH-4319",
-  "ref": "#OTO4319",
+  "ref": "SH-4319",
+  "shopifyRef": "#OTO4319",
   "channel": "Shopify",
   "customer": "Avni Reddy",
   "city": "Jaipur",
@@ -1036,12 +1639,17 @@
   "dueDate": "2026-11-29",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 31000,
   "total": 31000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4318",
-  "ref": "#OTO4318",
+  "ref": "SH-4318",
+  "shopifyRef": "#OTO4318",
   "channel": "Shopify",
   "customer": "Naina Iyer",
   "city": "Kolkata",
@@ -1063,12 +1671,17 @@
   "dueDate": "2026-11-22",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 58800,
   "total": 58800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4317",
-  "ref": "#OTO4317",
+  "ref": "SH-4317",
+  "shopifyRef": "#OTO4317",
   "channel": "Shopify",
   "customer": "Riya Singh",
   "city": "Hyderabad",
@@ -1084,12 +1697,17 @@
   "dueDate": "2026-11-21",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 55900,
   "total": 55900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4316",
-  "ref": "#OTO4316",
+  "ref": "SH-4316",
+  "shopifyRef": "#OTO4316",
   "channel": "Shopify",
   "customer": "Avni Nair",
   "city": "Lucknow",
@@ -1111,12 +1729,17 @@
   "dueDate": "2026-11-22",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 51800,
   "total": 51800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4315",
-  "ref": "#OTO4315",
+  "ref": "SH-4315",
+  "shopifyRef": "#OTO4315",
   "channel": "Shopify",
   "customer": "Radhika Bose",
   "city": "Kolkata",
@@ -1133,12 +1756,17 @@
   "dueDate": "2026-11-26",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 34900,
-  "payment": "Paid"
+  "subtotal": 34900,
+  "total": 38390,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 3490
  },
  {
   "id": "SH-4314",
-  "ref": "#OTO4314",
+  "ref": "SH-4314",
+  "shopifyRef": "#OTO4314",
   "channel": "Shopify",
   "customer": "Kavya Iyer",
   "city": "Lucknow",
@@ -1154,12 +1782,17 @@
   "dueDate": "2026-11-25",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4313",
-  "ref": "#OTO4313",
+  "ref": "SH-4313",
+  "shopifyRef": "#OTO4313",
   "channel": "Shopify",
   "customer": "Riya Chopra",
   "city": "Pune",
@@ -1181,8 +1814,12 @@
   "dueDate": "2026-11-23",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 37800,
   "total": 37800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "OF-309",
@@ -1203,12 +1840,17 @@
   "dueDate": "2026-11-24",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4312",
-  "ref": "#OTO4312",
+  "ref": "SH-4312",
+  "shopifyRef": "#OTO4312",
   "channel": "Shopify",
   "customer": "Naina Chopra",
   "city": "Lucknow",
@@ -1230,12 +1872,17 @@
   "dueDate": "2026-11-23",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 44800,
   "total": 44800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4311",
-  "ref": "#OTO4311",
+  "ref": "SH-4311",
+  "shopifyRef": "#OTO4311",
   "channel": "Shopify",
   "customer": "Aanya Malhotra",
   "city": "Pune",
@@ -1257,12 +1904,17 @@
   "dueDate": "2026-11-22",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 42800,
   "total": 42800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4310",
-  "ref": "#OTO4310",
+  "ref": "SH-4310",
+  "shopifyRef": "#OTO4310",
   "channel": "Shopify",
   "customer": "Ira Rao",
   "city": "Pune",
@@ -1278,12 +1930,17 @@
   "dueDate": "2026-11-19",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 18900,
   "total": 18900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4309",
-  "ref": "#OTO4309",
+  "ref": "SH-4309",
+  "shopifyRef": "#OTO4309",
   "channel": "Shopify",
   "customer": "Shruti Desai",
   "city": "Ahmedabad",
@@ -1299,8 +1956,12 @@
   "dueDate": "2026-11-18",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 31900,
   "total": 31900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "OF-308",
@@ -1322,13 +1983,18 @@
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-24",
-  "awb": "DTDC 45751175",
+  "subtotal": 28900,
   "total": 28900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "91275863235",
+  "courier": "Blue Dart"
  },
  {
-  "id": "WH-105",
-  "ref": "WH-105",
+  "id": "WHO-105",
+  "ref": "WHO-105",
   "channel": "Wholesale",
   "customer": "The Loom Store",
   "city": "Mumbai",
@@ -1368,12 +2034,17 @@
   "dueDate": "2026-11-30",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 448635,
   "total": 448635,
-  "payment": "Advance received"
+  "payment": "Advance received",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4308",
-  "ref": "#OTO4308",
+  "ref": "SH-4308",
+  "shopifyRef": "#OTO4308",
   "channel": "Shopify",
   "customer": "Kavya Chopra",
   "city": "Chennai",
@@ -1390,13 +2061,19 @@
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-22",
-  "awb": "DTDC 75187406",
+  "subtotal": 35000,
   "total": 35000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "99857484612",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4307",
-  "ref": "#OTO4307",
+  "ref": "SH-4307",
+  "shopifyRef": "#OTO4307",
   "channel": "Shopify",
   "customer": "Gauri Khanna",
   "city": "Gurugram",
@@ -1418,12 +2095,17 @@
   "dueDate": "2026-11-15",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 76900,
   "total": 76900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4306",
-  "ref": "#OTO4306",
+  "ref": "SH-4306",
+  "shopifyRef": "#OTO4306",
   "channel": "Shopify",
   "customer": "Mira Sharma",
   "city": "Chennai",
@@ -1446,12 +2128,17 @@
   "dueDate": "2026-11-23",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 68500,
   "total": 68500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4305",
-  "ref": "#OTO4305",
+  "ref": "SH-4305",
+  "shopifyRef": "#OTO4305",
   "channel": "Shopify",
   "customer": "Naina Iyer",
   "city": "Chennai",
@@ -1467,12 +2154,17 @@
   "dueDate": "2026-11-18",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 39900,
   "total": 39900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4304",
-  "ref": "#OTO4304",
+  "ref": "SH-4304",
+  "shopifyRef": "#OTO4304",
   "channel": "Shopify",
   "customer": "Nandini Nair",
   "city": "London",
@@ -1482,25 +2174,32 @@
     "productId": "st1506-bp",
     "size": "Custom",
     "qty": 1,
-    "price": 55900,
-    "note": "Custom measurements received"
+    "price": 67200,
+    "note": "Custom measurements received",
+    "priceUsd": 800
    },
    {
     "productId": "tp1504-rp",
     "size": "Free size",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    }
   ],
   "dueDate": "2026-11-18",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 78800,
-  "payment": "Paid"
+  "subtotal": 94500,
+  "total": 103950,
+  "payment": "Paid",
+  "market": "International",
+  "custom": true,
+  "markup": 9450
  },
  {
   "id": "SH-4303",
-  "ref": "#OTO4303",
+  "ref": "SH-4303",
+  "shopifyRef": "#OTO4303",
   "channel": "Shopify",
   "customer": "Rhea Kapoor",
   "city": "Dubai",
@@ -1510,18 +2209,24 @@
     "productId": "bi1504-ow",
     "size": "S",
     "qty": 1,
-    "price": 17900
+    "price": 21420,
+    "priceUsd": 255
    }
   ],
   "dueDate": "2026-11-15",
   "fulfilment": "Make to order",
   "status": "Ready to dispatch",
-  "total": 17900,
-  "payment": "Paid"
+  "subtotal": 21420,
+  "total": 21420,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4302",
-  "ref": "#OTO4302",
+  "ref": "SH-4302",
+  "shopifyRef": "#OTO4302",
   "channel": "Shopify",
   "customer": "Kavya Singh",
   "city": "London",
@@ -1531,20 +2236,27 @@
     "productId": "tp1514-eb",
     "size": "Free size",
     "qty": 1,
-    "price": 21900
+    "price": 26460,
+    "priceUsd": 315
    }
   ],
   "dueDate": "2026-11-14",
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-22",
-  "awb": "DTDC 50796092",
-  "total": 21900,
-  "payment": "Paid"
+  "subtotal": 26460,
+  "total": 26460,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0,
+  "awb": "8387035168",
+  "courier": "DHL Express"
  },
  {
   "id": "SH-4301",
-  "ref": "#OTO4301",
+  "ref": "SH-4301",
+  "shopifyRef": "#OTO4301",
   "channel": "Shopify",
   "customer": "Zoya Singh",
   "city": "Singapore",
@@ -1554,18 +2266,24 @@
     "productId": "st1511-rp",
     "size": "XS",
     "qty": 1,
-    "price": 39900
+    "price": 47880,
+    "priceUsd": 570
    }
   ],
   "dueDate": "2026-11-17",
   "fulfilment": "Make to order",
   "status": "Quality check",
-  "total": 39900,
-  "payment": "Paid"
+  "subtotal": 47880,
+  "total": 47880,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4300",
-  "ref": "#OTO4300",
+  "ref": "SH-4300",
+  "shopifyRef": "#OTO4300",
   "channel": "Shopify",
   "customer": "Avni Singh",
   "city": "Gurugram",
@@ -1582,13 +2300,19 @@
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-21",
-  "awb": "DTDC 50904790",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "1009173787664",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4299",
-  "ref": "#OTO4299",
+  "ref": "SH-4299",
+  "shopifyRef": "#OTO4299",
   "channel": "Shopify",
   "customer": "Aditi Sharma",
   "city": "Bengaluru",
@@ -1604,12 +2328,17 @@
   "dueDate": "2026-11-15",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 26500,
   "total": 26500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4298",
-  "ref": "#OTO4298",
+  "ref": "SH-4298",
+  "shopifyRef": "#OTO4298",
   "channel": "Shopify",
   "customer": "Nandini Khanna",
   "city": "Chandigarh",
@@ -1631,12 +2360,17 @@
   "dueDate": "2026-11-12",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 60800,
   "total": 60800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4297",
-  "ref": "#OTO4297",
+  "ref": "SH-4297",
+  "shopifyRef": "#OTO4297",
   "channel": "Shopify",
   "customer": "Nandini Chopra",
   "city": "Hyderabad",
@@ -1652,12 +2386,17 @@
   "dueDate": "2026-11-14",
   "fulfilment": "Make to order",
   "status": "Ready to dispatch",
+  "subtotal": 17500,
   "total": 17500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4296",
-  "ref": "#OTO4296",
+  "ref": "SH-4296",
+  "shopifyRef": "#OTO4296",
   "channel": "Shopify",
   "customer": "Ira Nair",
   "city": "Kolkata",
@@ -1674,13 +2413,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-08",
-  "awb": "DTDC 96758264",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "74011862667",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4295",
-  "ref": "#OTO4295",
+  "ref": "SH-4295",
+  "shopifyRef": "#OTO4295",
   "channel": "Shopify",
   "customer": "Sanya Kapoor",
   "city": "Chandigarh",
@@ -1697,13 +2442,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-06",
-  "awb": "DTDC 37685935",
+  "subtotal": 22900,
   "total": 22900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "95830796797",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4294",
-  "ref": "#OTO4294",
+  "ref": "SH-4294",
+  "shopifyRef": "#OTO4294",
   "channel": "Shopify",
   "customer": "Diya Nair",
   "city": "Hyderabad",
@@ -1719,12 +2470,17 @@
   "dueDate": "2026-11-17",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 22900,
   "total": 22900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4293",
-  "ref": "#OTO4293",
+  "ref": "SH-4293",
+  "shopifyRef": "#OTO4293",
   "channel": "Shopify",
   "customer": "Gauri Khanna",
   "city": "Chennai",
@@ -1742,13 +2498,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-11",
-  "awb": "DTDC 47481711",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 20900,
+  "total": 22990,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2090,
+  "awb": "1095843689050",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4292",
-  "ref": "#OTO4292",
+  "ref": "SH-4292",
+  "shopifyRef": "#OTO4292",
   "channel": "Shopify",
   "customer": "Malini Sethi",
   "city": "Pune",
@@ -1764,12 +2526,17 @@
   "dueDate": "2026-11-08",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 39900,
   "total": 39900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4291",
-  "ref": "#OTO4291",
+  "ref": "SH-4291",
+  "shopifyRef": "#OTO4291",
   "channel": "Shopify",
   "customer": "Tanvi Nair",
   "city": "Jaipur",
@@ -1786,13 +2553,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-10",
-  "awb": "DTDC 61027673",
+  "subtotal": 18900,
   "total": 18900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "6277211242355",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4290",
-  "ref": "#OTO4290",
+  "ref": "SH-4290",
+  "shopifyRef": "#OTO4290",
   "channel": "Shopify",
   "customer": "Tanvi Sharma",
   "city": "Bengaluru",
@@ -1808,12 +2581,17 @@
   "dueDate": "2026-11-12",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 42000,
   "total": 42000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4289",
-  "ref": "#OTO4289",
+  "ref": "SH-4289",
+  "shopifyRef": "#OTO4289",
   "channel": "Shopify",
   "customer": "Aditi Reddy",
   "city": "Bengaluru",
@@ -1838,13 +2616,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-10",
-  "awb": "DTDC 29369777",
-  "total": 62900,
-  "payment": "Paid"
+  "subtotal": 62900,
+  "total": 69190,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 6290,
+  "awb": "93681997176",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4288",
-  "ref": "#OTO4288",
+  "ref": "SH-4288",
+  "shopifyRef": "#OTO4288",
   "channel": "Shopify",
   "customer": "Nandini Iyer",
   "city": "Ahmedabad",
@@ -1861,15 +2645,165 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-04",
-  "awb": "DTDC 86281541",
+  "subtotal": 34900,
   "total": 34900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "5852222379995",
+  "courier": "Delhivery"
+ },
+ {
+  "id": "EV-122",
+  "ref": "EV-122",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Diya Rao",
+  "city": "Mumbai",
+  "date": "2026-10-08",
+  "items": [
+   {
+    "productId": "tp1503-ow",
+    "size": "Free size",
+    "qty": 1,
+    "price": 22900,
+    "note": "Sleeve length changed"
+   }
+  ],
+  "dueDate": "2026-11-04",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-08",
+  "handedOver": true,
+  "subtotal": 22900,
+  "total": 25190,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2290
+ },
+ {
+  "id": "EV-121",
+  "ref": "EV-121",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Tara Sethi",
+  "city": "Mumbai",
+  "date": "2026-10-08",
+  "items": [
+   {
+    "productId": "tp1505-r",
+    "size": "Free size",
+    "qty": 1,
+    "price": 25900
+   }
+  ],
+  "dueDate": "2026-11-03",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-08",
+  "handedOver": true,
+  "subtotal": 25900,
+  "total": 25900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-120",
+  "ref": "EV-120",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Zoya Sharma",
+  "city": "Mumbai",
+  "date": "2026-10-08",
+  "items": [
+   {
+    "productId": "tp1515-bl",
+    "size": "Custom",
+    "qty": 1,
+    "price": 26500,
+    "note": "Measured at the event"
+   }
+  ],
+  "dueDate": "2026-11-06",
+  "fulfilment": "Make to order",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-03",
+  "subtotal": 26500,
+  "total": 29150,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2650,
+  "awb": "4270503483712",
+  "courier": "Delhivery"
+ },
+ {
+  "id": "EV-119",
+  "ref": "EV-119",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Zoya Bose",
+  "city": "Mumbai",
+  "date": "2026-10-08",
+  "items": [
+   {
+    "productId": "st1502-r",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31000
+   }
+  ],
+  "dueDate": "2026-11-11",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-08",
+  "handedOver": true,
+  "subtotal": 31000,
+  "total": 31000,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-118",
+  "ref": "EV-118",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Zoya Desai",
+  "city": "Mumbai",
+  "date": "2026-10-08",
+  "items": [
+   {
+    "productId": "bi1504-ow",
+    "size": "Custom",
+    "qty": 1,
+    "price": 17900,
+    "note": "Measured at the event"
+   }
+  ],
+  "dueDate": "2026-11-06",
+  "fulfilment": "Make to order",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-11-05",
+  "subtotal": 17900,
+  "total": 19690,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 1790,
+  "awb": "4604610898764",
+  "courier": "Delhivery"
  },
  {
   "id": "OF-307",
   "ref": "OF-307",
   "channel": "Offline",
-  "source": "Exhibition: Delhi pop-up",
+  "source": "Instagram DM",
   "customer": "Radhika Nair",
   "city": "New Delhi",
   "date": "2026-10-08",
@@ -1878,20 +2812,27 @@
     "productId": "tp1513-bl",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 23900,
+    "note": "Sleeve length changed"
    }
   ],
   "dueDate": "2026-11-05",
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-09",
-  "awb": "DTDC 54716095",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 23900,
+  "total": 26290,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2390,
+  "awb": "2526786958100",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4287",
-  "ref": "#OTO4287",
+  "ref": "SH-4287",
+  "shopifyRef": "#OTO4287",
   "channel": "Shopify",
   "customer": "Tara Chopra",
   "city": "Singapore",
@@ -1901,18 +2842,24 @@
     "productId": "sk1504-ow",
     "size": "XL",
     "qty": 1,
-    "price": 20900
+    "price": 25200,
+    "priceUsd": 300
    }
   ],
   "dueDate": "2026-11-03",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 25200,
+  "total": 25200,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4286",
-  "ref": "#OTO4286",
+  "ref": "SH-4286",
+  "shopifyRef": "#OTO4286",
   "channel": "Shopify",
   "customer": "Tanvi Desai",
   "city": "Chennai",
@@ -1928,12 +2875,17 @@
   "dueDate": "2026-11-06",
   "fulfilment": "Make to order",
   "status": "In production",
+  "subtotal": 39900,
   "total": 39900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4285",
-  "ref": "#OTO4285",
+  "ref": "SH-4285",
+  "shopifyRef": "#OTO4285",
   "channel": "Shopify",
   "customer": "Aanya Nair",
   "city": "Mumbai",
@@ -1951,13 +2903,331 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-07",
-  "awb": "DTDC 32321701",
+  "subtotal": 34900,
+  "total": 38390,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 3490,
+  "awb": "92860642119",
+  "courier": "Blue Dart"
+ },
+ {
+  "id": "EV-117",
+  "ref": "EV-117",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Kavya Gupta",
+  "city": "Mumbai",
+  "date": "2026-10-07",
+  "items": [
+   {
+    "productId": "tp1502-ow",
+    "size": "Free size",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-11-10",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-07",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-116",
+  "ref": "EV-116",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Rhea Rao",
+  "city": "Mumbai",
+  "date": "2026-10-07",
+  "items": [
+   {
+    "productId": "tp1510-eb",
+    "size": "Free size",
+    "qty": 1,
+    "price": 28900
+   }
+  ],
+  "dueDate": "2026-11-02",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-07",
+  "handedOver": true,
+  "subtotal": 28900,
+  "total": 28900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-115",
+  "ref": "EV-115",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Aanya Sethi",
+  "city": "Mumbai",
+  "date": "2026-10-07",
+  "items": [
+   {
+    "productId": "st1512-eb",
+    "size": "XXL",
+    "qty": 1,
+    "price": 39900
+   }
+  ],
+  "dueDate": "2026-11-08",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-07",
+  "handedOver": true,
+  "subtotal": 39900,
+  "total": 39900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-114",
+  "ref": "EV-114",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Naina Sharma",
+  "city": "Mumbai",
+  "date": "2026-10-07",
+  "items": [
+   {
+    "productId": "bi1502-rp",
+    "size": "M",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-11-10",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-07",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-113",
+  "ref": "EV-113",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Meera Kapoor",
+  "city": "Mumbai",
+  "date": "2026-10-07",
+  "items": [
+   {
+    "productId": "ja1502-nb",
+    "size": "XS",
+    "qty": 1,
+    "price": 34900
+   }
+  ],
+  "dueDate": "2026-11-09",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-07",
+  "handedOver": true,
+  "subtotal": 34900,
   "total": 34900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-112",
+  "ref": "CON-112",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-042",
+  "challanId": "DC-2627-042",
+  "customer": "Studio Saanjh",
+  "city": "Hyderabad",
+  "date": "2026-10-07",
+  "items": [
+   {
+    "productId": "st1504-r-rp-ow",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "price": 31000
+   },
+   {
+    "productId": "st1513-ow",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 42000
+   },
+   {
+    "productId": "st1506-bp",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 55900
+   },
+   {
+    "productId": "bi1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "price": 23900
+   },
+   {
+    "productId": "dr1501-rp",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "price": 20900
+   },
+   {
+    "productId": "ja1503-bl",
+    "size": "Size run (S-L)",
+    "qty": 7,
+    "price": 34900
+   }
+  ],
+  "dueDate": "2026-10-07",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-07",
+  "subtotal": 970700,
+  "markup": 0,
+  "total": 970700,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "98152333345",
+  "courier": "Blue Dart"
+ },
+ {
+  "id": "EV-112",
+  "ref": "EV-112",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Anushka Kapoor",
+  "city": "Mumbai",
+  "date": "2026-10-06",
+  "items": [
+   {
+    "productId": "tp1507-bl",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-11-01",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-06",
+  "handedOver": true,
+  "subtotal": 31900,
+  "total": 31900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-111",
+  "ref": "EV-111",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Pallavi Reddy",
+  "city": "Mumbai",
+  "date": "2026-10-06",
+  "items": [
+   {
+    "productId": "tp1507-bl",
+    "size": "Free size",
+    "qty": 1,
+    "price": 31900
+   }
+  ],
+  "dueDate": "2026-11-07",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-06",
+  "handedOver": true,
+  "subtotal": 31900,
+  "total": 31900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-110",
+  "ref": "EV-110",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Shruti Kapoor",
+  "city": "Mumbai",
+  "date": "2026-10-06",
+  "items": [
+   {
+    "productId": "sk1503-bp",
+    "size": "XL",
+    "qty": 1,
+    "price": 20900
+   }
+  ],
+  "dueDate": "2026-11-06",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-06",
+  "handedOver": true,
+  "subtotal": 20900,
+  "total": 20900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-109",
+  "ref": "EV-109",
+  "channel": "Events",
+  "source": "Mumbai festive exhibition",
+  "customer": "Kavya Singh",
+  "city": "Mumbai",
+  "date": "2026-10-06",
+  "items": [
+   {
+    "productId": "st1513-ow",
+    "size": "XL",
+    "qty": 1,
+    "price": 42000
+   }
+  ],
+  "dueDate": "2026-11-09",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-06",
+  "handedOver": true,
+  "subtotal": 42000,
+  "total": 42000,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4284",
-  "ref": "#OTO4284",
+  "ref": "SH-4284",
+  "shopifyRef": "#OTO4284",
   "channel": "Shopify",
   "customer": "Meera Mehta",
   "city": "London",
@@ -1967,18 +3237,24 @@
     "productId": "tp1508-w",
     "size": "Free size",
     "qty": 1,
-    "price": 16900
+    "price": 20160,
+    "priceUsd": 240
    }
   ],
   "dueDate": "2026-11-08",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 16900,
-  "payment": "Paid"
+  "subtotal": 20160,
+  "total": 20160,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4283",
-  "ref": "#OTO4283",
+  "ref": "SH-4283",
+  "shopifyRef": "#OTO4283",
   "channel": "Shopify",
   "customer": "Tara Mehta",
   "city": "Kolkata",
@@ -2000,12 +3276,16 @@
   "dueDate": "2026-11-05",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 51900,
   "total": 51900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
-  "id": "WH-104",
-  "ref": "WH-104",
+  "id": "WHO-104",
+  "ref": "WHO-104",
   "channel": "Wholesale",
   "customer": "Saffron Lane Boutique",
   "city": "Dubai",
@@ -2039,12 +3319,17 @@
   "dueDate": "2026-11-14",
   "fulfilment": "Make to order",
   "status": "Ready to dispatch",
+  "subtotal": 355245,
   "total": 355245,
-  "payment": "Advance received"
+  "payment": "Advance received",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4282",
-  "ref": "#OTO4282",
+  "ref": "SH-4282",
+  "shopifyRef": "#OTO4282",
   "channel": "Shopify",
   "customer": "Ira Sharma",
   "city": "Chennai",
@@ -2061,12 +3346,17 @@
   "dueDate": "2026-11-07",
   "fulfilment": "Make to order",
   "status": "Quality check",
-  "total": 22900,
-  "payment": "Paid"
+  "subtotal": 22900,
+  "total": 25190,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2290
  },
  {
   "id": "SH-4281",
-  "ref": "#OTO4281",
+  "ref": "SH-4281",
+  "shopifyRef": "#OTO4281",
   "channel": "Shopify",
   "customer": "Pallavi Chopra",
   "city": "Gurugram",
@@ -2088,12 +3378,17 @@
   "dueDate": "2026-11-05",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 43800,
   "total": 43800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4280",
-  "ref": "#OTO4280",
+  "ref": "SH-4280",
+  "shopifyRef": "#OTO4280",
   "channel": "Shopify",
   "customer": "Rhea Reddy",
   "city": "Lucknow",
@@ -2110,13 +3405,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-31",
-  "awb": "DTDC 34624079",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "1835108884377",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4279",
-  "ref": "#OTO4279",
+  "ref": "SH-4279",
+  "shopifyRef": "#OTO4279",
   "channel": "Shopify",
   "customer": "Aditi Mehta",
   "city": "Chandigarh",
@@ -2139,13 +3440,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-31",
-  "awb": "DTDC 87911969",
+  "subtotal": 45800,
   "total": 45800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "87216984798",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4278",
-  "ref": "#OTO4278",
+  "ref": "SH-4278",
+  "shopifyRef": "#OTO4278",
   "channel": "Shopify",
   "customer": "Ira Nair",
   "city": "Chandigarh",
@@ -2162,13 +3469,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-11-01",
-  "awb": "DTDC 25247216",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "3888543370645",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4277",
-  "ref": "#OTO4277",
+  "ref": "SH-4277",
+  "shopifyRef": "#OTO4277",
   "channel": "Shopify",
   "customer": "Radhika Malhotra",
   "city": "Lucknow",
@@ -2184,12 +3497,17 @@
   "dueDate": "2026-11-02",
   "fulfilment": "Make to order",
   "status": "Quality check",
+  "subtotal": 28900,
   "total": 28900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4276",
-  "ref": "#OTO4276",
+  "ref": "SH-4276",
+  "shopifyRef": "#OTO4276",
   "channel": "Shopify",
   "customer": "Kavya Chopra",
   "city": "Gurugram",
@@ -2206,12 +3524,17 @@
   "dueDate": "2026-11-02",
   "fulfilment": "Make to order",
   "status": "In production",
-  "total": 37900,
-  "payment": "Paid"
+  "subtotal": 37900,
+  "total": 41690,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 3790
  },
  {
   "id": "SH-4275",
-  "ref": "#OTO4275",
+  "ref": "SH-4275",
+  "shopifyRef": "#OTO4275",
   "channel": "Shopify",
   "customer": "Tanvi Desai",
   "city": "Lucknow",
@@ -2228,13 +3551,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-23",
-  "awb": "DTDC 50842852",
+  "subtotal": 37900,
   "total": 37900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "74242763374",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4274",
-  "ref": "#OTO4274",
+  "ref": "SH-4274",
+  "shopifyRef": "#OTO4274",
   "channel": "Shopify",
   "customer": "Gauri Desai",
   "city": "Bengaluru",
@@ -2251,13 +3580,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-21",
-  "awb": "DTDC 91355752",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "5685135709587",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4273",
-  "ref": "#OTO4273",
+  "ref": "SH-4273",
+  "shopifyRef": "#OTO4273",
   "channel": "Shopify",
   "customer": "Avni Singh",
   "city": "London",
@@ -2267,20 +3602,27 @@
     "productId": "tp1503-ow",
     "size": "Free size",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    }
   ],
   "dueDate": "2026-10-28",
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-28",
-  "awb": "DTDC 29079972",
-  "total": 22900,
-  "payment": "Paid"
+  "subtotal": 27300,
+  "total": 27300,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0,
+  "awb": "9237857028",
+  "courier": "DHL Express"
  },
  {
   "id": "SH-4272",
-  "ref": "#OTO4272",
+  "ref": "SH-4272",
+  "shopifyRef": "#OTO4272",
   "channel": "Shopify",
   "customer": "Zoya Mehta",
   "city": "Chennai",
@@ -2303,13 +3645,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-24",
-  "awb": "DTDC 97967449",
+  "subtotal": 85900,
   "total": 85900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "87476192507",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4271",
-  "ref": "#OTO4271",
+  "ref": "SH-4271",
+  "shopifyRef": "#OTO4271",
   "channel": "Shopify",
   "customer": "Tanvi Nair",
   "city": "Lucknow",
@@ -2326,15 +3674,20 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-30",
-  "awb": "DTDC 60620345",
+  "subtotal": 16900,
   "total": 16900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "83252880262",
+  "courier": "Blue Dart"
  },
  {
   "id": "OF-306",
   "ref": "OF-306",
   "channel": "Offline",
-  "source": "Exhibition: Delhi pop-up",
+  "source": "Instagram DM",
   "customer": "Malini Rao",
   "city": "Jaipur",
   "date": "2026-09-23",
@@ -2350,13 +3703,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-23",
-  "awb": "DTDC 92700357",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "74465930577",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4270",
-  "ref": "#OTO4270",
+  "ref": "SH-4270",
+  "shopifyRef": "#OTO4270",
   "channel": "Shopify",
   "customer": "Naina Iyer",
   "city": "Chandigarh",
@@ -2373,13 +3732,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-21",
-  "awb": "DTDC 58866643",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "76000488597",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4269",
-  "ref": "#OTO4269",
+  "ref": "SH-4269",
+  "shopifyRef": "#OTO4269",
   "channel": "Shopify",
   "customer": "Tara Iyer",
   "city": "Kolkata",
@@ -2396,13 +3761,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-25",
-  "awb": "DTDC 24309856",
+  "subtotal": 31900,
   "total": 31900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "85659057490",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4268",
-  "ref": "#OTO4268",
+  "ref": "SH-4268",
+  "shopifyRef": "#OTO4268",
   "channel": "Shopify",
   "customer": "Anushka Chopra",
   "city": "London",
@@ -2412,16 +3783,22 @@
     "productId": "st1507-bl",
     "size": "XS",
     "qty": 1,
-    "price": 50900
+    "price": 60900,
+    "priceUsd": 725
    }
   ],
   "dueDate": "2026-10-22",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-20",
-  "awb": "DTDC 48693532",
-  "total": 50900,
-  "payment": "Paid"
+  "subtotal": 60900,
+  "total": 60900,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0,
+  "awb": "5103437345",
+  "courier": "DHL Express"
  },
  {
   "id": "OF-305",
@@ -2443,13 +3820,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-14",
-  "awb": "DTDC 74931646",
+  "subtotal": 31000,
   "total": 31000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "8732139077037",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4267",
-  "ref": "#OTO4267",
+  "ref": "SH-4267",
+  "shopifyRef": "#OTO4267",
   "channel": "Shopify",
   "customer": "Ira Desai",
   "city": "New Delhi",
@@ -2466,13 +3849,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-20",
-  "awb": "DTDC 64258105",
+  "subtotal": 31900,
   "total": 31900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "7421833631815",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4266",
-  "ref": "#OTO4266",
+  "ref": "SH-4266",
+  "shopifyRef": "#OTO4266",
   "channel": "Shopify",
   "customer": "Saanvi Chopra",
   "city": "Chennai",
@@ -2489,13 +3878,18 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-20",
-  "awb": "DTDC 65147684",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "87973924368",
+  "courier": "Blue Dart"
  },
  {
-  "id": "WH-103",
-  "ref": "WH-103",
+  "id": "WHO-103",
+  "ref": "WHO-103",
   "channel": "Wholesale",
   "customer": "Kora Concept Store",
   "city": "Bengaluru",
@@ -2530,13 +3924,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-25",
-  "awb": "DTDC 18860626",
+  "subtotal": 264495,
   "total": 264495,
-  "payment": "Due in 30 days"
+  "payment": "Due in 30 days",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "75066869702",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4265",
-  "ref": "#OTO4265",
+  "ref": "SH-4265",
+  "shopifyRef": "#OTO4265",
   "channel": "Shopify",
   "customer": "Zoya Nair",
   "city": "Jaipur",
@@ -2553,13 +3953,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-11",
-  "awb": "DTDC 99110331",
+  "subtotal": 34900,
   "total": 34900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "89867939963",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4264",
-  "ref": "#OTO4264",
+  "ref": "SH-4264",
+  "shopifyRef": "#OTO4264",
   "channel": "Shopify",
   "customer": "Nandini Gupta",
   "city": "Mumbai",
@@ -2576,13 +3982,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-16",
-  "awb": "DTDC 63540550",
+  "subtotal": 31000,
   "total": 31000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "81401579078",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4263",
-  "ref": "#OTO4263",
+  "ref": "SH-4263",
+  "shopifyRef": "#OTO4263",
   "channel": "Shopify",
   "customer": "Tara Malhotra",
   "city": "Jaipur",
@@ -2600,13 +4012,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-10",
-  "awb": "DTDC 35188217",
-  "total": 17500,
-  "payment": "Paid"
+  "subtotal": 17500,
+  "total": 19250,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 1750,
+  "awb": "4300851775566",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4262",
-  "ref": "#OTO4262",
+  "ref": "SH-4262",
+  "shopifyRef": "#OTO4262",
   "channel": "Shopify",
   "customer": "Aditi Reddy",
   "city": "Lucknow",
@@ -2624,13 +4042,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-07",
-  "awb": "DTDC 99874340",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 23900,
+  "total": 26290,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2390,
+  "awb": "77383106416",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4261",
-  "ref": "#OTO4261",
+  "ref": "SH-4261",
+  "shopifyRef": "#OTO4261",
   "channel": "Shopify",
   "customer": "Shruti Reddy",
   "city": "Ahmedabad",
@@ -2654,15 +4078,20 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-13",
-  "awb": "DTDC 94589645",
-  "total": 53000,
-  "payment": "Paid"
+  "subtotal": 53000,
+  "total": 58300,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 5300,
+  "awb": "86264516497",
+  "courier": "Blue Dart"
  },
  {
   "id": "OF-304",
   "ref": "OF-304",
   "channel": "Offline",
-  "source": "Exhibition: Delhi pop-up",
+  "source": "Instagram DM",
   "customer": "Ishita Sharma",
   "city": "New Delhi",
   "date": "2026-09-11",
@@ -2678,13 +4107,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-10",
-  "awb": "DTDC 56227876",
+  "subtotal": 48900,
   "total": 48900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "87393946273",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4260",
-  "ref": "#OTO4260",
+  "ref": "SH-4260",
+  "shopifyRef": "#OTO4260",
   "channel": "Shopify",
   "customer": "Aditi Iyer",
   "city": "Pune",
@@ -2701,13 +4136,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-07",
-  "awb": "DTDC 41009195",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "78483218951",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4259",
-  "ref": "#OTO4259",
+  "ref": "SH-4259",
+  "shopifyRef": "#OTO4259",
   "channel": "Shopify",
   "customer": "Aditi Banerjee",
   "city": "London",
@@ -2717,20 +4158,27 @@
     "productId": "sk1503-bp",
     "size": "XL",
     "qty": 1,
-    "price": 20900
+    "price": 25200,
+    "priceUsd": 300
    }
   ],
   "dueDate": "2026-10-11",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-10",
-  "awb": "DTDC 37904396",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 25200,
+  "total": 25200,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0,
+  "awb": "6224670032",
+  "courier": "DHL Express"
  },
  {
   "id": "SH-4258",
-  "ref": "#OTO4258",
+  "ref": "SH-4258",
+  "shopifyRef": "#OTO4258",
   "channel": "Shopify",
   "customer": "Pallavi Bose",
   "city": "Kolkata",
@@ -2747,13 +4195,287 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-08",
-  "awb": "DTDC 45567301",
+  "subtotal": 28900,
   "total": 28900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "81607116269",
+  "courier": "Blue Dart"
+ },
+ {
+  "id": "CON-111",
+  "ref": "CON-111",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-041",
+  "challanId": "DC-2627-041",
+  "customer": "Indigo House",
+  "city": "Jaipur",
+  "date": "2026-09-10",
+  "items": [
+   {
+    "productId": "bi1502-rp",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "price": 23900
+   },
+   {
+    "productId": "ja1503-bl",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "price": 34900
+   },
+   {
+    "productId": "tp1514-eb",
+    "size": "Free size",
+    "qty": 3,
+    "price": 21900
+   }
+  ],
+  "dueDate": "2026-09-10",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-10",
+  "subtotal": 300900,
+  "markup": 0,
+  "total": 300900,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells"
+ },
+ {
+  "id": "EV-108",
+  "ref": "EV-108",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Rhea Khanna",
+  "city": "New Delhi",
+  "date": "2026-09-09",
+  "items": [
+   {
+    "productId": "tp1513-bl",
+    "size": "Free size",
+    "qty": 1,
+    "price": 23900
+   }
+  ],
+  "dueDate": "2026-10-10",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-09",
+  "handedOver": true,
+  "subtotal": 23900,
+  "total": 23900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-107",
+  "ref": "EV-107",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Aanya Sethi",
+  "city": "New Delhi",
+  "date": "2026-09-09",
+  "items": [
+   {
+    "productId": "st1508-nb",
+    "size": "Custom",
+    "qty": 1,
+    "price": 55900,
+    "note": "Measured at the event"
+   }
+  ],
+  "dueDate": "2026-10-10",
+  "fulfilment": "Make to order",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-09",
+  "subtotal": 55900,
+  "total": 61490,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 5590,
+  "awb": "4662162525346",
+  "courier": "Delhivery"
+ },
+ {
+  "id": "EV-106",
+  "ref": "EV-106",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Radhika Sharma",
+  "city": "New Delhi",
+  "date": "2026-09-09",
+  "items": [
+   {
+    "productId": "ja1503-bl",
+    "size": "Custom",
+    "qty": 1,
+    "price": 34900,
+    "note": "Measured at the event"
+   }
+  ],
+  "dueDate": "2026-10-10",
+  "fulfilment": "Make to order",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-10-08",
+  "subtotal": 34900,
+  "total": 38390,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 3490,
+  "awb": "6739229825325",
+  "courier": "Delhivery"
+ },
+ {
+  "id": "EV-105",
+  "ref": "EV-105",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Sanya Chopra",
+  "city": "New Delhi",
+  "date": "2026-09-09",
+  "items": [
+   {
+    "productId": "ja1501-bl",
+    "size": "XXL",
+    "qty": 1,
+    "price": 37900
+   }
+  ],
+  "dueDate": "2026-10-08",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-09",
+  "handedOver": true,
+  "subtotal": 37900,
+  "total": 37900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-104",
+  "ref": "EV-104",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Diya Banerjee",
+  "city": "New Delhi",
+  "date": "2026-09-08",
+  "items": [
+   {
+    "productId": "tp1505-r",
+    "size": "Free size",
+    "qty": 1,
+    "price": 25900
+   }
+  ],
+  "dueDate": "2026-10-08",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-08",
+  "handedOver": true,
+  "subtotal": 25900,
+  "total": 25900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-103",
+  "ref": "EV-103",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Anushka Khanna",
+  "city": "New Delhi",
+  "date": "2026-09-08",
+  "items": [
+   {
+    "productId": "st1501-r",
+    "size": "Free size",
+    "qty": 1,
+    "price": 35000
+   }
+  ],
+  "dueDate": "2026-10-09",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-08",
+  "handedOver": true,
+  "subtotal": 35000,
+  "total": 35000,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-102",
+  "ref": "EV-102",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Meera Khanna",
+  "city": "New Delhi",
+  "date": "2026-09-08",
+  "items": [
+   {
+    "productId": "ja1503-bl",
+    "size": "XS",
+    "qty": 1,
+    "price": 34900
+   }
+  ],
+  "dueDate": "2026-10-04",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-08",
+  "handedOver": true,
+  "subtotal": 34900,
+  "total": 34900,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "EV-101",
+  "ref": "EV-101",
+  "channel": "Events",
+  "source": "Delhi pop-up, Bikaner House",
+  "customer": "Riya Sethi",
+  "city": "New Delhi",
+  "date": "2026-09-08",
+  "items": [
+   {
+    "productId": "tp1506-ow",
+    "size": "Free size",
+    "qty": 1,
+    "price": 26500
+   }
+  ],
+  "dueDate": "2026-10-11",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-08",
+  "handedOver": true,
+  "subtotal": 26500,
+  "total": 26500,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4257",
-  "ref": "#OTO4257",
+  "ref": "SH-4257",
+  "shopifyRef": "#OTO4257",
   "channel": "Shopify",
   "customer": "Ira Khanna",
   "city": "Dubai",
@@ -2763,20 +4485,27 @@
     "productId": "bi1502-eb",
     "size": "M",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-10-10",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-08",
-  "awb": "DTDC 24567771",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0,
+  "awb": "6793314480",
+  "courier": "DHL Express"
  },
  {
   "id": "SH-4256",
-  "ref": "#OTO4256",
+  "ref": "SH-4256",
+  "shopifyRef": "#OTO4256",
   "channel": "Shopify",
   "customer": "Radhika Reddy",
   "city": "Bengaluru",
@@ -2799,13 +4528,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-05",
-  "awb": "DTDC 75538565",
+  "subtotal": 63800,
   "total": 63800,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "96829575486",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4255",
-  "ref": "#OTO4255",
+  "ref": "SH-4255",
+  "shopifyRef": "#OTO4255",
   "channel": "Shopify",
   "customer": "Radhika Nair",
   "city": "Singapore",
@@ -2815,27 +4550,35 @@
     "productId": "ja1502-nb",
     "size": "Custom",
     "qty": 1,
-    "price": 34900,
-    "note": "Custom measurements received"
+    "price": 42000,
+    "note": "Custom measurements received",
+    "priceUsd": 500
    },
    {
     "productId": "tp1503-ow",
     "size": "Free size",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    }
   ],
   "dueDate": "2026-10-05",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-04",
-  "awb": "DTDC 94551133",
-  "total": 57800,
-  "payment": "Paid"
+  "subtotal": 69300,
+  "total": 76230,
+  "payment": "Paid",
+  "market": "International",
+  "custom": true,
+  "markup": 6930,
+  "awb": "3834446584",
+  "courier": "DHL Express"
  },
  {
   "id": "SH-4254",
-  "ref": "#OTO4254",
+  "ref": "SH-4254",
+  "shopifyRef": "#OTO4254",
   "channel": "Shopify",
   "customer": "Aanya Iyer",
   "city": "Kolkata",
@@ -2852,13 +4595,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-02",
-  "awb": "DTDC 12485419",
+  "subtotal": 18900,
   "total": 18900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "99575830535",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4253",
-  "ref": "#OTO4253",
+  "ref": "SH-4253",
+  "shopifyRef": "#OTO4253",
   "channel": "Shopify",
   "customer": "Radhika Bose",
   "city": "Singapore",
@@ -2868,20 +4617,27 @@
     "productId": "st1505-ow",
     "size": "M",
     "qty": 1,
-    "price": 26900
+    "price": 32340,
+    "priceUsd": 385
    }
   ],
   "dueDate": "2026-10-08",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-07",
-  "awb": "DTDC 35290914",
-  "total": 26900,
-  "payment": "Paid"
+  "subtotal": 32340,
+  "total": 32340,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0,
+  "awb": "4039945308",
+  "courier": "DHL Express"
  },
  {
   "id": "SH-4252",
-  "ref": "#OTO4252",
+  "ref": "SH-4252",
+  "shopifyRef": "#OTO4252",
   "channel": "Shopify",
   "customer": "Riya Malhotra",
   "city": "Lucknow",
@@ -2891,20 +4647,27 @@
     "productId": "sk1501-eb",
     "size": "S",
     "qty": 1,
-    "price": 20900
+    "price": 20900,
+    "note": "Sleeve length changed"
    }
   ],
   "dueDate": "2026-10-10",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-07",
-  "awb": "DTDC 75936581",
-  "total": 20900,
-  "payment": "Paid"
+  "subtotal": 20900,
+  "total": 22990,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2090,
+  "awb": "97207928213",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4251",
-  "ref": "#OTO4251",
+  "ref": "SH-4251",
+  "shopifyRef": "#OTO4251",
   "channel": "Shopify",
   "customer": "Malini Mehta",
   "city": "Gurugram",
@@ -2921,13 +4684,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-03",
-  "awb": "DTDC 47444567",
+  "subtotal": 39900,
   "total": 39900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "94062010913",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4250",
-  "ref": "#OTO4250",
+  "ref": "SH-4250",
+  "shopifyRef": "#OTO4250",
   "channel": "Shopify",
   "customer": "Malini Rao",
   "city": "Jaipur",
@@ -2945,13 +4714,19 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-05",
-  "awb": "DTDC 61165271",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "6731319177895",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4249",
-  "ref": "#OTO4249",
+  "ref": "SH-4249",
+  "shopifyRef": "#OTO4249",
   "channel": "Shopify",
   "customer": "Naina Banerjee",
   "city": "Chennai",
@@ -2968,13 +4743,52 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-28",
-  "awb": "DTDC 98776430",
+  "subtotal": 48900,
   "total": 48900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "85675034367",
+  "courier": "Blue Dart"
  },
  {
-  "id": "WH-102",
-  "ref": "WH-102",
+  "id": "CON-110",
+  "ref": "CON-110",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-040",
+  "challanId": "DC-2627-040",
+  "customer": "Indigo House",
+  "city": "Jaipur",
+  "date": "2026-09-05",
+  "items": [
+   {
+    "productId": "st1501-r",
+    "size": "Free size",
+    "qty": 5,
+    "price": 35000
+   },
+   {
+    "productId": "tp1508-w",
+    "size": "Free size",
+    "qty": 5,
+    "price": 16900
+   }
+  ],
+  "dueDate": "2026-09-05",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-05",
+  "subtotal": 259500,
+  "markup": 0,
+  "total": 259500,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells"
+ },
+ {
+  "id": "WHO-102",
+  "ref": "WHO-102",
   "channel": "Wholesale",
   "customer": "Atelier Nine",
   "city": "New Delhi",
@@ -3015,13 +4829,55 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-10-11",
-  "awb": "DTDC 68593077",
+  "subtotal": 422840,
   "total": 422840,
-  "payment": "Due in 30 days"
+  "payment": "Due in 30 days",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0,
+  "awb": "9521302948938",
+  "courier": "Delhivery"
+ },
+ {
+  "id": "CON-101",
+  "ref": "CON-101",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-031",
+  "challanId": "DC-2627-031",
+  "customer": "The Loom Store",
+  "city": "Mumbai",
+  "date": "2026-09-03",
+  "items": [
+   {
+    "productId": "ja1503-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 34900
+   },
+   {
+    "productId": "tp1503-ow",
+    "size": "Free size",
+    "qty": 7,
+    "price": 22900
+   }
+  ],
+  "dueDate": "2026-09-03",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-09-03",
+  "subtotal": 230100,
+  "markup": 0,
+  "total": 230100,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "96317430048",
+  "courier": "Blue Dart"
  },
  {
   "id": "SH-4248",
-  "ref": "#OTO4248",
+  "ref": "SH-4248",
+  "shopifyRef": "#OTO4248",
   "channel": "Shopify",
   "customer": "Shruti Gupta",
   "city": "Chennai",
@@ -3038,13 +4894,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-23",
-  "awb": "DTDC 78868398",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4247",
-  "ref": "#OTO4247",
+  "ref": "SH-4247",
+  "shopifyRef": "#OTO4247",
   "channel": "Shopify",
   "customer": "Sanya Khanna",
   "city": "Gurugram",
@@ -3061,13 +4921,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-25",
-  "awb": "DTDC 44744709",
+  "subtotal": 26900,
   "total": 26900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4246",
-  "ref": "#OTO4246",
+  "ref": "SH-4246",
+  "shopifyRef": "#OTO4246",
   "channel": "Shopify",
   "customer": "Diya Reddy",
   "city": "Hyderabad",
@@ -3084,9 +4948,102 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-26",
-  "awb": "DTDC 99601937",
+  "subtotal": 17500,
   "total": 17500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-107",
+  "ref": "CON-107",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-037",
+  "challanId": "DC-2627-037",
+  "customer": "Kora Concept Store",
+  "city": "Bengaluru",
+  "date": "2026-08-30",
+  "items": [
+   {
+    "productId": "pa1502-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 17500
+   },
+   {
+    "productId": "tp1505-r",
+    "size": "Free size",
+    "qty": 6,
+    "price": 25900
+   },
+   {
+    "productId": "st1506-bp",
+    "size": "Size run (S-L)",
+    "qty": 4,
+    "price": 55900
+   },
+   {
+    "productId": "st1512-eb",
+    "size": "Size run (S-L)",
+    "qty": 3,
+    "price": 39900
+   }
+  ],
+  "dueDate": "2026-08-30",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-08-30",
+  "subtotal": 533700,
+  "markup": 0,
+  "total": 533700,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "71087898830",
+  "courier": "Blue Dart"
+ },
+ {
+  "id": "CON-105",
+  "ref": "CON-105",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-035",
+  "challanId": "DC-2627-035",
+  "customer": "Atelier Nine",
+  "city": "New Delhi",
+  "date": "2026-08-29",
+  "items": [
+   {
+    "productId": "sk1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "price": 20900
+   },
+   {
+    "productId": "st1509-bl",
+    "size": "Size run (S-L)",
+    "qty": 2,
+    "price": 48900
+   },
+   {
+    "productId": "dr1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 8,
+    "price": 20900
+   }
+  ],
+  "dueDate": "2026-08-29",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-08-29",
+  "subtotal": 390400,
+  "markup": 0,
+  "total": 390400,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "1995090425014",
+  "courier": "Delhivery"
  },
  {
   "id": "OF-303",
@@ -3108,13 +5065,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-25",
-  "awb": "DTDC 39683360",
+  "subtotal": 37900,
   "total": 37900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4245",
-  "ref": "#OTO4245",
+  "ref": "SH-4245",
+  "shopifyRef": "#OTO4245",
   "channel": "Shopify",
   "customer": "Zoya Nair",
   "city": "Chennai",
@@ -3131,15 +5092,18 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-23",
-  "awb": "DTDC 51026691",
+  "subtotal": 31000,
   "total": 31000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "OF-302",
   "ref": "OF-302",
   "channel": "Offline",
-  "source": "Exhibition: Delhi pop-up",
+  "source": "Jaipur studio",
   "customer": "Naina Chopra",
   "city": "New Delhi",
   "date": "2026-08-27",
@@ -3155,13 +5119,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-20",
-  "awb": "DTDC 77991657",
+  "subtotal": 17500,
   "total": 17500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4244",
-  "ref": "#OTO4244",
+  "ref": "SH-4244",
+  "shopifyRef": "#OTO4244",
   "channel": "Shopify",
   "customer": "Pallavi Bose",
   "city": "Bengaluru",
@@ -3178,13 +5146,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-24",
-  "awb": "DTDC 20669370",
+  "subtotal": 28900,
   "total": 28900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4243",
-  "ref": "#OTO4243",
+  "ref": "SH-4243",
+  "shopifyRef": "#OTO4243",
   "channel": "Shopify",
   "customer": "Ira Bose",
   "city": "Kolkata",
@@ -3202,13 +5174,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-23",
-  "awb": "DTDC 32775749",
-  "total": 26900,
-  "payment": "Paid"
+  "subtotal": 26900,
+  "total": 29590,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2690
  },
  {
   "id": "SH-4242",
-  "ref": "#OTO4242",
+  "ref": "SH-4242",
+  "shopifyRef": "#OTO4242",
   "channel": "Shopify",
   "customer": "Tanvi Rao",
   "city": "Hyderabad",
@@ -3225,13 +5201,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-22",
-  "awb": "DTDC 99734686",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4241",
-  "ref": "#OTO4241",
+  "ref": "SH-4241",
+  "shopifyRef": "#OTO4241",
   "channel": "Shopify",
   "customer": "Sanya Iyer",
   "city": "Jaipur",
@@ -3248,13 +5228,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-19",
-  "awb": "DTDC 31270022",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4240",
-  "ref": "#OTO4240",
+  "ref": "SH-4240",
+  "shopifyRef": "#OTO4240",
   "channel": "Shopify",
   "customer": "Kavya Sharma",
   "city": "Ahmedabad",
@@ -3271,13 +5255,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-20",
-  "awb": "DTDC 40124486",
+  "subtotal": 26500,
   "total": 26500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4239",
-  "ref": "#OTO4239",
+  "ref": "SH-4239",
+  "shopifyRef": "#OTO4239",
   "channel": "Shopify",
   "customer": "Saanvi Malhotra",
   "city": "Hyderabad",
@@ -3294,13 +5282,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-24",
-  "awb": "DTDC 34251845",
+  "subtotal": 26500,
   "total": 26500,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4238",
-  "ref": "#OTO4238",
+  "ref": "SH-4238",
+  "shopifyRef": "#OTO4238",
   "channel": "Shopify",
   "customer": "Kavya Iyer",
   "city": "Kolkata",
@@ -3318,13 +5310,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-22",
-  "awb": "DTDC 95705937",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4237",
-  "ref": "#OTO4237",
+  "ref": "SH-4237",
+  "shopifyRef": "#OTO4237",
   "channel": "Shopify",
   "customer": "Malini Banerjee",
   "city": "Chennai",
@@ -3342,13 +5338,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-20",
-  "awb": "DTDC 39254093",
-  "total": 26500,
-  "payment": "Paid"
+  "subtotal": 26500,
+  "total": 29150,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 2650
  },
  {
   "id": "SH-4236",
-  "ref": "#OTO4236",
+  "ref": "SH-4236",
+  "shopifyRef": "#OTO4236",
   "channel": "Shopify",
   "customer": "Shruti Nair",
   "city": "Chennai",
@@ -3365,9 +5365,12 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-21",
-  "awb": "DTDC 66181458",
+  "subtotal": 42000,
   "total": 42000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "OF-301",
@@ -3389,13 +5392,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-20",
-  "awb": "DTDC 36843523",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4235",
-  "ref": "#OTO4235",
+  "ref": "SH-4235",
+  "shopifyRef": "#OTO4235",
   "channel": "Shopify",
   "customer": "Tanvi Bose",
   "city": "Chandigarh",
@@ -3412,13 +5419,17 @@
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-08-24",
-  "awb": "DTDC 56470121",
+  "subtotal": 22900,
   "total": 22900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4234",
-  "ref": "#OTO4234",
+  "ref": "SH-4234",
+  "shopifyRef": "#OTO4234",
   "channel": "Shopify",
   "customer": "Meera Bose",
   "city": "Chandigarh",
@@ -3435,13 +5446,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-15",
-  "awb": "DTDC 84205062",
+  "subtotal": 23900,
   "total": 23900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4233",
-  "ref": "#OTO4233",
+  "ref": "SH-4233",
+  "shopifyRef": "#OTO4233",
   "channel": "Shopify",
   "customer": "Anushka Desai",
   "city": "London",
@@ -3451,20 +5466,25 @@
     "productId": "bi1503-ow",
     "size": "S",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    }
   ],
   "dueDate": "2026-09-18",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-17",
-  "awb": "DTDC 84722242",
-  "total": 22900,
-  "payment": "Paid"
+  "subtotal": 27300,
+  "total": 27300,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4232",
-  "ref": "#OTO4232",
+  "ref": "SH-4232",
+  "shopifyRef": "#OTO4232",
   "channel": "Shopify",
   "customer": "Rhea Sethi",
   "city": "London",
@@ -3474,20 +5494,25 @@
     "productId": "tp1510-eb",
     "size": "Free size",
     "qty": 1,
-    "price": 28900
+    "price": 34860,
+    "priceUsd": 415
    }
   ],
   "dueDate": "2026-09-21",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-19",
-  "awb": "DTDC 88759449",
-  "total": 28900,
-  "payment": "Paid"
+  "subtotal": 34860,
+  "total": 34860,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4231",
-  "ref": "#OTO4231",
+  "ref": "SH-4231",
+  "shopifyRef": "#OTO4231",
   "channel": "Shopify",
   "customer": "Aanya Sharma",
   "city": "Bengaluru",
@@ -3504,13 +5529,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-19",
-  "awb": "DTDC 70895006",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4230",
-  "ref": "#OTO4230",
+  "ref": "SH-4230",
+  "shopifyRef": "#OTO4230",
   "channel": "Shopify",
   "customer": "Pallavi Banerjee",
   "city": "Hyderabad",
@@ -3528,13 +5557,47 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-16",
-  "awb": "DTDC 93102737",
-  "total": 39900,
-  "payment": "Paid"
+  "subtotal": 39900,
+  "total": 43890,
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": true,
+  "markup": 3990
+ },
+ {
+  "id": "CON-104",
+  "ref": "CON-104",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-034",
+  "challanId": "DC-2627-034",
+  "customer": "Atelier Nine",
+  "city": "New Delhi",
+  "date": "2026-08-20",
+  "items": [
+   {
+    "productId": "sk1503-bp",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "price": 20900
+   }
+  ],
+  "dueDate": "2026-08-20",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-08-20",
+  "subtotal": 125400,
+  "markup": 0,
+  "total": 125400,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells",
+  "awb": "5994291996816",
+  "courier": "Delhivery"
  },
  {
   "id": "SH-4229",
-  "ref": "#OTO4229",
+  "ref": "SH-4229",
+  "shopifyRef": "#OTO4229",
   "channel": "Shopify",
   "customer": "Kavya Sethi",
   "city": "Hyderabad",
@@ -3551,13 +5614,16 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-13",
-  "awb": "DTDC 21323902",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
-  "id": "WH-101",
-  "ref": "WH-101",
+  "id": "WHO-101",
+  "ref": "WHO-101",
   "channel": "Wholesale",
   "customer": "The Loom Store",
   "city": "Mumbai",
@@ -3586,13 +5652,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-23",
-  "awb": "DTDC 52943508",
+  "subtotal": 350680,
   "total": 350680,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4228",
-  "ref": "#OTO4228",
+  "ref": "SH-4228",
+  "shopifyRef": "#OTO4228",
   "channel": "Shopify",
   "customer": "Shruti Sharma",
   "city": "London",
@@ -3602,21 +5672,26 @@
     "productId": "bi1503-ow",
     "size": "Custom",
     "qty": 1,
-    "price": 22900,
-    "note": "Custom measurements received"
+    "price": 27300,
+    "note": "Custom measurements received",
+    "priceUsd": 325
    }
   ],
   "dueDate": "2026-09-18",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-14",
-  "awb": "DTDC 57833148",
-  "total": 22900,
-  "payment": "Paid"
+  "subtotal": 27300,
+  "total": 27300,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4227",
-  "ref": "#OTO4227",
+  "ref": "SH-4227",
+  "shopifyRef": "#OTO4227",
   "channel": "Shopify",
   "customer": "Ishita Rao",
   "city": "Dubai",
@@ -3626,20 +5701,25 @@
     "productId": "tp1502-rp",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-09-15",
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-08-20",
-  "awb": "DTDC 22339423",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4226",
-  "ref": "#OTO4226",
+  "ref": "SH-4226",
+  "shopifyRef": "#OTO4226",
   "channel": "Shopify",
   "customer": "Meera Sharma",
   "city": "Dubai",
@@ -3649,20 +5729,25 @@
     "productId": "bi1501-r",
     "size": "XS",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-09-12",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-12",
-  "awb": "DTDC 57497111",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4225",
-  "ref": "#OTO4225",
+  "ref": "SH-4225",
+  "shopifyRef": "#OTO4225",
   "channel": "Shopify",
   "customer": "Tara Nair",
   "city": "London",
@@ -3672,20 +5757,25 @@
     "productId": "tp1508-w",
     "size": "Free size",
     "qty": 1,
-    "price": 16900
+    "price": 20160,
+    "priceUsd": 240
    }
   ],
   "dueDate": "2026-09-16",
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-08-17",
-  "awb": "DTDC 85194299",
-  "total": 16900,
-  "payment": "Paid"
+  "subtotal": 20160,
+  "total": 20160,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4224",
-  "ref": "#OTO4224",
+  "ref": "SH-4224",
+  "shopifyRef": "#OTO4224",
   "channel": "Shopify",
   "customer": "Shruti Mehta",
   "city": "Singapore",
@@ -3695,26 +5785,32 @@
     "productId": "sk1502-bl",
     "size": "M",
     "qty": 1,
-    "price": 22900
+    "price": 27300,
+    "priceUsd": 325
    },
    {
     "productId": "tp1513-bl",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-09-13",
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-09",
-  "awb": "DTDC 73186804",
-  "total": 46800,
-  "payment": "Paid"
+  "subtotal": 55860,
+  "total": 55860,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4223",
-  "ref": "#OTO4223",
+  "ref": "SH-4223",
+  "shopifyRef": "#OTO4223",
   "channel": "Shopify",
   "customer": "Anushka Gupta",
   "city": "Jaipur",
@@ -3731,13 +5827,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-06",
-  "awb": "DTDC 46319804",
+  "subtotal": 28900,
   "total": 28900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4222",
-  "ref": "#OTO4222",
+  "ref": "SH-4222",
+  "shopifyRef": "#OTO4222",
   "channel": "Shopify",
   "customer": "Mira Rao",
   "city": "Jaipur",
@@ -3754,13 +5854,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-12",
-  "awb": "DTDC 83875875",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4221",
-  "ref": "#OTO4221",
+  "ref": "SH-4221",
+  "shopifyRef": "#OTO4221",
   "channel": "Shopify",
   "customer": "Anushka Chopra",
   "city": "Chandigarh",
@@ -3777,13 +5881,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-09",
-  "awb": "DTDC 48160293",
+  "subtotal": 42000,
   "total": 42000,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4220",
-  "ref": "#OTO4220",
+  "ref": "SH-4220",
+  "shopifyRef": "#OTO4220",
   "channel": "Shopify",
   "customer": "Ishita Desai",
   "city": "Lucknow",
@@ -3800,13 +5908,17 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-14",
-  "awb": "DTDC 55660848",
+  "subtotal": 20900,
   "total": 20900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4219",
-  "ref": "#OTO4219",
+  "ref": "SH-4219",
+  "shopifyRef": "#OTO4219",
   "channel": "Shopify",
   "customer": "Anushka Nair",
   "city": "London",
@@ -3816,20 +5928,25 @@
     "productId": "tp1502-rp",
     "size": "Free size",
     "qty": 1,
-    "price": 23900
+    "price": 28560,
+    "priceUsd": 340
    }
   ],
   "dueDate": "2026-09-16",
   "fulfilment": "From stock",
   "status": "Dispatched",
   "dispatchedOn": "2026-08-16",
-  "awb": "DTDC 51742080",
-  "total": 23900,
-  "payment": "Paid"
+  "subtotal": 28560,
+  "total": 28560,
+  "payment": "Paid",
+  "market": "International",
+  "custom": false,
+  "markup": 0
  },
  {
   "id": "SH-4218",
-  "ref": "#OTO4218",
+  "ref": "SH-4218",
+  "shopifyRef": "#OTO4218",
   "channel": "Shopify",
   "customer": "Meera Sethi",
   "city": "Gurugram",
@@ -3846,8 +5963,45 @@
   "fulfilment": "Make to order",
   "status": "Dispatched",
   "dispatchedOn": "2026-09-09",
-  "awb": "DTDC 13721017",
+  "subtotal": 28900,
   "total": 28900,
-  "payment": "Paid"
+  "payment": "Paid",
+  "market": "Domestic",
+  "custom": false,
+  "markup": 0
+ },
+ {
+  "id": "CON-109",
+  "ref": "CON-109",
+  "channel": "Consignment",
+  "source": "Challan DC-2627-039",
+  "challanId": "DC-2627-039",
+  "customer": "Indigo House",
+  "city": "Jaipur",
+  "date": "2026-07-26",
+  "items": [
+   {
+    "productId": "dr1501-eb",
+    "size": "Size run (S-L)",
+    "qty": 8,
+    "price": 20900
+   },
+   {
+    "productId": "st1506-bp",
+    "size": "Size run (S-L)",
+    "qty": 6,
+    "price": 55900
+   }
+  ],
+  "dueDate": "2026-07-26",
+  "fulfilment": "From stock",
+  "status": "Dispatched",
+  "dispatchedOn": "2026-07-26",
+  "subtotal": 502600,
+  "markup": 0,
+  "total": 502600,
+  "custom": false,
+  "market": "Domestic",
+  "payment": "Settles as the store sells"
  }
 ]

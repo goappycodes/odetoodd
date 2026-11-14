@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { AlertTriangle, ArrowRight, Clock, Factory, Layers, RefreshCw, XCircle } from "lucide-react";
+import { AlertTriangle, ArrowRight, Camera, Clock, Factory, Layers, PackageSearch, RefreshCw, Shirt, XCircle } from "lucide-react";
 import { Card, PageHeader, Stat, StatusBadge, UrgencyBadge, Button, ProductThumb } from "@/components/ui";
 import { StackedBars, HBars } from "@/components/charts";
 import {
   TODAY, addDays, fmtDate, fmtShort, inr, inrShort, num, salesDaily, salesInRange, openOrders, orderUrgency,
   lowStockMaterials, materialStatus, productionOrders, poUrgency, piecesInProduction, outputBetween, stages,
   karigars, getKarigar, syncLog, getProduct, products, finishedUnits, daysBetween,
+  prOut, prOverdue, prStatus, shipments, flaggedShipments, shipmentFlag, daysSinceScan, awaitingAwb, belowCategoryMin, sampleUnits,
 } from "@/lib/data";
 
 export const metadata = { title: "Owner dashboard" };
@@ -13,7 +14,8 @@ export const metadata = { title: "Owner dashboard" };
 const SALES_SERIES = [
   { key: "Shopify", label: "Shopify", color: "var(--color-s1)" },
   { key: "Wholesale", label: "Wholesale", color: "var(--color-s2)" },
-  { key: "Offline", label: "Offline", color: "var(--color-s3)" },
+  { key: "Events", label: "Events", color: "var(--color-s4)" },
+  { key: "Offline", label: "Studio and offline", color: "var(--color-s3)" },
 ];
 
 export default function Dashboard() {
@@ -22,7 +24,7 @@ export default function Dashboard() {
   const lastWeek = salesInRange(7, 7);
   const monthDays = Number(TODAY.slice(8, 10));
   const month = salesInRange(monthDays);
-  const base = (s: { Shopify: number; Wholesale: number; Offline: number }) => s.Shopify + s.Wholesale + s.Offline;
+  const base = (s: { Shopify: number; Wholesale: number; Events: number; Offline: number }) => s.Shopify + s.Wholesale + s.Events + s.Offline;
   const weekChange = base(lastWeek) ? Math.round(((base(week) - base(lastWeek)) / base(lastWeek)) * 100) : 0;
 
   const open = openOrders();
@@ -32,8 +34,13 @@ export default function Dashboard() {
   const activePOs = productionOrders.filter((p) => p.status !== "Completed");
   const latePOs = activePOs.filter((p) => poUrgency(p) === "overdue");
   const failedSyncs = syncLog.filter((s) => s.status === "Failed");
+  const prLate = prOverdue();
+  const prOpen = prOut();
+  const shipFlags = flaggedShipments();
+  const inTransit = shipments.filter((s) => s.status !== "Delivered");
+  const fgLow = products.filter(belowCategoryMin);
 
-  const last30 = salesDaily.slice(-30).map((r) => ({ label: fmtShort(r.date), values: { Shopify: r.Shopify, Wholesale: r.Wholesale, Offline: r.Offline } }));
+  const last30 = salesDaily.slice(-30).map((r) => ({ label: fmtShort(r.date), values: { Shopify: r.Shopify, Wholesale: r.Wholesale, Events: r.Events, Offline: r.Offline } }));
 
   const todayOut = outputBetween(TODAY, TODAY);
   const weekStart = addDays(TODAY, -6);
@@ -60,6 +67,9 @@ export default function Dashboard() {
     { tone: "bad", icon: Layers, text: `${low.length} raw materials are below minimum stock`, href: "/inventory/materials?status=below" },
     { tone: "warn", icon: Factory, text: `${latePOs.length} production orders are behind their due date`, href: "/production?due=overdue" },
     { tone: "bad", icon: RefreshCw, text: `${failedSyncs.length} Shopify syncs need attention`, href: "/shopify" },
+    { tone: "bad", icon: PackageSearch, text: `${shipFlags.length} shipments delayed or not moving`, href: "/addons/shipments?status=flagged" },
+    { tone: "bad", icon: Camera, text: `${prLate.length} PR pieces not returned on time`, href: "/addons/pr-tracker?status=Overdue" },
+    { tone: "warn", icon: Shirt, text: `${fgLow.length} styles below their category's minimum stock`, href: "/inventory/finished?show=below" },
   ] as const;
 
   return (
@@ -75,7 +85,7 @@ export default function Dashboard() {
         }
       />
 
-      <section className="mb-6 grid gap-2 sm:grid-cols-2 xl:grid-cols-5">
+      <section className="mb-6 grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
         {alerts.map((a) => {
           const Icon = a.icon;
           return (
@@ -103,7 +113,7 @@ export default function Dashboard() {
       <div className="grid gap-6 xl:grid-cols-3">
         <Card title="Sales by channel, last 30 days" className="xl:col-span-2" action={<Link href="/reports?report=sales" className="text-xs text-muted hover:text-ink">Open report →</Link>}>
           <StackedBars data={last30} series={SALES_SERIES} format="inr" labelEvery={5} />
-          <div className="mt-3 grid grid-cols-3 gap-2 border-t border-line pt-3 text-sm">
+          <div className="mt-3 grid grid-cols-2 gap-2 border-t border-line pt-3 text-sm sm:grid-cols-4">
             {SALES_SERIES.map((s) => (
               <div key={s.key}>
                 <p className="text-xs text-muted">{s.label}, this month</p>
@@ -188,6 +198,54 @@ export default function Dashboard() {
       </div>
 
       <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        <Card title="Shipment health" pad={false} action={<Link href="/addons/shipments" className="text-xs text-muted hover:text-ink">Shipments →</Link>}>
+          <div className="grid grid-cols-3 gap-2 border-b border-line p-4 text-sm">
+            <div><p className="text-xs text-muted">In transit</p><p className="font-serif text-2xl tabular">{inTransit.length}</p></div>
+            <div><p className="text-xs text-muted">Flagged</p><p className={`font-serif text-2xl tabular ${shipFlags.length ? "text-bad" : ""}`}>{shipFlags.length}</p></div>
+            <div><p className="text-xs text-muted">Awaiting AWB</p><p className="font-serif text-2xl tabular">{awaitingAwb().length}</p></div>
+          </div>
+          <ul className="divide-y divide-line/70">
+            {shipFlags.slice(0, 5).map((s) => (
+              <li key={s.id}>
+                <Link href={`/addons/shipments/${s.id}`} className="flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-sand/60">
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate font-medium">{s.orderRef} · {s.provider} {s.awb}</p>
+                    <p className="truncate text-xs text-muted">{s.lastScan.text}, {s.lastScan.location} · {daysSinceScan(s)} days ago</p>
+                  </div>
+                  <StatusBadge status={shipmentFlag(s)!} />
+                </Link>
+              </li>
+            ))}
+            {shipFlags.length === 0 && <li className="px-4 py-6 text-sm text-muted">Every shipment is moving.</li>}
+          </ul>
+        </Card>
+        <Card title={`PR pieces out · ${prOpen.length}`} pad={false} action={<Link href="/addons/pr-tracker" className="text-xs text-muted hover:text-ink">PR tracker →</Link>}>
+          <ul className="divide-y divide-line/70">
+            {[...prOpen].sort((a, b) => (a.dueBack < b.dueBack ? -1 : 1)).slice(0, 6).map((l) => {
+              const p = getProduct(l.productId)!;
+              const st = prStatus(l);
+              const d = daysBetween(TODAY, l.dueBack);
+              return (
+                <li key={l.id}>
+                  <Link href="/addons/pr-tracker" className={`flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-sand/60 ${st === "Overdue" ? "border-l-4 border-bad" : ""}`}>
+                    <ProductThumb src={p.image} alt={p.name} size={26} />
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate font-medium">{p.name} <span className="font-normal text-muted">· {l.size}</span></p>
+                      <p className="truncate text-xs text-muted">With {l.recipient} · {l.stockType === "Sample" ? "sample stock" : "main stock"}</p>
+                    </div>
+                    <span className="text-right text-xs">
+                      <StatusBadge status={st} />
+                      <span className="mt-1 block text-muted tabular">{d < 0 ? `${-d} days late` : d === 0 ? "Due today" : `Due in ${d} days`}</span>
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </Card>
+      </div>
+
+      <div className="mt-6 grid gap-6 lg:grid-cols-2">
         <Card title="Production orders running late" pad={false}>
           <ul className="divide-y divide-line/70">
             {latePOs.slice(0, 6).map((p) => {
@@ -211,7 +269,7 @@ export default function Dashboard() {
         </Card>
         <Card title="Finished goods and sync status">
           <div className="grid grid-cols-2 gap-3">
-            <Stat label="Finished pieces in stock" value={num(fgUnits)} hint={`${inrShort(fgValue)} at retail price`} href="/inventory/finished" />
+            <Stat label="Finished pieces in stock" value={num(fgUnits)} hint={`${inrShort(fgValue)} at retail · ${products.reduce((a, p) => a + sampleUnits(p), 0)} samples kept separately`} href="/inventory/finished" />
             <Stat label="Shopify sync" value={<span className="text-2xl">{failedSyncs.length ? `${failedSyncs.length} failed` : "Healthy"}</span>} hint={`Last order synced ${syncLog[0].time.replace("T", " at ")}`} tone={failedSyncs.length ? "bad" : "good"} href="/shopify" />
           </div>
           <ul className="mt-4 space-y-2 text-sm">

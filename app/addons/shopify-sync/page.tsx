@@ -17,7 +17,7 @@ export default function ShopifySyncAddon() {
   return (
     <>
       <PageHeader title="Two-way Shopify sync" subtitle="Stock levels update in Shopify automatically, and cancellations and returns flow back into the ERP." />
-      <AddonBanner title="Two-way Shopify sync" price="₹25,000">In the base system, orders come into the ERP and your team updates stock in Shopify. This add-on keeps Shopify in step automatically.</AddonBanner>
+      <AddonBanner title="Two-way Shopify sync" price="₹15,000">In the base system, orders come into the ERP and your team updates stock in Shopify. This add-on keeps Shopify in step automatically.</AddonBanner>
       <div className="mb-6 grid gap-6 lg:grid-cols-2">
         <Card title="Sync rules">
           <ul className="space-y-3 text-sm">

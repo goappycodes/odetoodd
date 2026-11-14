@@ -7,6 +7,7 @@ import {
   LayoutDashboard, ShoppingBag, PlusCircle, RefreshCw, Factory, ClipboardPen, Users, Cog, Truck,
   Shirt, Layers, PackageCheck, ArrowLeftRight, PackagePlus, Building2, BarChart3, Calculator,
   TrendingUp, Repeat, Store, UserCog, ListOrdered, Upload, History, Mail, Menu, X, Search, Bell,
+  PackageSearch, Camera, Gauge,
 } from "lucide-react";
 
 type Item = { href: string; label: string; icon: React.ElementType; addon?: boolean };
@@ -16,7 +17,7 @@ const NAV: { title: string; items: Item[] }[] = [
     title: "Sales",
     items: [
       { href: "/orders", label: "Orders", icon: ShoppingBag },
-      { href: "/orders/new", label: "New offline order", icon: PlusCircle },
+      { href: "/orders/new", label: "New order", icon: PlusCircle },
       { href: "/shopify", label: "Shopify sync", icon: RefreshCw },
     ],
   },
@@ -49,6 +50,8 @@ const NAV: { title: string; items: Item[] }[] = [
       { href: "/addons/analytics", label: "Sales and productivity", icon: TrendingUp, addon: true },
       { href: "/addons/shopify-sync", label: "Two-way Shopify sync", icon: Repeat, addon: true },
       { href: "/addons/consignment", label: "Consignment", icon: Store, addon: true },
+      { href: "/addons/shipments", label: "Shipment tracking", icon: PackageSearch, addon: true },
+      { href: "/addons/pr-tracker", label: "PR tracker", icon: Camera, addon: true },
     ],
   },
   {
@@ -56,6 +59,7 @@ const NAV: { title: string; items: Item[] }[] = [
     items: [
       { href: "/settings/users", label: "Users and roles", icon: UserCog },
       { href: "/settings/stages", label: "Production stages", icon: ListOrdered },
+      { href: "/settings/stock-levels", label: "Low-stock levels", icon: Gauge },
       { href: "/settings/imports", label: "Excel/CSV imports", icon: Upload },
       { href: "/settings/history", label: "Change history", icon: History },
       { href: "/settings/daily-summary", label: "Daily summary email", icon: Mail },
@@ -150,7 +154,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           <div className="relative max-w-md flex-1">
             <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-faint" />
             <input
-              placeholder="Search orders, SKUs, karigars…"
+              placeholder="Search orders, SKUs, AWBs, karigars…"
               className="w-full rounded-lg border border-line bg-card py-2 pr-3 pl-9 text-sm outline-none placeholder:text-faint focus:border-ink/40"
             />
           </div>

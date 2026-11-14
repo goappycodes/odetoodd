@@ -7,7 +7,7 @@ import { PageHeader, Badge } from "@/components/ui";
 import { movements, getMaterial, getProduct, fmtDate, num, orders } from "@/lib/data";
 
 type Mv = (typeof movements)[number];
-const TYPES = ["All types", "Received", "Issued", "Consumed", "Returned", "Produced", "Dispatched"];
+const TYPES = ["All types", "Received", "Issued", "Consumed", "Returned", "Produced", "Dispatched", "Sent to store"];
 const itemName = (m: Mv) => (m.itemType === "Material" ? getMaterial(m.itemId)?.name : `${getProduct(m.itemId)?.name}${"size" in m && m.size ? ` · ${m.size}` : ""}`) ?? m.itemId;
 
 export default function Movements() {
@@ -20,13 +20,14 @@ export default function Movements() {
   );
   const refLink = (ref: string) => {
     if (ref.startsWith("PO-")) return <Link href={`/production/${ref}`} className="hover:underline">{ref}</Link>;
+    if (ref.startsWith("DC-")) return <Link href={`/addons/consignment/challans/${ref}`} className="hover:underline">{ref}</Link>;
     const o = orders.find((x) => x.ref === ref);
     return o ? <Link href={`/orders/${o.id}`} className="hover:underline">{ref}</Link> : ref;
   };
   const columns: Column<Mv>[] = [
     { key: "date", label: "Date", value: (m) => m.date, render: (m) => fmtDate(m.date) },
     { key: "id", label: "Entry", value: (m) => m.id, render: (m) => <span className="text-muted">{m.id}</span> },
-    { key: "type", label: "Type", value: (m) => m.type, render: (m) => <Badge tone={m.qty > 0 ? "good" : m.type === "Dispatched" ? "info" : "neutral"}>{m.type}</Badge> },
+    { key: "type", label: "Type", value: (m) => m.type, render: (m) => <Badge tone={m.qty > 0 ? "good" : m.type === "Dispatched" ? "info" : m.type === "Sent to store" ? "rose" : "neutral"}>{m.type}</Badge> },
     { key: "item", label: "Item", value: (m) => itemName(m), render: (m) => <Link href={m.itemType === "Material" ? `/inventory/materials/${m.itemId}` : `/products/${m.itemId}`} className="hover:underline">{itemName(m)}</Link> },
     { key: "qty", label: "Qty", align: "right", value: (m) => m.qty, render: (m) => <span className={m.qty > 0 ? "text-good" : ""}>{m.qty > 0 ? "+" : ""}{num(m.qty, 1)} {m.unit}</span> },
     { key: "ref", label: "Reference", value: (m) => m.ref, render: (m) => refLink(m.ref) },
